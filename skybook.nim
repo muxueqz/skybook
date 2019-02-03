@@ -1,7 +1,6 @@
 import strtabs
 import tables
 from uri import decodeUrl
-import db_sqlite
 import strutils
 import htmlgen
 import jester
@@ -26,9 +25,15 @@ type
 
 var bookmarks_table = initTable[string, BookMark]()
 
-var bookmarks_file = open("bookmarks.db", fmReadWriteExisting)
+var
+  bookmarks_file_name = "bookmarks.db"
+  bookmarks_file: File
+try:
+  bookmarks_file = open(bookmarks_file_name, fmReadWriteExisting)
+except IOError:
+  bookmarks_file = open(bookmarks_file_name, fmWrite)
 
-var html = loadHtml("bookmarks.db")
+var html = loadHtml(bookmarks_file_name)
 for a in html.findAll("a"):
   var href = a.attrs["href"]
   var tbm : BookMark
@@ -37,6 +42,17 @@ for a in html.findAll("a"):
   tbm.note = a.attrs["note"]
   tbm.tags = a.attrs["tags"]
   bookmarks_table[href] = tbm
+
+proc dump_table(file_name: string,
+    bookmarks_table: Table) =
+  var s = ""
+  for v in bookmarks_table.values():
+    var item_html = """<a href="$1" tags="$2" name="$3" note="$4"></a>
+""" % [
+      v.url, v.tags, v.name, v.note
+      ]
+    s.add item_html
+  writeFile(file_name, s)
 
 routes:
   get "/":
@@ -74,12 +90,23 @@ routes:
       
     resp html(bookmarks_result.join())
   post "/":
-    var url = @"url"
-    var name = @"name"
-    var tags = @"tags"
-    var note = @"note"
+    var
+      url = @"url"
+      name = @"name"
+      tags = @"tags"
+      note = @"note"
+
+    var tbm : BookMark
+    tbm.url = url
+    tbm.name = name
+    tbm.note = note
+    tbm.tags = tags
+
     if url in bookmarks_table:
+      echo url, bookmarks_table[url]
       echo "dump full"
+      bookmarks_table[url] = tbm
+      dump_table(bookmarks_file_name, bookmarks_table)
     else:
       var item_html = """<a href="$1" tags="$2" name="$3" note="$4"></a> """ % [
         url, tags, name, note
@@ -88,13 +115,8 @@ routes:
       bookmarks_file.writeLine(item_html)
       flushFile(bookmarks_file)
 
-    var tbm : BookMark
-    tbm.url = url
-    tbm.name = name
-    tbm.note = note
-    tbm.tags = tags
     bookmarks_table[url] = tbm
-    # writeFile("bookmarks.db", item_html)
+
     resp html(
       h1("Add Success"),
       h1(@"name",
