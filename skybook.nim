@@ -1,11 +1,11 @@
-import strtabs
 import tables
-from uri import decodeUrl
 import strutils
 import htmlgen
 import jester
-import htmlparser
-import xmltree  # To use '$' for XmlNode
+from uri import decodeUrl
+
+import nimpy
+let json = pyImport("json")
 
 let bootstrap_import = """
 <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
@@ -33,28 +33,21 @@ try:
 except IOError:
   bookmarks_file = open(bookmarks_file_name, fmWrite)
 
-var html = loadHtml(bookmarks_file_name)
-for a in html.findAll("a"):
-  var href = a.attrs["href"]
+for line in bookmarks_file.lines:
+  var item = json.loads(line)
+  var href = item["url"].to(string)
   var tbm : BookMark
   tbm.url = href
-  try:
-    tbm.name = a.attrs["name"]
-    tbm.note = a.attrs["note"]
-    tbm.tags = a.attrs["tags"]
-  except KeyError:
-    echo "Error:", a
+  tbm.name = item["name"].to(string)
+  tbm.note = item["note"].to(string)
+  tbm.tags = item["tags"].to(string)
   bookmarks_table[href] = tbm
 
 proc dump_table(file_name: string,
     bookmarks_table: Table) =
   var s = ""
   for v in bookmarks_table.values():
-    var item_html = """<a href="$1" tags="$2" name="$3" note="$4"></a>
-""" % [
-      v.url, v.tags, v.name, v.note
-      ]
-    s.add item_html
+    s.add json.dumps(v, ensure_ascii=false).to(string) & "\n"
   writeFile(file_name, s)
 
 routes:
@@ -68,7 +61,7 @@ routes:
         h4(
         li(a(href=url, name)),
         "<BR>tags:", v.tags,
-        "<BR>note:", v.note)
+        "<BR>note:", v.note.replace("\n", "<BR>"))
         )
       
     resp html(
@@ -111,9 +104,7 @@ routes:
       bookmarks_table[url] = tbm
       dump_table(bookmarks_file_name, bookmarks_table)
     else:
-      var item_html = """<a href="$1" tags="$2" name="$3" note="$4"></a> """ % [
-        url, tags, name, note
-        ]
+      var item_html = json.dumps(tbm, ensure_ascii=false).to(string)
       bookmarks_file.setFilePos(0, fspEnd)
       bookmarks_file.writeLine(item_html)
       flushFile(bookmarks_file)
