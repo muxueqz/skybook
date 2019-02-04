@@ -38,9 +38,12 @@ for a in html.findAll("a"):
   var href = a.attrs["href"]
   var tbm : BookMark
   tbm.url = href
-  tbm.name = a.attrs["name"]
-  tbm.note = a.attrs["note"]
-  tbm.tags = a.attrs["tags"]
+  try:
+    tbm.name = a.attrs["name"]
+    tbm.note = a.attrs["note"]
+    tbm.tags = a.attrs["tags"]
+  except KeyError:
+    echo "Error:", a
   bookmarks_table[href] = tbm
 
 proc dump_table(file_name: string,
@@ -124,8 +127,10 @@ routes:
       )
       )
   get "/a":
-    var url = decodeUrl request.params["url"]
-    var name = decodeUrl request.params["name"]
+    var
+      url = decodeUrl request.params["url"]
+      name = decodeUrl request.params["name"]
+      note = decodeUrl request.params["note"]
     resp html(
       head(bootstrap_import),
       `div`(class = "container center-block input-group",
@@ -138,7 +143,7 @@ routes:
          br(),
          "tags:", input(type = "text", name= "tags", class = "form-control"),
          br(),
-         "note:", input(type = "text", name= "note", class = "form-control"),
+         "note:", input(type = "text", name= "note", value = note, class = "form-control"),
          br(),
          input(type = "submit"),
            )
