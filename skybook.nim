@@ -2,10 +2,8 @@ import tables
 import strutils
 import htmlgen
 import jester
+import json
 from uri import decodeUrl
-
-import nimpy
-let json = pyImport("json")
 
 settings:
   port = Port(5000)
@@ -39,20 +37,16 @@ except IOError:
   bookmarks_file = open(bookmarks_file_name, fmWrite)
 
 for line in bookmarks_file.lines:
-  var item = json.loads(line)
-  var href = item["url"].to(string)
-  var tbm : BookMark
-  tbm.url = href
-  tbm.name = item["name"].to(string)
-  tbm.note = item["note"].to(string)
-  tbm.tags = item["tags"].to(string)
-  bookmarks_table[href] = tbm
+  var jsonNode = parseJson(line)
+  var tbm = jsonNode.to(BookMark)
+  bookmarks_table[tbm.url] = tbm
 
 proc dump_table(file_name: string,
     bookmarks_table: Table) =
   var s = ""
   for v in bookmarks_table.values():
-    s.add json.dumps(v, ensure_ascii=false).to(string) & "\n"
+    var dump_line = %* v
+    s.add $dump_line & "\n"
   writeFile(file_name, s)
 
 routes:
@@ -117,9 +111,9 @@ routes:
       bookmarks_table[url] = tbm
       dump_table(bookmarks_file_name, bookmarks_table)
     else:
-      var item_html = json.dumps(tbm, ensure_ascii=false).to(string)
+      var item = %* tbm
       bookmarks_file.setFilePos(0, fspEnd)
-      bookmarks_file.writeLine(item_html)
+      bookmarks_file.writeLine(item)
       flushFile(bookmarks_file)
 
     bookmarks_table[url] = tbm
@@ -158,7 +152,7 @@ routes:
          br(),
          "url:", input(type = "url", name= "url", value = url, class = "form-control"),
          br(),
-         "tags:", input(type = "text", name= "tags", class = "form-control"),
+         "tags:", input(type = "text", name= "tags", value = tags, class = "form-control"),
          br(),
          input_textarea,
          br(),
