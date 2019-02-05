@@ -7,6 +7,11 @@ from uri import decodeUrl
 import nimpy
 let json = pyImport("json")
 
+settings:
+  port = Port(5000)
+  bindAddr = "127.0.0.1"
+  staticDir = "./public"
+
 let bootstrap_import = """
 <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -59,7 +64,7 @@ routes:
       var name = v.name
       bookmarks_result.add(
         h4(
-        li(a(href=url, name)),
+        li(a(href=url, strong(name))),
         "<BR>tags:", v.tags,
         "<BR>note:", v.note.replace("\n", "<BR>"))
         )
@@ -80,11 +85,19 @@ routes:
       var name = v.name
       if search_str in name:
         bookmarks_result.add(
-          # li(a(href="http://g.cn", "nim测试"))
-          li(a(href=url, name))
+          h4(
+          li(a(href=url, name)),
+          "<BR>tags:", v.tags,
+          "<BR>note:", v.note.replace("\n", "<BR>"))
           )
       
-    resp html(bookmarks_result.join())
+    resp html(
+      head(bootstrap_import),
+      `div`(class = "container center-block",
+        h1("BookMarks:"),
+        bookmarks_result.join("\n")
+      )
+      )
   post "/":
     var
       url = @"url"
@@ -122,19 +135,32 @@ routes:
       url = decodeUrl request.params["url"]
       name = decodeUrl request.params["name"]
       note = decodeUrl request.params["note"]
+
+      operation = "Add BookMark"
+      tags: string
+    if url in bookmarks_table:
+      name = bookmarks_table[url].name
+      note = bookmarks_table[url].note
+      tags = bookmarks_table[url].tags
+      operation = "Update BookMark"
+    var input_textarea = """
+       <label for="note">note:</label>
+      <textarea class="form-control" name="note" rows="3">$1</textarea>
+      """ % (note)
+
     resp html(
       head(bootstrap_import),
       `div`(class = "container center-block input-group",
-      h1("Add BookMarks"),
+      h1(operation),
       h1(
          form(action = "/", Method="post", `accept - charset` = "Content-Type",
          "name:", input(type = "text", name= "name", value = name, class = "form-control"),
          br(),
-         "url:", input(type = "text", name= "url", value = url, class = "form-control"),
+         "url:", input(type = "url", name= "url", value = url, class = "form-control"),
          br(),
          "tags:", input(type = "text", name= "tags", class = "form-control"),
          br(),
-         "note:", input(type = "text", name= "note", value = note, class = "form-control"),
+         input_textarea,
          br(),
          input(type = "submit"),
            )
