@@ -3,7 +3,7 @@ import strutils
 import htmlgen
 import jester
 import json
-from uri import decodeUrl
+from uri import decodeUrl, encodeUrl
 
 settings:
   port = Port(5000)
@@ -54,11 +54,14 @@ routes:
     var bookmarks_result: seq[string]
 
     for v in bookmarks_table.values():
-      var url = v.url
-      var name = v.name
+      var
+        url = v.url
+        name = v.name
+        edit_url = "http://localhost:5000/a?url=" & encodeUrl(url)
       bookmarks_result.add(
         h4(
         li(a(href=url, strong(name))),
+        a(href=edit_url, strong("Edit")),
         "<BR>tags:", v.tags,
         "<BR>note:", v.note.replace("\n", "<BR>"))
         )
@@ -127,11 +130,12 @@ routes:
   get "/a":
     var
       url = decodeUrl request.params["url"]
-      name = decodeUrl request.params["name"]
-      note = decodeUrl request.params["note"]
+      name = decodeUrl request.params.getOrDefault("name", "")
+      note = decodeUrl request.params.getOrDefault("note", "")
 
       operation = "Add BookMark"
       tags: string
+
     if url in bookmarks_table:
       name = bookmarks_table[url].name
       note = bookmarks_table[url].note
