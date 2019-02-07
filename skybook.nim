@@ -80,10 +80,11 @@ var add_template = """
         Add bookmark
       </div>
     </h2>
-    <form class="ui large form">
+    <form class="ui large form"
+    action="/" Method="post" accept-charset="Content-Type" >
       <div class="ui stacked segment">
       $1
-        <div class="ui fluid large teal submit button">Submit</div>
+        <input type="submit" class="ui fluid large teal submit button">
       </div>
 
     </form>
@@ -187,17 +188,30 @@ routes:
 
     var user_input = ""
     for i in "name url note tags".split(" "):
-      var tmp_input = """
-          <div class="field">
-            <h3 class="ui left aligned header"
-                  style=" text-transform: uppercase; ">
-                $2</h3>
-            <div class="ui left icon input">
-              <i class="linkify icon"></i>
-              <input type="text" name="$2" value="$1" placeholder="$2">
+      var tmp_input: string
+      if i == "note":
+        tmp_input = """
+            <div class="field">
+              <h3 class="ui left aligned header"
+                    style=" text-transform: uppercase; ">
+                  $2</h3>
+              <div class="ui left icon input">
+                <textarea type="text" name="$2">$1</textarea>
+              </div>
             </div>
-          </div>
-          """ % [args[i], i]
+            """ % [args[i], i]
+      else:
+        tmp_input = """
+            <div class="field">
+              <h3 class="ui left aligned header"
+                    style=" text-transform: uppercase; ">
+                  $2</h3>
+              <div class="ui left icon input">
+                <i class="linkify icon"></i>
+                <input type="text" name="$2" value="$1" placeholder="$2">
+              </div>
+            </div>
+            """ % [args[i], i]
       user_input.add tmp_input
     resp html(bootstrap_import,
               add_template % (user_input)
