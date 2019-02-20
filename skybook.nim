@@ -9,6 +9,7 @@ settings:
   port = Port(5000)
   bindAddr = "127.0.0.1"
   staticDir = "./public"
+  reusePort = false
 
 let bootstrap_import = """
   <meta charset="utf-8">
