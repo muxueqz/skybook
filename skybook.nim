@@ -105,7 +105,11 @@ proc get_bookmarks(bookmarks_table: Table,
       name = v.name
       edit_url = "http://localhost:5000/a?url=" & encodeUrl(url)
       tags = ""
-    if search_str in name or search_str == "":
+      lower_search_str = search_str.toLower
+    if lower_search_str in name.toLower or
+      lower_search_str in v.note.toLower or
+      lower_search_str in v.tags.split(",") or
+      search_str == "":
       for i in v.tags.split(","):
         tags.add """
           <div class="ui label">$1</div>
