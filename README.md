@@ -8,3 +8,4 @@ Light weight bookmark manager
 ## 使用方法[TODO]
 * 搜索演示
 * 添加书签演示
+![](./screenshot.jpg)
