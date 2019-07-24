@@ -1,5 +1,5 @@
 # skybook
-Light weight bookmark manager
+Light weight bookmark manager(delicious alternative)
 
 借助浏览器的自定义搜索引擎功能实现的轻量级书签管理器
 
