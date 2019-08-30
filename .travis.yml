@@ -22,12 +22,12 @@ before_script:
 
 script:
   - nimble install -y
+  - cp $HOME/.nimble/bin/skybook "skybook-$TRAVIS_OS_NAME"
 
 deploy:
   provider: releases
   api_key: $GITHUB_TOKEN
-    # secure: GITHUB_TOKEN
-  file: "$HOME/.nimble/bin/skybook"
+  file: "skybook-$TRAVIS_OS_NAME"
   skip_cleanup: true
   on:
     tags: true
