@@ -1,6 +1,6 @@
 # Package
 
-version       = "0.1.0"
+version       = "1.0.0"
 author        = "muxueqz"
 description   = "Light weight bookmark manager(delicious alternative)"
 license       = "GPL-2.0"
