@@ -180,7 +180,7 @@ routes:
     resp get_bookmarks(bookmarks_table, search_str=search_str)
   get "/t=@tag":
     var tag = @"tag"
-    resp get_bookmarks(bookmarks_table, tag=tag)
+    resp get_bookmarks(bookmarks_table, tag=tag.decodeUrl)
   post "/":
     var
       url = @"url"
