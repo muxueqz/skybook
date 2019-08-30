@@ -127,6 +127,7 @@ var add_template = """
 """
 
 proc get_bookmarks(bookmarks_table: Table,
+      tag= "",
       search_str= "" ): string =
   var bookmarks_result: seq[string]
   for v in bookmarks_table.values():
@@ -222,7 +223,6 @@ routes:
     var
       args = initTable[string, string]()
       operation = "Add BookMark"
-      tags: string
       url = decodeUrl request.params["url"]
 
     args["url"] = url
@@ -234,10 +234,6 @@ routes:
       args["note"] = bookmarks_table[url].note
       args["tags"] = bookmarks_table[url].tags
       operation = "Update BookMark"
-    var input_textarea = """
-       <label for="note">note:</label>
-      <textarea class="form-control" name="note" rows="3">$1</textarea>
-      """ % (args["note"])
 
     var user_input = ""
     for i in "name url note tags".split(" "):
