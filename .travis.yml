@@ -25,8 +25,8 @@ script:
 
 deploy:
   provider: releases
-  api_key:
-    secure: GITHUB_TOKEN
+  api_key: $GITHUB_TOKEN
+    # secure: GITHUB_TOKEN
   file: "$HOME/.nimble/bin/skybook"
   skip_cleanup: true
   on:
