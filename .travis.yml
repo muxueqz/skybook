@@ -1,8 +1,6 @@
 os:
   - linux
 
-dist: trusty
-
 language: c
 
 cache:
@@ -22,4 +20,13 @@ before_script:
   - export CHOOSENIM_NO_ANALYTICS=1
 
 script:
-  - nimble install
+  - nimble install -y
+
+deploy:
+  provider: releases
+  api_key:
+    secure: GITHUB_TOKEN
+  file: "skybook"
+  skip_cleanup: true
+  on:
+    tags: true
