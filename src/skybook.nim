@@ -137,20 +137,29 @@ proc get_bookmarks(bookmarks_table: Table,
       edit_url = "http://localhost:5000/a?url=" & encodeUrl(url)
       tags = ""
       lower_search_str = search_str.toLower
-    if lower_search_str in name.toLower or
-      lower_search_str in v.note.toLower or
-      lower_search_str in v.tags.split(",") or
-      search_str == "":
-      for i in v.tags.split(","):
-        tags.add """
-          <div class="ui label">$1</div>
-          """ % ( i.strip(chars={' '}) )
+      hit = false
+    for i in v.tags.split(","):
+      tags.add """
+        <div class="ui label">
+          <a href="http://localhost:5000/t=$1">$1</a>
+        </div>
+        """ % ( i.strip(chars={' '}) )
+    if tag != "" and tag in v.tags.split(","):
+      hit = true
+    elif search_str == "" and tag == "":
+      hit = true
+    elif search_str != "":
+      if lower_search_str in name.toLower or
+        lower_search_str in v.note.toLower or
+        lower_search_str in v.tags.split(","):
+        hit = true
+    
+    if hit:
       bookmarks_result.add(item_template % [
         name, url, edit_url,
         tags,
         v.note.replace("\n", "<BR>")
         ])
-    
   result = html(
     head(bootstrap_import),
     `div`(class = "ui container",
@@ -169,6 +178,9 @@ routes:
   get "/q=@search_str":
     var search_str = @"search_str"
     resp get_bookmarks(bookmarks_table, search_str=search_str)
+  get "/t=@tag":
+    var tag = @"tag"
+    resp get_bookmarks(bookmarks_table, tag=tag)
   post "/":
     var
       url = @"url"
