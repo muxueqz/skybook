@@ -1,4 +1,5 @@
 # skybook
+[![Build Status](https://travis-ci.org/muxueqz/skybook.svg?branch=master)](https://travis-ci.org/muxueqz/skybook)
 Light weight bookmark manager(delicious alternative)
 
 ## 特性
