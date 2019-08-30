@@ -91,9 +91,14 @@ var item_template = """
         $5
                             </div>
         <div class="extra">
-          <a href="$3">
+          <a href="http://localhost:5000/a?url=$3">
           <div class="ui right floated primary button">
           Edit
+          </div>
+          </a>
+          <a href="http://localhost:5000/delete?url=$3">
+          <div class="ui right floated primary button">
+          Delete 
           </div>
           </a>
           $4
@@ -101,18 +106,18 @@ var item_template = """
       </div>
     </div>
 """
-var add_template = """
+var item_desc_template = """
 <body>
 
 <div class="ui middle aligned center aligned grid">
   <div class="column">
     <h2 class="ui teal image header">
       <div class="content">
-        Add bookmark
+        $2
       </div>
     </h2>
     <form class="ui large form"
-    action="/" Method="post" accept-charset="Content-Type" >
+    action="$3" Method="post" accept-charset="Content-Type" >
       <div class="ui stacked segment">
       $1
         <input type="submit" class="ui fluid large teal submit button">
@@ -134,7 +139,7 @@ proc get_bookmarks(bookmarks_table: Table,
     var
       url = v.url
       name = v.name
-      edit_url = "http://localhost:5000/a?url=" & encodeUrl(url)
+      encode_url = encodeUrl(url)
       tags = ""
       lower_search_str = search_str.toLower
       hit = false
@@ -156,7 +161,7 @@ proc get_bookmarks(bookmarks_table: Table,
     
     if hit:
       bookmarks_result.add(item_template % [
-        name, url, edit_url,
+        name, url, encode_url,
         tags,
         v.note.replace("\n", "<BR>")
         ])
@@ -213,6 +218,41 @@ routes:
       a(href=url)
       )
       )
+
+  get "/delete":
+    var
+      args = initTable[string, string]()
+      operation = "Delete a bookMark"
+      url = decodeUrl request.params["url"]
+
+    args["url"] = url
+    for i in "name note tags".split(" "):
+      args[i] = decodeUrl request.params.getOrDefault(i, "")
+
+    if args["url"] in bookmarks_table:
+      args["name"] = bookmarks_table[url].name
+      args["note"] = bookmarks_table[url].note
+      args["tags"] = bookmarks_table[url].tags
+
+    var user_input = ""
+    for i in "url note tags".split(" "):
+      var tmp_input: string
+      tmp_input = """
+          <div class="field">
+            <h3 class="ui left aligned header"
+                  style=" text-transform: uppercase; ">
+                $2</h3>
+            <div class="ui left icon input">
+              <i class="linkify icon"></i>
+              <input type="text" name="$2" value="$1" placeholder="$2">
+            </div>
+          </div>
+          """ % [args[i], i]
+      user_input.add tmp_input
+    resp html(bootstrap_import,
+              item_desc_template % [user_input, operation, "/delete"]
+              )
+
   post "/delete":
     var
       url = @"url"
@@ -227,8 +267,8 @@ routes:
 
     resp html(
       h1("Delete Success"),
-      h1("url",
-      a(href=url)
+      h1("url:",
+      a(href=url, url)
       )
       )
   get "/a":
@@ -275,5 +315,5 @@ routes:
             """ % [args[i], i]
       user_input.add tmp_input
     resp html(bootstrap_import,
-              add_template % (user_input)
+              item_desc_template % [user_input, operation, "/"]
               )
