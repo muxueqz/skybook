@@ -18,7 +18,37 @@ let bootstrap_import = """
 
   <!-- Site Properties -->
   <title>bookmarks</title>
-  <link href="https://cdn.bootcss.com/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet">
+<link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+
+  <style>
+  html {
+    font-size: 80%;
+  }
+  .right {
+    float: right;
+  }
+.ui.label {
+    display: inline-block;
+    line-height: 1;
+    vertical-align: baseline;
+    margin: 0 .14285714em;
+    background-color: #e8e8e8;
+    background-image: none;
+    padding: .5833em .833em;
+    color: rgba(0,0,0,.6);
+    text-transform: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border: 0 solid transparent;
+    border-radius: .28571429rem;
+    -webkit-transition: background .1s ease;
+    transition: background .1s ease;
+}
+.meta {
+    color: rgba(0,0,0,.4);
+}
+  </style>
+
 """
 
 type
@@ -49,14 +79,14 @@ proc dump_table(file_name: string,
     s.add $dump_line & "\n"
   writeFile(file_name, s)
 
+        # <div class="meta">
+          # <a>Date</a>
+          # <a>Category</a>
+        # </div>
 var item_template = """
     <div class="item">
       <div class="content">
         <a class="header" href="$2">$1</a>
-        <div class="meta">
-          <a>Date</a>
-          <a>Category</a>
-        </div>
         <div class="description" style=" font-size: 1.2rem; ">
         $5
                             </div>
@@ -167,6 +197,24 @@ routes:
     resp html(
       h1("Add Success"),
       h1(@"name",
+      a(href=url)
+      )
+      )
+  post "/delete":
+    var
+      url = @"url"
+
+    if url in bookmarks_table:
+      echo "Delete a bookmark:$1 $2" % [url, $bookmarks_table[url]]
+      bookmarks_table.del(url)
+      echo "Dump full by Delete API"
+      dump_table(bookmarks_file_name, bookmarks_table)
+    else:
+      echo "URL:$1 not in bookmarks" % url
+
+    resp html(
+      h1("Delete Success"),
+      h1("url",
       a(href=url)
       )
       )
