@@ -63,13 +63,13 @@ var
   bookmarks_file: File
 try:
   bookmarks_file = open(bookmarks_file_name, fmReadWriteExisting)
+
+  for line in bookmarks_file.lines:
+    var jsonNode = parseJson(line)
+    var tbm = jsonNode.to(BookMark)
+    bookmarks_table[tbm.url] = tbm
 except IOError:
   bookmarks_file = open(bookmarks_file_name, fmWrite)
-
-for line in bookmarks_file.lines:
-  var jsonNode = parseJson(line)
-  var tbm = jsonNode.to(BookMark)
-  bookmarks_table[tbm.url] = tbm
 
 proc dump_table(file_name: string,
     bookmarks_table: Table) =
