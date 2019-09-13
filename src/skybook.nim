@@ -134,7 +134,10 @@ var item_desc_template = """
 proc get_bookmarks(bookmarks_table: Table,
       tag= "",
       search_str= "" ): string =
-  var bookmarks_result: seq[string]
+  var
+    bookmarks_result: seq[string]
+    title: string
+    count = 0
   for v in bookmarks_table.values():
     var
       url = v.url
@@ -165,10 +168,12 @@ proc get_bookmarks(bookmarks_table: Table,
         tags,
         v.note.replace("\n", "<BR>")
         ])
+      count += 1
+  title = "Found $1 bookmarks" % count.intToStr
   result = html(
     head(bootstrap_import),
     `div`(class = "ui container",
-      h2("bookmarks"),
+      h2(title),
       `div`(class = "ui relaxed divided items",
         bookmarks_result.join("\n")
       )
