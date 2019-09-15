@@ -37,6 +37,18 @@ let bootstrap_import = """
   background-color: rgba(23,24,26,.03);
   border-bottom: 1px solid rgba(23,24,26,.125);
 }
+.icon {
+  margin-top: 0.3em;
+  margin-right: 0.5em;
+}
+.text_center {
+  margin-left: 0.3em;
+  margin-right: 0.5em;
+}
+.description {
+  margin-left: 0.3em;
+  margin-right: 0.5em;
+}
 .content {
   border: 1px solid rgba(23,24,26,.125);
 }
@@ -100,12 +112,12 @@ var item_template = """
     <div class="item">
       <div class="content">
         <div class="header">
-        <a href="$2">$1</a>
+        <a class="text_center" href="$2">$1</a>
           <a href="http://localhost:5000/a?url=$3">
-          <div class="ui right float">
+          <div class="ui right icon">
 
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="29px" height="29px" viewBox="0 0 459 459" style="enable-background:new 0 0 459 459;" xml:space="preserve">
+	 width="20px" height="20px" viewBox="0 0 459 459" style="enable-background:new 0 0 459 459;" xml:space="preserve">
 <g>
     <path d="M328.883,89.125l107.59,107.589l-272.34,272.34L56.604,361.465L328.883,89.125z M518.113,63.177l-47.981-47.981
             c-18.543-18.543-48.653-18.543-67.259,0l-45.961,45.961l107.59,107.59l53.611-53.611
@@ -116,9 +128,9 @@ var item_template = """
           </div>
           </a>
           <a href="http://localhost:5000/delete?url=$3">
-          <div class="ui right">
+          <div class="ui right icon">
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="29px" height="29px" viewBox="0 0 459 459" style="enable-background:new 0 0 459 459;" xml:space="preserve">
+	 width="20px" height="20px" viewBox="0 0 459 459" style="enable-background:new 0 0 459 459;" xml:space="preserve">
 <g>
 	<g id="delete">
 		<path d="M76.5,408c0,28.05,22.95,51,51,51h204c28.05,0,51-22.95,51-51V102h-306V408z M408,25.5h-89.25L293.25,0h-127.5l-25.5,25.5
