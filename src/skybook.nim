@@ -11,6 +11,8 @@ settings:
   staticDir = "./public"
   reusePort = false
 
+const style_css = staticRead("./main.css")
+
 let bootstrap_import = """
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -18,7 +20,7 @@ let bootstrap_import = """
 
   <!-- Site Properties -->
   <title>bookmarks</title>
-<link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+<link rel="stylesheet" href="/style.css">
 
   <style>
   html {
@@ -92,13 +94,29 @@ var item_template = """
                             </div>
         <div class="extra">
           <a href="http://localhost:5000/a?url=$3">
-          <div class="ui right floated primary button">
-          Edit
+          <div class="ui right float">
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="29px" height="29px" viewBox="0 0 459 459" style="enable-background:new 0 0 459 459;" xml:space="preserve">
+<g>
+    <path d="M328.883,89.125l107.59,107.589l-272.34,272.34L56.604,361.465L328.883,89.125z M518.113,63.177l-47.981-47.981
+            c-18.543-18.543-48.653-18.543-67.259,0l-45.961,45.961l107.59,107.59l53.611-53.611
+            C532.495,100.753,532.495,77.559,518.113,63.177z M0.3,512.69c-1.958,8.812,5.998,16.708,14.811,14.565l119.891-29.069
+            L27.473,390.597L0.3,512.69z"/>
+</g>
+</svg>
           </div>
           </a>
           <a href="http://localhost:5000/delete?url=$3">
-          <div class="ui right floated primary button">
-          Delete 
+          <div class="ui right">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="29px" height="29px" viewBox="0 0 459 459" style="enable-background:new 0 0 459 459;" xml:space="preserve">
+<g>
+	<g id="delete">
+		<path d="M76.5,408c0,28.05,22.95,51,51,51h204c28.05,0,51-22.95,51-51V102h-306V408z M408,25.5h-89.25L293.25,0h-127.5l-25.5,25.5
+			H51v51h357V25.5z"/>
+	</g> </g>
+</svg>
           </div>
           </a>
           $4
@@ -185,6 +203,8 @@ routes:
   get "/":
 
     resp get_bookmarks(bookmarks_table)
+  get "/style.css":
+    resp style_css
   get "/q=@search_str":
     var search_str = @"search_str"
     resp get_bookmarks(bookmarks_table, search_str=search_str)
