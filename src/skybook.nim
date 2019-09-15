@@ -29,6 +29,17 @@ let bootstrap_import = """
   .right {
     float: right;
   }
+.navbar {
+  background-color: #44679f!important;
+  color: white;
+}
+.header {
+  background-color: rgba(23,24,26,.03);
+  border-bottom: 1px solid rgba(23,24,26,.125);
+}
+.content {
+  border: 1px solid rgba(23,24,26,.125);
+}
 .ui.label {
     display: inline-block;
     line-height: 1;
@@ -88,11 +99,8 @@ proc dump_table(file_name: string,
 var item_template = """
     <div class="item">
       <div class="content">
-        <a class="header" href="$2">$1</a>
-        <div class="description" style=" font-size: 1.2rem; ">
-        $5
-                            </div>
-        <div class="extra">
+        <div class="header">
+        <a href="$2">$1</a>
           <a href="http://localhost:5000/a?url=$3">
           <div class="ui right float">
 
@@ -119,6 +127,11 @@ var item_template = """
 </svg>
           </div>
           </a>
+        </div>
+        <div class="description" style=" font-size: 1.2rem; ">
+        $5
+                            </div>
+        <div class="extra">
           $4
         </div>
       </div>
@@ -191,7 +204,7 @@ proc get_bookmarks(bookmarks_table: Table,
   result = html(
     head(bootstrap_import),
     `div`(class = "ui container",
-      h2(title),
+      h2(title, class="navbar"),
       `div`(class = "ui relaxed divided items",
         bookmarks_result.join("\n")
       )
