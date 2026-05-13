@@ -1,5 +1,8 @@
-import tables, strutils, jester, json, types, os, algorithm
+import tables, strutils, jester, json, types, os, algorithm, locks
 from uri import decodeUrl
+
+var tableLock: Lock
+initLock(tableLock)
 
 settings:
   port = Port(5000)
@@ -69,12 +72,14 @@ routes:
   get "/app.js":
     resp script_js, "application/javascript"
   get "/api/tags":
+    acquire(tableLock)
     var tagSet: seq[string]
     for v in bookmarks_table.values():
       for t in v.tags.split(","):
         let tag = t.strip(chars={' '})
         if tag != "" and tag notin tagSet:
           tagSet.add(tag)
+    release(tableLock)
     sort(tagSet, system.cmp[string])
     resp $(%* tagSet), "application/json"
   get "/api/bookmarks":
@@ -87,8 +92,10 @@ routes:
       if @"offset" != "": offset = parseInt(@"offset")
       if @"limit" != "": limit = parseInt(@"limit")
     except: discard
+    acquire(tableLock)
     var r = get_bookmarks(bookmarks_table, q=q, tag=tag.decodeUrl,
                           offset=offset, limit=limit)
+    release(tableLock)
     resp $r, "application/json"
   post "/api/bookmarks":
     var body = parseJson(request.body)
@@ -97,24 +104,30 @@ routes:
     tbm.name = body["name"].str
     tbm.note = body["note"].str
     tbm.tags = body["tags"].str
+    acquire(tableLock)
     bookmarks_table[tbm.url] = tbm
     dump_table()
+    release(tableLock)
     resp """{"status":"ok"}""", "application/json"
   post "/api/bookmarks/delete":
     var body = parseJson(request.body)
     var url = body["url"].str
+    acquire(tableLock)
     if url in bookmarks_table:
       bookmarks_table.del(url)
       dump_table()
+    release(tableLock)
     resp """{"status":"ok"}""", "application/json"
   post "/api/bookmarks/delete/batch":
     var body = parseJson(request.body)
     var urls: seq[string]
     for item in body["urls"]:
       urls.add(item.str)
+    acquire(tableLock)
     for url in urls:
       if url in bookmarks_table:
         bookmarks_table.del(url)
     dump_table()
+    release(tableLock)
     var r = %* {"status": "ok", "count": urls.len}
     resp $r, "application/json"
