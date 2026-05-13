@@ -14,7 +14,7 @@ var
   searchQuery: cstring
   selectedUrls: seq[string]
   showAddForm: bool
-  addUrl, addName, addNote, addTags: cstring
+  addUrl, addName, addNote: cstring
   editingUrl: string
   editName, editNote, editTags: cstring
   newTagInput: cstring
@@ -117,11 +117,14 @@ proc toggleSelect(url: string) =
   else: selectedUrls.add(url)
 
 proc addBookmark(ev: Event; n: VNode) =
+  var tags = ""
+  for t in getTagList(editTags):
+    if tags != "": tags.add "," & t else: tags = t
   let data = $(%* {
     "url": $addUrl,
     "name": $addName,
     "note": $addNote,
-    "tags": $addTags
+    "tags": tags
   })
   ajaxPost(cstring("/api/bookmarks"),
     @[("Content-Type".cstring, "application/json".cstring)],
@@ -130,7 +133,8 @@ proc addBookmark(ev: Event; n: VNode) =
       if s == 200:
         showAddForm = false
         editingUrl = ""
-        addUrl = ""; addName = ""; addNote = ""; addTags = ""
+        editTags = ""
+        addUrl = ""; addName = ""; addNote = ""
         offset = 0
         loadBookmarks(searchQuery))
   loadTags()
@@ -158,6 +162,7 @@ proc updateBookmark(ev: Event; n: VNode) =
 proc cancelEdit() =
   editingUrl = ""
   editName = ""; editNote = ""; editTags = ""; newTagInput = ""
+  addUrl = ""; addName = ""; addNote = ""
 
 proc removeTag(tag: string) =
   var tags = getTagList(editTags)
@@ -180,7 +185,7 @@ proc addTagFromList(tag: string) =
 
 proc editBookmark(url: string) =
   showAddForm = false
-  addUrl = ""; addName = ""; addNote = ""; addTags = ""
+  addUrl = ""; addName = ""; addNote = ""
   for bm in bookmarks:
     if bm.url == url:
       editingUrl = url
@@ -221,7 +226,7 @@ proc createDom(data: RouterData): VNode =
         cancelEdit()
         showAddForm = not showAddForm
         if not showAddForm:
-          addUrl = ""; addName = ""; addNote = ""; addTags = ""):
+          addUrl = ""; addName = ""; addNote = ""):
         text if showAddForm: "Cancel" else: "Add"
     if showAddForm:
       tdiv(class = "add-form"):
@@ -229,8 +234,20 @@ proc createDom(data: RouterData): VNode =
           oninput = proc(ev: Event; n: VNode) = addUrl = n.value)
         input(class = "form-input", placeholder = "Name", value = addName,
           oninput = proc(ev: Event; n: VNode) = addName = n.value)
-        input(class = "form-input", placeholder = "Tags (comma separated)", value = addTags,
-          oninput = proc(ev: Event; n: VNode) = addTags = n.value)
+        renderTagChips(editTags, removeTag)
+        tdiv(class = "tag-add-row"):
+          input(class = "tag-add-input", placeholder = "New tag...", value = newTagInput,
+            oninput = proc(ev: Event; n: VNode) = newTagInput = n.value)
+          button(class = "tag-add-btn", onclick = addTag): text "Add"
+        let inp = $newTagInput
+        if inp != "":
+          tdiv(class = "tag-suggestions"):
+            for t in allTags:
+              if inp in t:
+                var tagCopy = t
+                span(class = "tag-suggestion",
+                  onclick = proc(ev: Event; n: VNode) = addTagFromList(tagCopy)):
+                  text tagCopy
         textarea(class = "form-input", placeholder = "Note", value = addNote,
           oninput = proc(ev: Event; n: VNode) = addNote = n.value)
         button(class = "save-btn", onclick = addBookmark): text "Save"
@@ -270,13 +287,15 @@ proc createDom(data: RouterData): VNode =
               input(class = "tag-add-input", placeholder = "New tag...", value = newTagInput,
                 oninput = proc(ev: Event; n: VNode) = newTagInput = n.value)
               button(class = "tag-add-btn", onclick = addTag): text "Add"
-            if allTags.len > 0:
-              tdiv(class = "all-tags"):
+            let inp2 = $newTagInput
+            if inp2 != "":
+              tdiv(class = "tag-suggestions"):
                 for t in allTags:
-                  var tagCopy = t
-                  span(class = "all-tag",
-                    onclick = proc(ev: Event; n: VNode) = addTagFromList(tagCopy)):
-                    text tagCopy
+                  if inp2 in t:
+                    var tagCopy = t
+                    span(class = "tag-suggestion",
+                      onclick = proc(ev: Event; n: VNode) = addTagFromList(tagCopy)):
+                      text tagCopy
             textarea(class = "form-input", placeholder = "Note", value = editNote,
               oninput = proc(ev: Event; n: VNode) = editNote = n.value)
             tdiv(class = "inline-edit-actions"):

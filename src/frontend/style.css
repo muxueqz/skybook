@@ -333,24 +333,28 @@ textarea.form-input {
   background: #f0f0f0;
 }
 
-.all-tags {
+.tag-suggestions {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
-  padding: 4px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 6px;
+  background: #fff;
 }
 
-.all-tag {
+.tag-suggestion {
   display: inline-block;
   background: #e8e8e8;
   color: #555;
   padding: 2px 8px;
   border-radius: 3px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   cursor: pointer;
 }
 
-.all-tag:hover {
-  background: #d0d0d0;
+.tag-suggestion:hover {
+  background: #44679f;
+  color: #fff;
 }
