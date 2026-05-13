@@ -22,12 +22,19 @@ var
   limitVal = 20
   total: int
   pendingUrl, pendingName, pendingNote: string
+  allTags: seq[string]
 
 proc getTagList(tags: cstring): seq[string] =
   if tags == nil or $tags == "": return
   for t in ($tags).split(","):
     let trimmed = t.strip
     if trimmed != "": result.add(trimmed)
+
+proc loadTags() =
+  ajaxGet(cstring("/api/tags"), @[], proc (s: int; r: kstring) =
+    if s == 200:
+      allTags = parseJson($r).to(seq[string])
+  )
 
 proc loadBookmarks(q: cstring = "", off: int = 0, lim: int = 20, append: bool = false) =
   var url = "/api/bookmarks?offset=" & $off & "&limit=" & $lim
@@ -126,6 +133,7 @@ proc addBookmark(ev: Event; n: VNode) =
         addUrl = ""; addName = ""; addNote = ""; addTags = ""
         offset = 0
         loadBookmarks(searchQuery))
+  loadTags()
 
 proc updateBookmark(ev: Event; n: VNode) =
   var tags = ""
@@ -164,6 +172,12 @@ proc addTag() =
   editTags = cstring(tags.join(","))
   newTagInput = ""
 
+proc addTagFromList(tag: string) =
+  var tags = getTagList(editTags)
+  if tag notin tags:
+    tags.add(tag)
+    editTags = cstring(tags.join(","))
+
 proc editBookmark(url: string) =
   showAddForm = false
   addUrl = ""; addName = ""; addNote = ""; addTags = ""
@@ -186,6 +200,16 @@ proc renderTagChips(tags: cstring, onRemove: proc(tag: string)): VNode =
         span(class = "tag-remove",
           onclick = proc(ev: Event; n: VNode) = onRemove(tagCopy)):
           text "×"
+
+# Helper functions to fix closure capture (each creates independent scope)
+proc selectCb(url: string): proc(ev: Event; n: VNode) =
+  result = proc(ev: Event; n: VNode) = toggleSelect(url)
+
+proc editCb(url: string): proc(ev: Event; n: VNode) =
+  result = proc(ev: Event; n: VNode) = editBookmark(url)
+
+proc deleteCb(url: string): proc(ev: Event; n: VNode) =
+  result = proc(ev: Event; n: VNode) = deleteBookmark(url)
 
 proc createDom(data: RouterData): VNode =
   result = buildHtml(tdiv(class = "app")):
@@ -220,7 +244,7 @@ proc createDom(data: RouterData): VNode =
         tdiv(class = cstring("bookmark-item" & (if isEditing: " editing" else: ""))):
           input(`type` = "checkbox",
             checked = toChecked(bmUrl in selectedUrls),
-            onclick = proc(ev: Event; n: VNode) = toggleSelect(bmUrl))
+            onclick = selectCb(bmUrl))
           tdiv(class = "bookmark-body"):
             a(href = cstring(bmUrl), class = "bookmark-title"): text bmName
             tdiv(class = "bookmark-meta"): text cstring(bmUrl)
@@ -232,10 +256,10 @@ proc createDom(data: RouterData): VNode =
                   span(class = "tag"): text t.strip()
           tdiv(class = "bookmark-actions"):
             button(class = "edit-btn",
-              onclick = proc(ev: Event; n: VNode) = editBookmark(bmUrl)):
+              onclick = editCb(bmUrl)):
               text "Edit"
             button(class = "delete-btn",
-              onclick = proc(ev: Event; n: VNode) = deleteBookmark(bmUrl)):
+              onclick = deleteCb(bmUrl)):
               text "Delete"
         if isEditing:
           tdiv(class = "inline-edit"):
@@ -246,6 +270,13 @@ proc createDom(data: RouterData): VNode =
               input(class = "tag-add-input", placeholder = "New tag...", value = newTagInput,
                 oninput = proc(ev: Event; n: VNode) = newTagInput = n.value)
               button(class = "tag-add-btn", onclick = addTag): text "Add"
+            if allTags.len > 0:
+              tdiv(class = "all-tags"):
+                for t in allTags:
+                  var tagCopy = t
+                  span(class = "all-tag",
+                    onclick = proc(ev: Event; n: VNode) = addTagFromList(tagCopy)):
+                    text tagCopy
             textarea(class = "form-input", placeholder = "Note", value = editNote,
               oninput = proc(ev: Event; n: VNode) = editNote = n.value)
             tdiv(class = "inline-edit-actions"):
@@ -264,3 +295,4 @@ proc createDom(data: RouterData): VNode =
 initBookmarklet()
 setRenderer createDom
 loadBookmarks()
+loadTags()

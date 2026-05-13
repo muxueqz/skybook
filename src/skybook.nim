@@ -1,4 +1,4 @@
-import tables, strutils, jester, json, types, os
+import tables, strutils, jester, json, types, os, algorithm
 from uri import decodeUrl
 
 settings:
@@ -12,32 +12,27 @@ const
   script_js = staticRead("./frontend/app.js")
   index_html = staticRead("./frontend/app.html")
 
-var bookmarks_table = initTable[string, BookMark]()
-
 var
   bookmarks_file_name = "bookmarks.db"
-  bookmarks_file: File
-try:
-  bookmarks_file = open(bookmarks_file_name, fmReadWriteExisting)
-  for line in bookmarks_file.lines:
-    var jsonNode = parseJson(line)
-    var tbm = jsonNode.to(BookMark)
-    bookmarks_table[tbm.url] = tbm
-except:
-  try:
-    echo "create 1"
-    bookmarks_file = open(bookmarks_file_name, fmWrite)
-  except:
-    echo "create 2"
-    removeFile(bookmarks_file_name)
-    bookmarks_file = open(bookmarks_file_name, fmWrite)
+  bookmarks_table = initTable[string, BookMark]()
 
-proc dump_table(file_name: string, bookmarks_table: Table) =
+proc load_database() =
+  if fileExists(bookmarks_file_name):
+    try:
+      for line in readFile(bookmarks_file_name).splitLines:
+        if line.strip() == "": continue
+        let node = parseJson(line)
+        bookmarks_table[node["url"].str] = node.to(BookMark)
+    except:
+      stderr.writeLine("Warning: could not read " & bookmarks_file_name)
+
+proc dump_table() =
   var s = ""
   for v in bookmarks_table.values():
-    var dump_line = %* v
-    s.add $dump_line & "\n"
-  writeFile(file_name, s)
+    s.add($(%* v) & "\n")
+  writeFile(bookmarks_file_name, s)
+
+load_database()
 
 proc get_bookmarks(bookmarks_table: Table, q= "", tag= "",
                    offset= 0, limit= 0): JsonNode =
@@ -73,6 +68,15 @@ routes:
     resp style_css, "text/css"
   get "/app.js":
     resp script_js, "application/javascript"
+  get "/api/tags":
+    var tagSet: seq[string]
+    for v in bookmarks_table.values():
+      for t in v.tags.split(","):
+        let tag = t.strip(chars={' '})
+        if tag != "" and tag notin tagSet:
+          tagSet.add(tag)
+    sort(tagSet, system.cmp[string])
+    resp $(%* tagSet), "application/json"
   get "/api/bookmarks":
     var
       offset = 0
@@ -93,22 +97,15 @@ routes:
     tbm.name = body["name"].str
     tbm.note = body["note"].str
     tbm.tags = body["tags"].str
-    if tbm.url in bookmarks_table:
-      bookmarks_table[tbm.url] = tbm
-      dump_table(bookmarks_file_name, bookmarks_table)
-    else:
-      var item = %* tbm
-      bookmarks_file.setFilePos(0, fspEnd)
-      bookmarks_file.writeLine(item)
-      flushFile(bookmarks_file)
     bookmarks_table[tbm.url] = tbm
+    dump_table()
     resp """{"status":"ok"}""", "application/json"
   post "/api/bookmarks/delete":
     var body = parseJson(request.body)
     var url = body["url"].str
     if url in bookmarks_table:
       bookmarks_table.del(url)
-      dump_table(bookmarks_file_name, bookmarks_table)
+      dump_table()
     resp """{"status":"ok"}""", "application/json"
   post "/api/bookmarks/delete/batch":
     var body = parseJson(request.body)
@@ -118,6 +115,6 @@ routes:
     for url in urls:
       if url in bookmarks_table:
         bookmarks_table.del(url)
-    dump_table(bookmarks_file_name, bookmarks_table)
+    dump_table()
     var r = %* {"status": "ok", "count": urls.len}
     resp $r, "application/json"
