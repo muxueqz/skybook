@@ -195,17 +195,6 @@ proc editBookmark(url: string) =
       newTagInput = ""
       break
 
-proc renderTagChips(tags: cstring, onRemove: proc(tag: string)): VNode =
-  let tagList = getTagList(tags)
-  result = buildHtml(tdiv(class = "tag-chips")):
-    for i in 0..<tagList.len:
-      var tagCopy = tagList[i]
-      span(class = "tag-chip"):
-        text tagCopy
-        span(class = "tag-remove",
-          onclick = proc(ev: Event; n: VNode) = onRemove(tagCopy)):
-          text "×"
-
 # Helper functions to fix closure capture (each creates independent scope)
 proc selectCb(url: string): proc(ev: Event; n: VNode) =
   result = proc(ev: Event; n: VNode) = toggleSelect(url)
@@ -215,6 +204,23 @@ proc editCb(url: string): proc(ev: Event; n: VNode) =
 
 proc deleteCb(url: string): proc(ev: Event; n: VNode) =
   result = proc(ev: Event; n: VNode) = deleteBookmark(url)
+
+proc tagSugCb(tag: string): proc(ev: Event; n: VNode) =
+  result = proc(ev: Event; n: VNode) = addTagFromList(tag)
+
+proc removeCb(tag: string, onRemove: proc(tag: string)): proc(ev: Event; n: VNode) =
+  result = proc(ev: Event; n: VNode) = onRemove(tag)
+
+proc renderTagChips(tags: cstring, onRemove: proc(tag: string)): VNode =
+  let tagList = getTagList(tags)
+  result = buildHtml(tdiv(class = "tag-chips")):
+    for i in 0..<tagList.len:
+      let tagCopy = tagList[i]
+      span(class = "tag-chip"):
+        text tagCopy
+        span(class = "tag-remove",
+          onclick = removeCb(tagCopy, onRemove)):
+          text "×"
 
 proc createDom(data: RouterData): VNode =
   result = buildHtml(tdiv(class = "app")):
@@ -244,9 +250,9 @@ proc createDom(data: RouterData): VNode =
           tdiv(class = "tag-suggestions"):
             for t in allTags:
               if inp in t:
-                var tagCopy = t
+                let tagCopy = t
                 span(class = "tag-suggestion",
-                  onclick = proc(ev: Event; n: VNode) = addTagFromList(tagCopy)):
+                  onclick = tagSugCb(tagCopy)):
                   text tagCopy
         textarea(class = "form-input", placeholder = "Note", value = addNote,
           oninput = proc(ev: Event; n: VNode) = addNote = n.value)
@@ -292,9 +298,9 @@ proc createDom(data: RouterData): VNode =
               tdiv(class = "tag-suggestions"):
                 for t in allTags:
                   if inp2 in t:
-                    var tagCopy = t
+                    let tagCopy = t
                     span(class = "tag-suggestion",
-                      onclick = proc(ev: Event; n: VNode) = addTagFromList(tagCopy)):
+                      onclick = tagSugCb(tagCopy)):
                       text tagCopy
             textarea(class = "form-input", placeholder = "Note", value = editNote,
               oninput = proc(ev: Event; n: VNode) = editNote = n.value)
