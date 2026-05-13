@@ -16,7 +16,7 @@ var
   showAddForm: bool
   addUrl, addName, addNote: cstring = ""
   editingUrl: string
-  editName, editNote, editTags: cstring = ""
+  editName, editNote, editTags: string = ""
   newTagInput: cstring = ""
   offset: int
   limitVal = 20
@@ -24,9 +24,9 @@ var
   pendingUrl, pendingName, pendingNote: string
   allTags: seq[string]
 
-proc getTagList(tags: cstring): seq[string] =
-  if tags == nil or $tags == "": return
-  for t in ($tags).split(","):
+proc getTagList(tags: string): seq[string] =
+  if tags == "": return
+  for t in tags.split(","):
     let trimmed = t.strip
     if trimmed != "": result.add(trimmed)
 
@@ -53,9 +53,9 @@ proc loadBookmarks(q: cstring = "", off: int = 0, lim: int = 20, append: bool = 
         for bm in items:
           if bm.url == pendingUrl:
             editingUrl = pendingUrl
-            editName = cstring(bm.name)
-            editNote = cstring(bm.note)
-            editTags = cstring(bm.tags)
+            editName = bm.name
+            editNote = bm.note
+            editTags = bm.tags
             found = true
             break
         if not found:
@@ -145,8 +145,8 @@ proc updateBookmark(ev: Event; n: VNode) =
     if tags != "": tags.add "," & t else: tags = t
   let data = $(%* {
     "url": editingUrl,
-    "name": $editName,
-    "note": $editNote,
+    "name": editName,
+    "note": editNote,
     "tags": tags
   })
   ajaxPost(cstring("/api/bookmarks"),
@@ -167,21 +167,21 @@ proc cancelEdit() =
 proc removeTag(tag: string) =
   var tags = getTagList(editTags)
   tags.delete(tags.find(tag))
-  editTags = cstring(tags.join(","))
+  editTags = tags.join(",")
 
 proc addTag() =
   let t = $newTagInput
   if t.strip() == "": return
   var tags = getTagList(editTags)
   tags.add(t.strip())
-  editTags = cstring(tags.join(","))
+  editTags = tags.join(",")
   newTagInput = ""
 
 proc addTagFromList(tag: string) =
   var tags = getTagList(editTags)
   if tag notin tags:
     tags.add(tag)
-    editTags = cstring(tags.join(","))
+    editTags = tags.join(",")
 
 proc editBookmark(url: string) =
   showAddForm = false
@@ -189,9 +189,9 @@ proc editBookmark(url: string) =
   for bm in bookmarks:
     if bm.url == url:
       editingUrl = url
-      editName = cstring(bm.name)
-      editNote = cstring(bm.note)
-      editTags = cstring(bm.tags)
+      editName = bm.name
+      editNote = bm.note
+      editTags = bm.tags
       newTagInput = ""
       break
 
@@ -211,7 +211,7 @@ proc tagSugCb(tag: string): proc(ev: Event; n: VNode) =
 proc removeCb(tag: string, onRemove: proc(tag: string)): proc(ev: Event; n: VNode) =
   result = proc(ev: Event; n: VNode) = onRemove(tag)
 
-proc renderTagChips(tags: cstring, onRemove: proc(tag: string)): VNode =
+proc renderTagChips(tags: string, onRemove: proc(tag: string)): VNode =
   let tagList = getTagList(tags)
   result = buildHtml(tdiv(class = "tag-chips")):
     for i in 0..<tagList.len:
@@ -286,8 +286,8 @@ proc createDom(data: RouterData): VNode =
               text "Delete"
         if isEditing:
           tdiv(class = "inline-edit"):
-            input(class = "form-input", placeholder = "Name", value = editName,
-              oninput = proc(ev: Event; n: VNode) = editName = n.value)
+            input(class = "form-input", placeholder = "Name", value = cstring(editName),
+              oninput = proc(ev: Event; n: VNode) = editName = $n.value)
             renderTagChips(editTags, removeTag)
             tdiv(class = "tag-add-row"):
               input(class = "tag-add-input", placeholder = "New tag...", value = newTagInput,
@@ -302,8 +302,8 @@ proc createDom(data: RouterData): VNode =
                     span(class = "tag-suggestion",
                       onclick = tagSugCb(tagCopy)):
                       text tagCopy
-            textarea(class = "form-input", placeholder = "Note", value = editNote,
-              oninput = proc(ev: Event; n: VNode) = editNote = n.value)
+            textarea(class = "form-input", placeholder = "Note", value = cstring(editNote),
+              oninput = proc(ev: Event; n: VNode) = editNote = $n.value)
             tdiv(class = "inline-edit-actions"):
               button(class = "save-btn", onclick = updateBookmark): text "Update"
               button(class = "cancel-btn", onclick = proc(ev: Event; n: VNode) = cancelEdit()):

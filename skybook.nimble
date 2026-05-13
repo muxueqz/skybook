@@ -9,6 +9,5 @@ bin           = @["skybook"]
 
 # Dependencies
 
-requires "nim >= 0.20.0"
-requires "jester >= 0.4.1"
+requires "nim >= 2.0.0"
 requires "karax >= 1.0.0"
