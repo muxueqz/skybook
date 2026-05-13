@@ -9,16 +9,17 @@ var NTI553648638 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI553648617 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI553648429 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI553648414 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI553649456 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI553649436 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI553649416 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553649460 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553649440 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553649420 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI553648165 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI553648591 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI553648570 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI553649391 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI721421197 = {size: 0,kind: 25,base: null,node: null,finalizer: null};
-var NTI553649387 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI553648677 = {size: 0,kind: 25,base: null,node: null,finalizer: null};
-var NTI553649353 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553649371 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553648689 = {size: 0,kind: 25,base: null,node: null,finalizer: null};
+var NTI553649342 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI1342177288 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI1392508931 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI553648247 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
@@ -42,22 +43,21 @@ var NTI134217750 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI1241514064 = {size: 0,kind: 25,base: null,node: null,finalizer: null};
 var NTI1241513991 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI1241513989 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
-var NTI553649312 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI553649290 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI553649270 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553649296 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553649274 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553649254 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI754975002 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI553649203 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI553649183 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI553649057 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI553649055 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI553649050 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
+var NTI553649187 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553649061 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553649059 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553649054 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
 var NTI838860945 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI838860832 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
-var NTI553649053 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553649057 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI838860983 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI838860862 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
-var NTI553649051 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI553649049 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553649055 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553649053 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI134217745 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI721420326 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI721420325 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
@@ -160,7 +160,7 @@ var NTI754974811 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
 var NTI721420304 = {size: 0,kind: 25,base: null,node: null,finalizer: null};
 var NTI721420303 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI721420301 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
-var NTI553649020 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI553649024 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI922746950 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI1040187472 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
 var NTI1040187479 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
@@ -1139,25 +1139,25 @@ var NNI721420303 = {kind: 2, len: 17, offset: 0, typ: null, name: null, sons: [{
 {kind: 1, offset: "orphans", len: 0, typ: NTI721420325, name: "orphans", sons: null}]};
 NTI721420303.node = NNI721420303;
 NTI721420301.base = NTI721420303;
-var NNI553649020 = {kind: 1, offset: "kxi0", len: 0, typ: NTI721420301, name: "kxi0", sons: null};
-NTI553649020.node = NNI553649020;
-NTI553649020.base = NTI33555167;
+var NNI553649024 = {kind: 1, offset: "kxi0", len: 0, typ: NTI721420301, name: "kxi0", sons: null};
+NTI553649024.node = NNI553649024;
+NTI553649024.base = NTI33555167;
 var NNI134217745 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI134217745.node = NNI134217745;
 NTI134217745.base = NTI33555172;
-var NNI553649049 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "action0", len: 0, typ: NTI754974823, name: "action0", sons: null}, 
+var NNI553649053 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "action0", len: 0, typ: NTI754974823, name: "action0", sons: null}, 
 {kind: 1, offset: "n1", len: 0, typ: NTI754974811, name: "n1", sons: null}]};
-NTI553649049.node = NNI553649049;
-NTI553649049.base = NTI33555167;
+NTI553649053.node = NNI553649053;
+NTI553649053.base = NTI33555167;
 var NNI838860983 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI838860983.node = NNI838860983;
 NTI838860983.base = NTI33555167;
 NTI838860862.base = NTI838860983;
-var NNI553649051 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "timer0", len: 0, typ: NTI838860862, name: "timer0", sons: null}, 
+var NNI553649055 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "timer0", len: 0, typ: NTI838860862, name: "timer0", sons: null}, 
 {kind: 1, offset: "n1", len: 0, typ: NTI754974811, name: "n1", sons: null}, 
 {kind: 1, offset: "action2", len: 0, typ: NTI754974823, name: "action2", sons: null}]};
-NTI553649051.node = NNI553649051;
-NTI553649051.base = NTI33555167;
+NTI553649055.node = NNI553649055;
+NTI553649055.base = NTI33555167;
 var NNI838860945 = {kind: 2, len: 10, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "bubbles", len: 0, typ: NTI33554466, name: "bubbles", sons: null}, 
 {kind: 1, offset: "cancelBubble", len: 0, typ: NTI33554466, name: "cancelBubble", sons: null}, 
 {kind: 1, offset: "cancelable", len: 0, typ: NTI33554466, name: "cancelable", sons: null}, 
@@ -1171,46 +1171,42 @@ var NNI838860945 = {kind: 2, len: 10, offset: 0, typ: null, name: null, sons: [{
 NTI838860945.node = NNI838860945;
 NTI838860945.base = NTI33555167;
 NTI838860832.base = NTI838860945;
-NTI553649050.base = NTI553649051;
-var NNI553649053 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "ev0", len: 0, typ: NTI838860832, name: "ev0", sons: null}, 
-{kind: 1, offset: "HEX3Aup", len: 0, typ: NTI553649050, name: ":up", sons: null}]};
-NTI553649053.node = NNI553649053;
-NTI553649053.base = NTI33555167;
-var NNI553649055 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "n0", len: 0, typ: NTI754974811, name: "n0", sons: null}, 
-{kind: 1, offset: "action1", len: 0, typ: NTI754974823, name: "action1", sons: null}]};
-NTI553649055.node = NNI553649055;
-NTI553649055.base = NTI33555167;
-var NNI553649057 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "n0", len: 0, typ: NTI754974811, name: "n0", sons: null}, 
-{kind: 1, offset: "action1", len: 0, typ: NTI754974823, name: "action1", sons: null}]};
+NTI553649054.base = NTI553649055;
+var NNI553649057 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "ev0", len: 0, typ: NTI838860832, name: "ev0", sons: null}, 
+{kind: 1, offset: "HEX3Aup", len: 0, typ: NTI553649054, name: ":up", sons: null}]};
 NTI553649057.node = NNI553649057;
 NTI553649057.base = NTI33555167;
-var NNI553649183 = {kind: 1, offset: "kxi0", len: 0, typ: NTI721420301, name: "kxi0", sons: null};
-NTI553649183.node = NNI553649183;
-NTI553649183.base = NTI33555167;
-var NNI553649203 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "tagCopy0", len: 0, typ: NTI33554449, name: "tagCopy0", sons: null}, 
-{kind: 1, offset: "tagCopy1", len: 0, typ: NTI33554449, name: "tagCopy1", sons: null}]};
-NTI553649203.node = NNI553649203;
-NTI553649203.base = NTI33555167;
+var NNI553649059 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "n0", len: 0, typ: NTI754974811, name: "n0", sons: null}, 
+{kind: 1, offset: "action1", len: 0, typ: NTI754974823, name: "action1", sons: null}]};
+NTI553649059.node = NNI553649059;
+NTI553649059.base = NTI33555167;
+var NNI553649061 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "n0", len: 0, typ: NTI754974811, name: "n0", sons: null}, 
+{kind: 1, offset: "action1", len: 0, typ: NTI754974823, name: "action1", sons: null}]};
+NTI553649061.node = NNI553649061;
+NTI553649061.base = NTI33555167;
+var NNI553649187 = {kind: 1, offset: "kxi0", len: 0, typ: NTI721420301, name: "kxi0", sons: null};
+NTI553649187.node = NNI553649187;
+NTI553649187.base = NTI33555167;
 NTI754975002.base = NTI33554450;
-var NNI553649270 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "action0", len: 0, typ: NTI754974823, name: "action0", sons: null}, 
+var NNI553649254 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "action0", len: 0, typ: NTI754974823, name: "action0", sons: null}, 
 {kind: 1, offset: "kxi1", len: 0, typ: NTI721420301, name: "kxi1", sons: null}]};
-NTI553649270.node = NNI553649270;
-NTI553649270.base = NTI33555167;
-var NNI553649290 = {kind: 1, offset: "append0", len: 0, typ: NTI33554466, name: "append0", sons: null};
-NTI553649290.node = NNI553649290;
-NTI553649290.base = NTI33555167;
+NTI553649254.node = NNI553649254;
+NTI553649254.base = NTI33555167;
+var NNI553649274 = {kind: 1, offset: "append0", len: 0, typ: NTI33554466, name: "append0", sons: null};
+NTI553649274.node = NNI553649274;
+NTI553649274.base = NTI33555167;
 var NNI1241513991 = {kind: 2, len: 4, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "readyState", len: 0, typ: NTI33554435, name: "readyState", sons: null}, 
 {kind: 1, offset: "status", len: 0, typ: NTI33554435, name: "status", sons: null}, 
 {kind: 1, offset: "responseText", len: 0, typ: NTI33554450, name: "responseText", sons: null}, 
 {kind: 1, offset: "statusText", len: 0, typ: NTI33554450, name: "statusText", sons: null}]};
 NTI1241513991.node = NNI1241513991;
 NTI1241513989.base = NTI1241513991;
-var NNI553649312 = {kind: 2, len: 4, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "ajax0", len: 0, typ: NTI1241513989, name: "ajax0", sons: null}, 
+var NNI553649296 = {kind: 2, len: 4, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "ajax0", len: 0, typ: NTI1241513989, name: "ajax0", sons: null}, 
 {kind: 1, offset: "cont1", len: 0, typ: NTI1241514064, name: "cont1", sons: null}, 
 {kind: 1, offset: "doRedraw2", len: 0, typ: NTI33554466, name: "doRedraw2", sons: null}, 
 {kind: 1, offset: "kxi3", len: 0, typ: NTI721420301, name: "kxi3", sons: null}]};
-NTI553649312.node = NNI553649312;
-NTI553649312.base = NTI33555167;
+NTI553649296.node = NNI553649296;
+NTI553649296.base = NTI33555167;
 var NNI134217750 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI134217750.node = NNI134217750;
 NTI134217750.base = NTI33555172;
@@ -1268,14 +1264,17 @@ NTI553648247.base = NTI1392508931;
 var NNI1342177288 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI1342177288.node = NNI1342177288;
 NTI1342177288.base = NTI134217746;
-var NNI553649353 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "onRemove0", len: 0, typ: NTI553648677, name: "onRemove0", sons: null}, 
-{kind: 1, offset: "tagCopy1", len: 0, typ: NTI33554449, name: "tagCopy1", sons: null}]};
-NTI553649353.node = NNI553649353;
-NTI553649353.base = NTI33555167;
-var NNI553649387 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "action0", len: 0, typ: NTI721421197, name: "action0", sons: null}, 
+var NNI553649342 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "onRemove0", len: 0, typ: NTI553648689, name: "onRemove0", sons: null}, 
+{kind: 1, offset: "tag1", len: 0, typ: NTI33554449, name: "tag1", sons: null}]};
+NTI553649342.node = NNI553649342;
+NTI553649342.base = NTI33555167;
+var NNI553649371 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "action0", len: 0, typ: NTI721421197, name: "action0", sons: null}, 
 {kind: 1, offset: "kxi1", len: 0, typ: NTI721420301, name: "kxi1", sons: null}]};
-NTI553649387.node = NNI553649387;
-NTI553649387.base = NTI33555167;
+NTI553649371.node = NNI553649371;
+NTI553649371.base = NTI33555167;
+var NNI553649391 = {kind: 1, offset: "tag0", len: 0, typ: NTI33554449, name: "tag0", sons: null};
+NTI553649391.node = NNI553649391;
+NTI553649391.base = NTI33555167;
 var NNI553648570 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI33554449, name: "Field0", sons: null}, 
 {kind: 1, offset: "Field1", len: 0, typ: NTI1291845636, name: "Field1", sons: null}]};
 NTI553648570.node = NNI553648570;
@@ -1283,15 +1282,15 @@ var NNI553648591 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{k
 {kind: 1, offset: "Field1", len: 0, typ: NTI33554450, name: "Field1", sons: null}]};
 NTI553648591.node = NNI553648591;
 NTI553648165.base = NTI33554449;
-var NNI553649416 = {kind: 1, offset: "url0", len: 0, typ: NTI33554449, name: "url0", sons: null};
-NTI553649416.node = NNI553649416;
-NTI553649416.base = NTI33555167;
-var NNI553649436 = {kind: 1, offset: "url0", len: 0, typ: NTI33554449, name: "url0", sons: null};
-NTI553649436.node = NNI553649436;
-NTI553649436.base = NTI33555167;
-var NNI553649456 = {kind: 1, offset: "url0", len: 0, typ: NTI33554449, name: "url0", sons: null};
-NTI553649456.node = NNI553649456;
-NTI553649456.base = NTI33555167;
+var NNI553649420 = {kind: 1, offset: "url0", len: 0, typ: NTI33554449, name: "url0", sons: null};
+NTI553649420.node = NNI553649420;
+NTI553649420.base = NTI33555167;
+var NNI553649440 = {kind: 1, offset: "url0", len: 0, typ: NTI33554449, name: "url0", sons: null};
+NTI553649440.node = NNI553649440;
+NTI553649440.base = NTI33555167;
+var NNI553649460 = {kind: 1, offset: "url0", len: 0, typ: NTI33554449, name: "url0", sons: null};
+NTI553649460.node = NNI553649460;
+NTI553649460.base = NTI33555167;
 var NNI553648414 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI33554449, name: "Field0", sons: null}, 
 {kind: 1, offset: "Field1", len: 0, typ: NTI1291845636, name: "Field1", sons: null}]};
 NTI553648414.node = NNI553648414;
@@ -2176,13 +2175,13 @@ function auxWriteStackTrace__system_u2084(f_p0) {
     
     Label5: {
       var j_33556562 = 0;
-      var colontmp__553649142 = 0;
-      colontmp__553649142 = (i_33556527 - 1);
-      var res_553649144 = colontmp__553649142;
+      var colontmp__553649154 = 0;
+      colontmp__553649154 = (i_33556527 - 1);
+      var res_553649156 = colontmp__553649154;
       Label6: {
           Label7: while (true) {
-          if (!(0 <= res_553649144)) break Label7;
-            j_33556562 = res_553649144;
+          if (!(0 <= res_553649156)) break Label7;
+            j_33556562 = res_553649156;
             result_33556518[0].push.apply(result_33556518[0], cstrToNimstr(tempFrames_33556529[j_33556562].Field2));;
             if ((0 < tempFrames_33556529[j_33556562].Field1)) {
             result_33556518[0].push.apply(result_33556518[0], [40]);;
@@ -2198,7 +2197,7 @@ function auxWriteStackTrace__system_u2084(f_p0) {
             result_33556518[0].push.apply(result_33556518[0], [32,97,116,32]);;
             add__system_u1942(result_33556518, 0, tempFrames_33556529[j_33556562].Field0);
             result_33556518[0].push.apply(result_33556518[0], [10]);;
-            res_553649144 -= 1;
+            res_553649156 -= 1;
           }
       };
     };
@@ -2333,19 +2332,19 @@ function addChars__stdZprivateZdigitsutils_u202(result_p0, result_p0_Idx, x_p1, 
       var iHEX60gensym4_301990110 = 0;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649137 = 0;
+      var i_553649149 = 0;
       Label3: {
         F.line = 129;
           Label4: while (true) {
-          if (!(i_553649137 < n_p3)) break Label4;
+          if (!(i_553649149 < n_p3)) break Label4;
             F.line = 50;
             F.filename = "digitsutils.nim";
-            iHEX60gensym4_301990110 = i_553649137;
+            iHEX60gensym4_301990110 = i_553649149;
             F.line = 47;
             result_p0[result_p0_Idx][chckIndx(addInt(old_301990096, iHEX60gensym4_301990110), 0, (result_p0[result_p0_Idx]).length - 1)] = x_p1.charCodeAt(chckIndx(addInt(start_p2, iHEX60gensym4_301990110), 0, (x_p1).length - 1));
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649137 = addInt(i_553649137, 1);
+            i_553649149 = addInt(i_553649149, 1);
           }
       };
     };
@@ -2525,19 +2524,19 @@ function substr__system_u3710(s_p0, first_p1, last_p2) {
       var i_33558154 = 0;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649151 = 0;
+      var i_553649163 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553649151 < L_33558149)) break Label3;
+          if (!(i_553649163 < L_33558149)) break Label3;
             F.line = 2842;
             F.filename = "system.nim";
-            i_33558154 = i_553649151;
+            i_33558154 = i_553649163;
             F.line = 2843;
             result_33558146[chckIndx(i_33558154, 0, (result_33558146).length - 1)] = s_p0[chckIndx(addInt(i_33558154, first_33558147), 0, (s_p0).length - 1)];
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649151 = addInt(i_553649151, 1);
+            i_553649163 = addInt(i_553649163, 1);
           }
       };
     };
@@ -2572,20 +2571,20 @@ function nsuFindChar(s_p0, sub_p1, start_p2, last_p3) {
       var iHEX60gensym174_872416950 = 0;
       F.line = 81;
       F.filename = "iterators_1.nim";
-      var colontmp__553649158 = 0;
+      var colontmp__553649170 = 0;
       F.line = 1975;
       F.filename = "strutils.nim";
-      colontmp__553649158 = start_p2;
+      colontmp__553649170 = start_p2;
       F.line = 96;
       F.filename = "iterators_1.nim";
-      var res_553649159 = colontmp__553649158;
+      var res_553649171 = colontmp__553649170;
       Label3: {
         F.line = 97;
           Label4: while (true) {
-          if (!(res_553649159 <= last_872416936)) break Label4;
+          if (!(res_553649171 <= last_872416936)) break Label4;
             F.line = 1989;
             F.filename = "strutils.nim";
-            iHEX60gensym174_872416950 = res_553649159;
+            iHEX60gensym174_872416950 = res_553649171;
             if ((s_p0[chckIndx(iHEX60gensym174_872416950, 0, (s_p0).length - 1)] == sub_p1)) {
             F.line = 1977;
             result_872416935 = iHEX60gensym174_872416950;
@@ -2594,7 +2593,7 @@ function nsuFindChar(s_p0, sub_p1, start_p2, last_p3) {
             
             F.line = 102;
             F.filename = "iterators_1.nim";
-            res_553649159 = addInt(res_553649159, 1);
+            res_553649171 = addInt(res_553649171, 1);
           }
       };
     };
@@ -2700,25 +2699,25 @@ function nsuInitSkipTable(a_p0, sub_p1) {
       var i_872416873 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553649164 = 0;
+      var colontmp__553649176 = 0;
       F.line = 1907;
       F.filename = "strutils.nim";
-      colontmp__553649164 = subInt(m_872416853, 1);
+      colontmp__553649176 = subInt(m_872416853, 1);
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649165 = 0;
+      var i_553649177 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553649165 < colontmp__553649164)) break Label3;
+          if (!(i_553649177 < colontmp__553649176)) break Label3;
             F.line = 1907;
             F.filename = "strutils.nim";
-            i_872416873 = i_553649165;
+            i_872416873 = i_553649177;
             F.line = 1908;
             a_p0[chckIndx(sub_p1[chckIndx(i_872416873, 0, (sub_p1).length - 1)], 0, (a_p0).length - 1)] = subInt(subInt(m_872416853, 1), i_872416873);
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649165 = addInt(i_553649165, 1);
+            i_553649177 = addInt(i_553649177, 1);
           }
       };
     };
@@ -2786,19 +2785,19 @@ function HEX5BHEX5D__pureZstrutils_u1279(s_p0, x_p1) {
       var i_872416525 = 0;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649169 = 0;
+      var i_553649181 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553649169 < L_872416520)) break Label3;
+          if (!(i_553649181 < L_872416520)) break Label3;
             F.line = 86;
             F.filename = "indices.nim";
-            i_872416525 = i_553649169;
+            i_872416525 = i_553649181;
             F.line = 86;
             result_872416516[chckIndx(i_872416525, 0, (result_872416516).length - 1)] = s_p0[chckIndx(addInt(i_872416525, a_872416518), 0, (s_p0).length - 1)];
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649169 = addInt(i_553649169, 1);
+            i_553649181 = addInt(i_553649181, 1);
           }
       };
     };
@@ -2839,39 +2838,39 @@ function initBookmarklet__app_u315() {
       var pair_553648463 = [];
       F.line = 508;
       F.filename = "strutils.nim";
-      var colontmp__553649124 = [];
+      var colontmp__553649136 = [];
       F.line = 72;
       F.filename = "app.nim";
-      colontmp__553649124 = HEX5BHEX5D__pureZstrutils_u1307(search_553648444, HEX2EHEX2E__stdZenumutils_u105(1, 1));
+      colontmp__553649136 = HEX5BHEX5D__pureZstrutils_u1307(search_553648444, HEX2EHEX2E__stdZenumutils_u105(1, 1));
       F.line = 535;
       F.filename = "strutils.nim";
-      var sepLen_553649127 = 1;
+      var sepLen_553649139 = 1;
       F.line = 389;
-      var lastHEX60gensym41_553649128 = 0;
+      var lastHEX60gensym41_553649140 = 0;
       F.line = 390;
-      var splitsHEX60gensym41_553649129 = (-1);
+      var splitsHEX60gensym41_553649141 = (-1);
       Label2: {
         F.line = 537;
           Label3: while (true) {
-          if (!(lastHEX60gensym41_553649128 <= (colontmp__553649124).length)) break Label3;
+          if (!(lastHEX60gensym41_553649140 <= (colontmp__553649136).length)) break Label3;
             F.line = 393;
-            var firstHEX60gensym41_553649131 = lastHEX60gensym41_553649128;
+            var firstHEX60gensym41_553649143 = lastHEX60gensym41_553649140;
             Label4: {
               F.line = 394;
                 Label5: while (true) {
-                if (!((lastHEX60gensym41_553649128 < (colontmp__553649124).length) && !(substrEq__pureZstrutils_u255(colontmp__553649124, lastHEX60gensym41_553649128, [38])))) break Label5;
+                if (!((lastHEX60gensym41_553649140 < (colontmp__553649136).length) && !(substrEq__pureZstrutils_u255(colontmp__553649136, lastHEX60gensym41_553649140, [38])))) break Label5;
                   F.line = 395;
-                  lastHEX60gensym41_553649128 = addInt(lastHEX60gensym41_553649128, 1);
+                  lastHEX60gensym41_553649140 = addInt(lastHEX60gensym41_553649140, 1);
                 }
             };
-            if ((splitsHEX60gensym41_553649129 == 0)) {
+            if ((splitsHEX60gensym41_553649141 == 0)) {
             F.line = 396;
-            lastHEX60gensym41_553649128 = (colontmp__553649124).length;
+            lastHEX60gensym41_553649140 = (colontmp__553649136).length;
             }
             
             F.line = 72;
             F.filename = "app.nim";
-            pair_553648463 = substr__system_u3710(colontmp__553649124, firstHEX60gensym41_553649131, subInt(lastHEX60gensym41_553649128, 1));
+            pair_553648463 = substr__system_u3710(colontmp__553649136, firstHEX60gensym41_553649143, subInt(lastHEX60gensym41_553649140, 1));
             Label6: {
               F.line = 73;
               var eqPos_553648464 = nsuFindStr(pair_553648463, [61], 0, (-1));
@@ -2902,16 +2901,16 @@ function initBookmarklet__app_u315() {
                 break;
               }
             };
-            if ((splitsHEX60gensym41_553649129 == 0)) {
+            if ((splitsHEX60gensym41_553649141 == 0)) {
             F.line = 398;
             F.filename = "strutils.nim";
             break Label2;
             }
             
             F.line = 399;
-            splitsHEX60gensym41_553649129 = subInt(splitsHEX60gensym41_553649129, 1);
+            splitsHEX60gensym41_553649141 = subInt(splitsHEX60gensym41_553649141, 1);
             F.line = 400;
-            lastHEX60gensym41_553649128 = addInt(lastHEX60gensym41_553649128, sepLen_553649127);
+            lastHEX60gensym41_553649140 = addInt(lastHEX60gensym41_553649140, sepLen_553649139);
           }
       };
     };
@@ -2974,19 +2973,19 @@ function HEX5BHEX5D__pkgZkaraxZkarax_u1470(s_p0, x_p1) {
       var i_721421781 = 0;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649208 = 0;
+      var i_553649220 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553649208 < L_721421772)) break Label3;
+          if (!(i_553649220 < L_721421772)) break Label3;
             F.line = 148;
             F.filename = "indices.nim";
-            i_721421781 = i_553649208;
+            i_721421781 = i_553649220;
             F.line = 148;
             result_721421764[chckIndx(i_721421781, 0, (result_721421764).length - 1)] = s_p0[chckIndx(addInt(i_721421781, a_721421766), 0, (s_p0).length - 1)];
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649208 = addInt(i_553649208, 1);
+            i_553649220 = addInt(i_553649220, 1);
           }
       };
     };
@@ -3086,20 +3085,20 @@ function HEX3Aanonymous__pkgZkaraxZkarax_u280(ev_p0) {
   framePtr = F;
     F.line = 127;
     F.filename = "karax.nim";
-    var HEX3Aenv_553649258 = null;
+    var HEX3Aenv_553649270 = null;
     F.line = 127;
-    HEX3Aenv_553649258 = {m_type: NTI553649053, ev0: null, HEX3Aup: null};
+    HEX3Aenv_553649270 = {m_type: NTI553649057, ev0: null, HEX3Aup: null};
     F.line = 124;
-    HEX3Aenv_553649258.ev0 = ev_p0;
+    HEX3Aenv_553649270.ev0 = ev_p0;
     F.line = 124;
-    HEX3Aenv_553649258.HEX3Aup = this;
+    HEX3Aenv_553649270.HEX3Aup = this;
     if (!((this.timer0 == null))) {
     F.line = 126;
     clearTimeout(this.timer0);
     }
     
     F.line = 127;
-    Temporary1 = wrapper__pkgZkaraxZkarax_u282.bind(HEX3Aenv_553649258); Temporary1.ClP_0 = wrapper__pkgZkaraxZkarax_u282; Temporary1.ClE_0 = HEX3Aenv_553649258;
+    Temporary1 = wrapper__pkgZkaraxZkarax_u282.bind(HEX3Aenv_553649270); Temporary1.ClP_0 = wrapper__pkgZkaraxZkarax_u282; Temporary1.ClE_0 = HEX3Aenv_553649270;
     this.timer0 = setTimeout(Temporary1, 400);
   framePtr = F.prev;
 
@@ -3115,16 +3114,16 @@ function laterWrapper__pkgZkaraxZkarax_u275() {
   framePtr = F;
     F.line = 121;
     F.filename = "karax.nim";
-    var HEX3Aenv_553649257 = null;
+    var HEX3Aenv_553649269 = null;
     F.line = 121;
-    HEX3Aenv_553649257 = {m_type: NTI553649051, timer0: null, n1: null, action2: null};
+    HEX3Aenv_553649269 = {m_type: NTI553649055, timer0: null, n1: null, action2: null};
     F.line = 121;
-    HEX3Aenv_553649257.action2 = this.action0;
+    HEX3Aenv_553649269.action2 = this.action0;
     F.line = 122;
-    HEX3Aenv_553649257.n1 = this.n1;
-    HEX3Aenv_553649257.timer0 = null;
+    HEX3Aenv_553649269.n1 = this.n1;
+    HEX3Aenv_553649269.timer0 = null;
     F.line = 124;
-    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u280.bind(HEX3Aenv_553649257); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u280; Temporary1.ClE_0 = HEX3Aenv_553649257;
+    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u280.bind(HEX3Aenv_553649269); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u280; Temporary1.ClE_0 = HEX3Aenv_553649269;
     result_721420564 = Temporary1;
   framePtr = F.prev;
 
@@ -3187,15 +3186,15 @@ function enterWrapper__pkgZkaraxZkarax_u242() {
   framePtr = F;
     F.line = 115;
     F.filename = "karax.nim";
-    var HEX3Aenv_553649357 = null;
+    var HEX3Aenv_553649369 = null;
     F.line = 115;
-    HEX3Aenv_553649357 = {m_type: NTI553649055, n0: null, action1: null};
+    HEX3Aenv_553649369 = {m_type: NTI553649059, n0: null, action1: null};
     F.line = 115;
-    HEX3Aenv_553649357.action1 = this.action0;
+    HEX3Aenv_553649369.action1 = this.action0;
     F.line = 116;
-    HEX3Aenv_553649357.n0 = this.n1;
+    HEX3Aenv_553649369.n0 = this.n1;
     F.line = 117;
-    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u246.bind(HEX3Aenv_553649357); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u246; Temporary1.ClE_0 = HEX3Aenv_553649357;
+    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u246.bind(HEX3Aenv_553649369); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u246; Temporary1.ClE_0 = HEX3Aenv_553649369;
     result_721420531 = Temporary1;
   framePtr = F.prev;
 
@@ -3244,15 +3243,15 @@ function stdWrapper__pkgZkaraxZkarax_u197() {
   framePtr = F;
     F.line = 107;
     F.filename = "karax.nim";
-    var HEX3Aenv_553649390 = null;
+    var HEX3Aenv_553649402 = null;
     F.line = 107;
-    HEX3Aenv_553649390 = {m_type: NTI553649057, n0: null, action1: null};
+    HEX3Aenv_553649402 = {m_type: NTI553649061, n0: null, action1: null};
     F.line = 107;
-    HEX3Aenv_553649390.action1 = this.action0;
+    HEX3Aenv_553649402.action1 = this.action0;
     F.line = 108;
-    HEX3Aenv_553649390.n0 = this.n1;
+    HEX3Aenv_553649402.n0 = this.n1;
     F.line = 109;
-    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u201.bind(HEX3Aenv_553649390); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u201; Temporary1.ClE_0 = HEX3Aenv_553649390;
+    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u201.bind(HEX3Aenv_553649402); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u201; Temporary1.ClE_0 = HEX3Aenv_553649402;
     result_721420486 = Temporary1;
   framePtr = F.prev;
 
@@ -3271,32 +3270,32 @@ function wrapEvent__pkgZkaraxZkarax_u191(d_p0, n_p1, k_p2, action_p3) {
   framePtr = F;
     F.line = 131;
     F.filename = "karax.nim";
-    var HEX3Aenv_553649341 = null;
+    var HEX3Aenv_553649353 = null;
     F.line = 131;
-    HEX3Aenv_553649341 = {m_type: NTI553649049, action0: null, n1: null};
+    HEX3Aenv_553649353 = {m_type: NTI553649053, action0: null, n1: null};
     F.line = 104;
-    HEX3Aenv_553649341.n1 = n_p1;
+    HEX3Aenv_553649353.n1 = n_p1;
     F.line = 105;
-    HEX3Aenv_553649341.action0 = action_p3;
+    HEX3Aenv_553649353.action0 = action_p3;
     F.line = 129;
     switch (k_p2) {
     case 30:
       F.line = 131;
-      Temporary1 = laterWrapper__pkgZkaraxZkarax_u275.bind(HEX3Aenv_553649341); Temporary1.ClP_0 = laterWrapper__pkgZkaraxZkarax_u275; Temporary1.ClE_0 = HEX3Aenv_553649341;
+      Temporary1 = laterWrapper__pkgZkaraxZkarax_u275.bind(HEX3Aenv_553649353); Temporary1.ClP_0 = laterWrapper__pkgZkaraxZkarax_u275; Temporary1.ClE_0 = HEX3Aenv_553649353;
       result_721420484 = Temporary1();
       F.line = 132;
       addEventShell__pkgZkaraxZkarax_u93(d_p0, "keyup", result_721420484);
       break;
     case 29:
       F.line = 134;
-      Temporary2 = enterWrapper__pkgZkaraxZkarax_u242.bind(HEX3Aenv_553649341); Temporary2.ClP_0 = enterWrapper__pkgZkaraxZkarax_u242; Temporary2.ClE_0 = HEX3Aenv_553649341;
+      Temporary2 = enterWrapper__pkgZkaraxZkarax_u242.bind(HEX3Aenv_553649353); Temporary2.ClP_0 = enterWrapper__pkgZkaraxZkarax_u242; Temporary2.ClE_0 = HEX3Aenv_553649353;
       result_721420484 = Temporary2();
       F.line = 135;
       addEventShell__pkgZkaraxZkarax_u93(d_p0, "keyup", result_721420484);
       break;
     default: 
       F.line = 137;
-      Temporary3 = stdWrapper__pkgZkaraxZkarax_u197.bind(HEX3Aenv_553649341); Temporary3.ClP_0 = stdWrapper__pkgZkaraxZkarax_u197; Temporary3.ClE_0 = HEX3Aenv_553649341;
+      Temporary3 = stdWrapper__pkgZkaraxZkarax_u197.bind(HEX3Aenv_553649353); Temporary3.ClP_0 = stdWrapper__pkgZkaraxZkarax_u197; Temporary3.ClE_0 = HEX3Aenv_553649353;
       result_721420484 = Temporary3();
       F.line = 138;
       addEventShell__pkgZkaraxZkarax_u93(d_p0, toEventName_754975145[chckIndx(k_p2, 0, (toEventName_754975145).length - 1)], result_721420484);
@@ -3319,25 +3318,25 @@ function applyEvents__pkgZkaraxZkarax_u318(n_p0) {
       var i_721420616 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553649231 = 0;
+      var colontmp__553649243 = 0;
       F.line = 151;
       F.filename = "karax.nim";
-      colontmp__553649231 = (n_p0.events).length;
+      colontmp__553649243 = (n_p0.events).length;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649232 = 0;
+      var i_553649244 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553649232 < colontmp__553649231)) break Label3;
+          if (!(i_553649244 < colontmp__553649243)) break Label3;
             F.line = 151;
             F.filename = "karax.nim";
-            i_721420616 = i_553649232;
+            i_721420616 = i_553649244;
             F.line = 152;
             n_p0.events[chckIndx(i_721420616, 0, (n_p0.events).length - 1)]["Field2"] = wrapEvent__pkgZkaraxZkarax_u191(dest_721420608, n_p0, n_p0.events[chckIndx(i_721420616, 0, (n_p0.events).length - 1)]["Field0"], n_p0.events[chckIndx(i_721420616, 0, (n_p0.events).length - 1)]["Field1"]);
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649232 = addInt(i_553649232, 1);
+            i_553649244 = addInt(i_553649244, 1);
           }
       };
     };
@@ -3357,25 +3356,25 @@ function applyStyle__pkgZkaraxZvstyles_u541(n_p0, s_p1) {
       var i_822084140 = 0;
       F.line = 46;
       F.filename = "iterators_1.nim";
-      var colontmp__553649456 = 0;
+      var colontmp__553649468 = 0;
       F.line = 339;
       F.filename = "vstyles.nim";
-      colontmp__553649456 = subInt(s_p1.length, 1);
+      colontmp__553649468 = subInt(s_p1.length, 1);
       F.line = 68;
       F.filename = "iterators_1.nim";
-      var res_553649457 = 0;
+      var res_553649469 = 0;
       Label2: {
         F.line = 69;
           Label3: while (true) {
-          if (!(res_553649457 <= colontmp__553649456)) break Label3;
+          if (!(res_553649469 <= colontmp__553649468)) break Label3;
             F.line = 339;
             F.filename = "vstyles.nim";
-            i_822084140 = res_553649457;
+            i_822084140 = res_553649469;
             F.line = 340;
             n_p0.style[s_p1[i_822084140]] = s_p1[addInt(i_822084140, 1)];
             F.line = 74;
             F.filename = "iterators_1.nim";
-            res_553649457 = addInt(res_553649457, 2);
+            res_553649469 = addInt(res_553649469, 2);
           }
       };
     };
@@ -3532,31 +3531,31 @@ function toDom__pkgZkaraxZkarax_u347(n_p0, useAttachedNode_p1, kxi_p2) {
         Label3: {
           F.line = 372;
           F.filename = "vdom.nim";
-          var i_553649216 = 0;
+          var i_553649228 = 0;
           F.line = 126;
           F.filename = "iterators_1.nim";
-          var colontmp__553649217 = 0;
+          var colontmp__553649229 = 0;
           F.line = 372;
           F.filename = "vdom.nim";
-          colontmp__553649217 = (n_p0.kids).length;
+          colontmp__553649229 = (n_p0.kids).length;
           F.line = 128;
           F.filename = "iterators_1.nim";
-          var i_553649218 = 0;
+          var i_553649230 = 0;
           Label4: {
             F.line = 129;
               Label5: while (true) {
-              if (!(i_553649218 < colontmp__553649217)) break Label5;
+              if (!(i_553649230 < colontmp__553649229)) break Label5;
                 F.line = 372;
                 F.filename = "vdom.nim";
-                i_553649216 = i_553649218;
+                i_553649228 = i_553649230;
                 F.line = 209;
                 F.filename = "karax.nim";
-                k_721420756 = n_p0.kids[chckIndx(i_553649216, 0, (n_p0.kids).length - 1)];
+                k_721420756 = n_p0.kids[chckIndx(i_553649228, 0, (n_p0.kids).length - 1)];
                 F.line = 210;
                 result_721420639.appendChild(toDom__pkgZkaraxZkarax_u347(k_721420756, useAttachedNode_p1, kxi_p2));
                 F.line = 131;
                 F.filename = "iterators_1.nim";
-                i_553649218 = addInt(i_553649218, 1);
+                i_553649230 = addInt(i_553649230, 1);
               }
           };
         };
@@ -3594,28 +3593,28 @@ function toDom__pkgZkaraxZkarax_u347(n_p0, useAttachedNode_p1, kxi_p2) {
       Label7: {
         F.line = 375;
         F.filename = "vdom.nim";
-        var i_553649226 = 0;
+        var i_553649238 = 0;
         F.line = 46;
         F.filename = "iterators_1.nim";
-        var colontmp__553649227 = 0;
+        var colontmp__553649239 = 0;
         F.line = 375;
         F.filename = "vdom.nim";
-        colontmp__553649227 = subInt((n_p0.attrs).length, 2);
+        colontmp__553649239 = subInt((n_p0.attrs).length, 2);
         F.line = 68;
         F.filename = "iterators_1.nim";
-        var res_553649228 = 0;
+        var res_553649240 = 0;
         Label8: {
           F.line = 69;
             Label9: while (true) {
-            if (!(res_553649228 <= colontmp__553649227)) break Label9;
+            if (!(res_553649240 <= colontmp__553649239)) break Label9;
               F.line = 375;
               F.filename = "vdom.nim";
-              i_553649226 = res_553649228;
+              i_553649238 = res_553649240;
               F.line = 223;
               F.filename = "karax.nim";
-              k_721420761 = n_p0.attrs[chckIndx(i_553649226, 0, (n_p0.attrs).length - 1)];
+              k_721420761 = n_p0.attrs[chckIndx(i_553649238, 0, (n_p0.attrs).length - 1)];
               F.line = 223;
-              v_721420762 = n_p0.attrs[chckIndx(addInt(i_553649226, 1), 0, (n_p0.attrs).length - 1)];
+              v_721420762 = n_p0.attrs[chckIndx(addInt(i_553649238, 1), 0, (n_p0.attrs).length - 1)];
               if (!((v_721420762 == null))) {
               F.line = 225;
               result_721420639.setAttribute(k_721420761, v_721420762);
@@ -3623,7 +3622,7 @@ function toDom__pkgZkaraxZkarax_u347(n_p0, useAttachedNode_p1, kxi_p2) {
               
               F.line = 74;
               F.filename = "iterators_1.nim";
-              res_553649228 = addInt(res_553649228, 2);
+              res_553649240 = addInt(res_553649240, 2);
             }
         };
       };
@@ -3731,20 +3730,20 @@ function eq__pkgZkaraxZvstyles_u258(a_p0, b_p1) {
       var i_822083880 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553649483 = 0;
+      var colontmp__553649495 = 0;
       F.line = 240;
       F.filename = "vstyles.nim";
-      colontmp__553649483 = a_p0.length;
+      colontmp__553649495 = a_p0.length;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649484 = 0;
+      var i_553649496 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553649484 < colontmp__553649483)) break Label3;
+          if (!(i_553649496 < colontmp__553649495)) break Label3;
             F.line = 240;
             F.filename = "vstyles.nim";
-            i_822083880 = i_553649484;
+            i_822083880 = i_553649496;
             if (!((a_p0[i_822083880] == b_p1[i_822083880]))) {
             F.line = 241;
             result_822083845 = false;
@@ -3753,7 +3752,7 @@ function eq__pkgZkaraxZvstyles_u258(a_p0, b_p1) {
             
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649484 = addInt(i_553649484, 1);
+            i_553649496 = addInt(i_553649496, 1);
           }
       };
     };
@@ -3797,20 +3796,20 @@ function sameAttrs__pkgZkaraxZvdom_u1043(a_p0, b_p1) {
       var i_754975780 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553649487 = 0;
+      var colontmp__553649499 = 0;
       F.line = 381;
       F.filename = "vdom.nim";
-      colontmp__553649487 = (a_p0.attrs).length;
+      colontmp__553649499 = (a_p0.attrs).length;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649488 = 0;
+      var i_553649500 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553649488 < colontmp__553649487)) break Label3;
+          if (!(i_553649500 < colontmp__553649499)) break Label3;
             F.line = 381;
             F.filename = "vdom.nim";
-            i_754975780 = i_553649488;
+            i_754975780 = i_553649500;
             if (!((a_p0.attrs[chckIndx(i_754975780, 0, (a_p0.attrs).length - 1)] == b_p1.attrs[chckIndx(i_754975780, 0, (b_p1.attrs).length - 1)]))) {
             F.line = 382;
             result_754975766 = false;
@@ -3819,7 +3818,7 @@ function sameAttrs__pkgZkaraxZvdom_u1043(a_p0, b_p1) {
             
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649488 = addInt(i_553649488, 1);
+            i_553649500 = addInt(i_553649500, 1);
           }
       };
     };
@@ -3886,20 +3885,20 @@ function eq__pkgZkaraxZkarax_u580(a_p0, b_p1, recursive_p2) {
       var i_721420889 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553649475 = 0;
+      var colontmp__553649487 = 0;
       F.line = 296;
       F.filename = "karax.nim";
-      colontmp__553649475 = len__pkgZkaraxZvdom_u841(a_p0);
+      colontmp__553649487 = len__pkgZkaraxZvdom_u841(a_p0);
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649476 = 0;
+      var i_553649488 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553649476 < colontmp__553649475)) break Label3;
+          if (!(i_553649488 < colontmp__553649487)) break Label3;
             F.line = 296;
             F.filename = "karax.nim";
-            i_721420889 = i_553649476;
+            i_721420889 = i_553649488;
             if ((eq__pkgZkaraxZkarax_u580(HEX5BHEX5D__pkgZkaraxZvdom_u848(a_p0, i_721420889), HEX5BHEX5D__pkgZkaraxZvdom_u848(b_p1, i_721420889), recursive_p2) == 1)) {
             F.line = 297;
             result_721420872 = 1;
@@ -3908,7 +3907,7 @@ function eq__pkgZkaraxZkarax_u580(a_p0, b_p1, recursive_p2) {
             
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649476 = addInt(i_553649476, 1);
+            i_553649488 = addInt(i_553649488, 1);
           }
       };
     };
@@ -3974,20 +3973,20 @@ function eq__pkgZkaraxZkarax_u580(a_p0, b_p1, recursive_p2) {
       var i_721420915 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553649479 = 0;
+      var colontmp__553649491 = 0;
       F.line = 329;
       F.filename = "karax.nim";
-      colontmp__553649479 = len__pkgZkaraxZvdom_u841(a_p0);
+      colontmp__553649491 = len__pkgZkaraxZvdom_u841(a_p0);
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649480 = 0;
+      var i_553649492 = 0;
       Label5: {
         F.line = 129;
           Label6: while (true) {
-          if (!(i_553649480 < colontmp__553649479)) break Label6;
+          if (!(i_553649492 < colontmp__553649491)) break Label6;
             F.line = 329;
             F.filename = "karax.nim";
-            i_721420915 = i_553649480;
+            i_721420915 = i_553649492;
             if (!((eq__pkgZkaraxZkarax_u580(HEX5BHEX5D__pkgZkaraxZvdom_u848(a_p0, i_721420915), HEX5BHEX5D__pkgZkaraxZvdom_u848(b_p1, i_721420915), true) == 3))) {
             F.line = 331;
             result_721420872 = 1;
@@ -3996,7 +3995,7 @@ function eq__pkgZkaraxZkarax_u580(a_p0, b_p1, recursive_p2) {
             
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649480 = addInt(i_553649480, 1);
+            i_553649492 = addInt(i_553649492, 1);
           }
       };
     };
@@ -4072,33 +4071,33 @@ function updateAttributes__pkgZkaraxZkarax_u1062(newNode_p0, oldNode_p1) {
       Label2: {
         F.line = 375;
         F.filename = "vdom.nim";
-        var i_553649492 = 0;
+        var i_553649504 = 0;
         F.line = 46;
         F.filename = "iterators_1.nim";
-        var colontmp__553649493 = 0;
+        var colontmp__553649505 = 0;
         F.line = 375;
         F.filename = "vdom.nim";
-        colontmp__553649493 = subInt((oldNode_p1.attrs).length, 2);
+        colontmp__553649505 = subInt((oldNode_p1.attrs).length, 2);
         F.line = 68;
         F.filename = "iterators_1.nim";
-        var res_553649494 = 0;
+        var res_553649506 = 0;
         Label3: {
           F.line = 69;
             Label4: while (true) {
-            if (!(res_553649494 <= colontmp__553649493)) break Label4;
+            if (!(res_553649506 <= colontmp__553649505)) break Label4;
               F.line = 375;
               F.filename = "vdom.nim";
-              i_553649492 = res_553649494;
+              i_553649504 = res_553649506;
               F.line = 353;
               F.filename = "karax.nim";
-              k_721421357 = oldNode_p1.attrs[chckIndx(i_553649492, 0, (oldNode_p1.attrs).length - 1)];
+              k_721421357 = oldNode_p1.attrs[chckIndx(i_553649504, 0, (oldNode_p1.attrs).length - 1)];
               F.line = 353;
-              __721421358 = oldNode_p1.attrs[chckIndx(addInt(i_553649492, 1), 0, (oldNode_p1.attrs).length - 1)];
+              __721421358 = oldNode_p1.attrs[chckIndx(addInt(i_553649504, 1), 0, (oldNode_p1.attrs).length - 1)];
               F.line = 354;
               oldNode_p1.dom.removeAttribute(k_721421357);
               F.line = 74;
               F.filename = "iterators_1.nim";
-              res_553649494 = addInt(res_553649494, 2);
+              res_553649506 = addInt(res_553649506, 2);
             }
         };
       };
@@ -4112,28 +4111,28 @@ function updateAttributes__pkgZkaraxZkarax_u1062(newNode_p0, oldNode_p1) {
       Label6: {
         F.line = 375;
         F.filename = "vdom.nim";
-        var i_553649498 = 0;
+        var i_553649510 = 0;
         F.line = 46;
         F.filename = "iterators_1.nim";
-        var colontmp__553649499 = 0;
+        var colontmp__553649511 = 0;
         F.line = 375;
         F.filename = "vdom.nim";
-        colontmp__553649499 = subInt((newNode_p0.attrs).length, 2);
+        colontmp__553649511 = subInt((newNode_p0.attrs).length, 2);
         F.line = 68;
         F.filename = "iterators_1.nim";
-        var res_553649500 = 0;
+        var res_553649512 = 0;
         Label7: {
           F.line = 69;
             Label8: while (true) {
-            if (!(res_553649500 <= colontmp__553649499)) break Label8;
+            if (!(res_553649512 <= colontmp__553649511)) break Label8;
               F.line = 375;
               F.filename = "vdom.nim";
-              i_553649498 = res_553649500;
+              i_553649510 = res_553649512;
               F.line = 355;
               F.filename = "karax.nim";
-              k_721421359 = newNode_p0.attrs[chckIndx(i_553649498, 0, (newNode_p0.attrs).length - 1)];
+              k_721421359 = newNode_p0.attrs[chckIndx(i_553649510, 0, (newNode_p0.attrs).length - 1)];
               F.line = 355;
-              v_721421360 = newNode_p0.attrs[chckIndx(addInt(i_553649498, 1), 0, (newNode_p0.attrs).length - 1)];
+              v_721421360 = newNode_p0.attrs[chckIndx(addInt(i_553649510, 1), 0, (newNode_p0.attrs).length - 1)];
               if (!((v_721421360 == null))) {
               F.line = 357;
               oldNode_p1.dom.setAttribute(k_721421359, v_721421360);
@@ -4141,7 +4140,7 @@ function updateAttributes__pkgZkaraxZkarax_u1062(newNode_p0, oldNode_p1) {
               
               F.line = 74;
               F.filename = "iterators_1.nim";
-              res_553649500 = addInt(res_553649500, 2);
+              res_553649512 = addInt(res_553649512, 2);
             }
         };
       };
@@ -4168,20 +4167,20 @@ function getAttr__pkgZkaraxZvdom_u820(n_p0, key_p1) {
       var i_754975552 = 0;
       F.line = 46;
       F.filename = "iterators_1.nim";
-      var colontmp__553649503 = 0;
+      var colontmp__553649515 = 0;
       F.line = 309;
       F.filename = "vdom.nim";
-      colontmp__553649503 = subInt((n_p0.attrs).length, 2);
+      colontmp__553649515 = subInt((n_p0.attrs).length, 2);
       F.line = 68;
       F.filename = "iterators_1.nim";
-      var res_553649504 = 0;
+      var res_553649516 = 0;
       Label2: {
         F.line = 69;
           Label3: while (true) {
-          if (!(res_553649504 <= colontmp__553649503)) break Label3;
+          if (!(res_553649516 <= colontmp__553649515)) break Label3;
             F.line = 309;
             F.filename = "vdom.nim";
-            i_754975552 = res_553649504;
+            i_754975552 = res_553649516;
             if ((n_p0.attrs[chckIndx(i_754975552, 0, (n_p0.attrs).length - 1)] == key_p1)) {
             F.line = 310;
             result_754975543 = n_p0.attrs[chckIndx(addInt(i_754975552, 1), 0, (n_p0.attrs).length - 1)];
@@ -4190,7 +4189,7 @@ function getAttr__pkgZkaraxZvdom_u820(n_p0, key_p1) {
             
             F.line = 74;
             F.filename = "iterators_1.nim";
-            res_553649504 = addInt(res_553649504, 2);
+            res_553649516 = addInt(res_553649516, 2);
           }
       };
     };
@@ -4211,25 +4210,25 @@ function removeAllEventHandlers__pkgZkaraxZkarax_u149(d_p0) {
       var i_721420454 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553649507 = 0;
+      var colontmp__553649519 = 0;
       F.line = 101;
       F.filename = "karax.nim";
-      colontmp__553649507 = d_p0.karaxEvents.length;
+      colontmp__553649519 = d_p0.karaxEvents.length;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649508 = 0;
+      var i_553649520 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553649508 < colontmp__553649507)) break Label3;
+          if (!(i_553649520 < colontmp__553649519)) break Label3;
             F.line = 101;
             F.filename = "karax.nim";
-            i_721420454 = i_553649508;
+            i_721420454 = i_553649520;
             F.line = 102;
             d_p0.removeEventListener(d_p0.karaxEvents[i_721420454]["Field0"], d_p0.karaxEvents[i_721420454]["Field1"], false);
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649508 = addInt(i_553649508, 1);
+            i_553649520 = addInt(i_553649520, 1);
           }
       };
     };
@@ -4414,25 +4413,25 @@ function diff__pkgZkaraxZkarax_u1246(newNode_p0, oldNode_p1, parent_p2, current_
         var i_721421611 = 0;
         F.line = 81;
         F.filename = "iterators_1.nim";
-        var colontmp__553649462 = 0;
+        var colontmp__553649474 = 0;
         F.line = 552;
         F.filename = "karax.nim";
-        colontmp__553649462 = subInt(pos_721421606, 1);
+        colontmp__553649474 = subInt(pos_721421606, 1);
         F.line = 96;
         F.filename = "iterators_1.nim";
-        var res_553649463 = commonPrefix_721421580;
+        var res_553649475 = commonPrefix_721421580;
         Label7: {
           F.line = 97;
             Label8: while (true) {
-            if (!(res_553649463 <= colontmp__553649462)) break Label8;
+            if (!(res_553649475 <= colontmp__553649474)) break Label8;
               F.line = 552;
               F.filename = "karax.nim";
-              i_721421611 = res_553649463;
+              i_721421611 = res_553649475;
               F.line = 553;
               diff__pkgZkaraxZkarax_u1246(HEX5BHEX5D__pkgZkaraxZvdom_u848(newNode_p0, i_721421611), HEX5BHEX5D__pkgZkaraxZvdom_u848(oldNode_p1, i_721421611), current_p3, HEX5BHEX5D__pkgZkaraxZvdom_u848(oldNode_p1, i_721421611).dom, kxi_p4);
               F.line = 102;
               F.filename = "iterators_1.nim";
-              res_553649463 = addInt(res_553649463, 1);
+              res_553649475 = addInt(res_553649475, 1);
             }
         };
       };
@@ -4443,19 +4442,19 @@ function diff__pkgZkaraxZkarax_u1246(newNode_p0, oldNode_p1, parent_p2, current_
         var i_721421616 = 0;
         F.line = 96;
         F.filename = "iterators_1.nim";
-        var res_553649466 = pos_721421606;
+        var res_553649478 = pos_721421606;
         Label10: {
           F.line = 97;
             Label11: while (true) {
-            if (!(res_553649466 <= newPos_721421591)) break Label11;
+            if (!(res_553649478 <= newPos_721421591)) break Label11;
               F.line = 556;
               F.filename = "karax.nim";
-              i_721421616 = res_553649466;
+              i_721421616 = res_553649478;
               F.line = 557;
               addPatch__pkgZkaraxZkarax_u1082(kxi_p4, 2, current_p3, null, HEX5BHEX5D__pkgZkaraxZvdom_u848(newNode_p0, i_721421616), null);
               F.line = 102;
               F.filename = "iterators_1.nim";
-              res_553649466 = addInt(res_553649466, 1);
+              res_553649478 = addInt(res_553649478, 1);
             }
         };
       };
@@ -4469,19 +4468,19 @@ function diff__pkgZkaraxZkarax_u1246(newNode_p0, oldNode_p1, parent_p2, current_
           var i_721421622 = 0;
           F.line = 96;
           F.filename = "iterators_1.nim";
-          var res_553649469 = pos_721421606;
+          var res_553649481 = pos_721421606;
           Label13: {
             F.line = 97;
               Label14: while (true) {
-              if (!(res_553649469 <= newPos_721421591)) break Label14;
+              if (!(res_553649481 <= newPos_721421591)) break Label14;
                 F.line = 560;
                 F.filename = "karax.nim";
-                i_721421622 = res_553649469;
+                i_721421622 = res_553649481;
                 F.line = 561;
                 addPatch__pkgZkaraxZkarax_u1082(kxi_p4, 3, current_p3, before_721421617, HEX5BHEX5D__pkgZkaraxZvdom_u848(newNode_p0, i_721421622), null);
                 F.line = 102;
                 F.filename = "iterators_1.nim";
-                res_553649469 = addInt(res_553649469, 1);
+                res_553649481 = addInt(res_553649481, 1);
               }
           };
         };
@@ -4493,21 +4492,21 @@ function diff__pkgZkaraxZkarax_u1246(newNode_p0, oldNode_p1, parent_p2, current_
         var i_721421627 = 0;
         F.line = 96;
         F.filename = "iterators_1.nim";
-        var res_553649472 = pos_721421606;
+        var res_553649484 = pos_721421606;
         Label16: {
           F.line = 97;
             Label17: while (true) {
-            if (!(res_553649472 <= oldPos_721421590)) break Label17;
+            if (!(res_553649484 <= oldPos_721421590)) break Label17;
               F.line = 563;
               F.filename = "karax.nim";
-              i_721421627 = res_553649472;
+              i_721421627 = res_553649484;
               F.line = 564;
               addPatch__pkgZkaraxZkarax_u1082(kxi__, 4, null, null, null, HEX5BHEX5D__pkgZkaraxZvdom_u848(oldNode_p1, i_721421627));
               F.line = 566;
               addPatch__pkgZkaraxZkarax_u1082(kxi_p4, 1, current_p3, current_p3.childNodes[chckIndx(i_721421627, 0, (current_p3.childNodes).length - 1)], null, null);
               F.line = 102;
               F.filename = "iterators_1.nim";
-              res_553649472 = addInt(res_553649472, 1);
+              res_553649484 = addInt(res_553649484, 1);
             }
         };
       };
@@ -4623,25 +4622,25 @@ function moveDom__pkgZkaraxZkarax_u1176(dest_p0, src_p1) {
       var i_721421482 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553649518 = 0;
+      var colontmp__553649530 = 0;
       F.line = 420;
       F.filename = "karax.nim";
-      colontmp__553649518 = len__pkgZkaraxZvdom_u841(dest_p0);
+      colontmp__553649530 = len__pkgZkaraxZvdom_u841(dest_p0);
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649519 = 0;
+      var i_553649531 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553649519 < colontmp__553649518)) break Label3;
+          if (!(i_553649531 < colontmp__553649530)) break Label3;
             F.line = 420;
             F.filename = "karax.nim";
-            i_721421482 = i_553649519;
+            i_721421482 = i_553649531;
             F.line = 421;
             moveDom__pkgZkaraxZkarax_u1176(HEX5BHEX5D__pkgZkaraxZvdom_u848(dest_p0, i_721421482), HEX5BHEX5D__pkgZkaraxZvdom_u848(src_p1, i_721421482));
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649519 = addInt(i_553649519, 1);
+            i_553649531 = addInt(i_553649531, 1);
           }
       };
     };
@@ -4670,14 +4669,14 @@ function applyPatch__pkgZkaraxZkarax_u1195(kxi_p0) {
       var i_721421489 = 0;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649512 = 0;
+      var i_553649524 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553649512 < kxi_p0.patchLen)) break Label3;
+          if (!(i_553649524 < kxi_p0.patchLen)) break Label3;
             F.line = 424;
             F.filename = "karax.nim";
-            i_721421489 = i_553649512;
+            i_721421489 = i_553649524;
             F.line = 425;
             var p_721421490 = nimCopy(null, kxi_p0.patches[chckIndx(i_721421489, 0, (kxi_p0.patches).length - 1)], NTI721420296);
             F.line = 426;
@@ -4749,7 +4748,7 @@ function applyPatch__pkgZkaraxZkarax_u1195(kxi_p0) {
             }
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649512 = addInt(i_553649512, 1);
+            i_553649524 = addInt(i_553649524, 1);
           }
       };
     };
@@ -4761,14 +4760,14 @@ function applyPatch__pkgZkaraxZkarax_u1195(kxi_p0) {
       var i_721421521 = 0;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649515 = 0;
+      var i_553649527 = 0;
       Label5: {
         F.line = 129;
           Label6: while (true) {
-          if (!(i_553649515 < kxi_p0.patchLenV)) break Label6;
+          if (!(i_553649527 < kxi_p0.patchLenV)) break Label6;
             F.line = 455;
             F.filename = "karax.nim";
-            i_721421521 = i_553649515;
+            i_721421521 = i_553649527;
             F.line = 456;
             var p_721421522 = nimCopy(null, kxi_p0.patchesV[chckIndx(i_721421521, 0, (kxi_p0.patchesV).length - 1)], NTI721420297);
             F.line = 457;
@@ -4780,7 +4779,7 @@ function applyPatch__pkgZkaraxZkarax_u1195(kxi_p0) {
             
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649515 = addInt(i_553649515, 1);
+            i_553649527 = addInt(i_553649527, 1);
           }
       };
     };
@@ -4800,28 +4799,28 @@ function dodraw__pkgZkaraxZkarax_u1453(kxi_p0) {
   BeforeRet: {
     F.line = 680;
     F.filename = "karax.nim";
-    var HEX3Aenv_553649174 = null;
+    var HEX3Aenv_553649186 = null;
     F.line = 680;
-    HEX3Aenv_553649174 = {m_type: NTI553649020, kxi0: null};
+    HEX3Aenv_553649186 = {m_type: NTI553649024, kxi0: null};
     F.line = 679;
-    HEX3Aenv_553649174.kxi0 = kxi_p0;
-    if ((HEX3Aenv_553649174.kxi0.renderer == null)) {
+    HEX3Aenv_553649186.kxi0 = kxi_p0;
+    if ((HEX3Aenv_553649186.kxi0.renderer == null)) {
     F.line = 680;
     break BeforeRet;
     }
     
     F.line = 681;
-    HEX3Aenv_553649174.kxi0.renderId = 0;
-    if (HEX3Aenv_553649174.kxi0.rendering) {
+    HEX3Aenv_553649186.kxi0.renderId = 0;
+    if (HEX3Aenv_553649186.kxi0.rendering) {
     F.line = 685;
-    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u1458.bind(HEX3Aenv_553649174); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u1458; Temporary1.ClE_0 = HEX3Aenv_553649174;
-    HEX3Aenv_553649174.kxi0.renderId = window.requestAnimationFrame(Temporary1);
+    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u1458.bind(HEX3Aenv_553649186); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u1458; Temporary1.ClE_0 = HEX3Aenv_553649186;
+    HEX3Aenv_553649186.kxi0.renderId = window.requestAnimationFrame(Temporary1);
     F.line = 686;
     break BeforeRet;
     }
     
     F.line = 688;
-    HEX3Aenv_553649174.kxi0.rendering = true;
+    HEX3Aenv_553649186.kxi0.rendering = true;
     F.line = 690;
     var rdata_721421747 = {hashPart: null, queryString: null};
     if ((window.location.hash.indexOf("?")>=0)) {
@@ -4840,44 +4839,44 @@ function dodraw__pkgZkaraxZkarax_u1453(kxi_p0) {
     }
     
     F.line = 699;
-    var newtree_721421782 = HEX3Aenv_553649174.kxi0.renderer(rdata_721421747);
+    var newtree_721421782 = HEX3Aenv_553649186.kxi0.renderer(rdata_721421747);
     F.line = 700;
-    HEX3Aenv_553649174.kxi0.runCount = addInt(HEX3Aenv_553649174.kxi0.runCount, 1);
+    HEX3Aenv_553649186.kxi0.runCount = addInt(HEX3Aenv_553649186.kxi0.runCount, 1);
     F.line = 701;
-    newtree_721421782.id = HEX3Aenv_553649174.kxi0.rootId;
+    newtree_721421782.id = HEX3Aenv_553649186.kxi0.rootId;
     F.line = 702;
-    HEX3Aenv_553649174.kxi0.toFocus = null;
-    if ((HEX3Aenv_553649174.kxi0.currentTree == null)) {
+    HEX3Aenv_553649186.kxi0.toFocus = null;
+    if ((HEX3Aenv_553649186.kxi0.currentTree == null)) {
     F.line = 704;
-    var asdom_721421792 = toDom__pkgZkaraxZkarax_u347(newtree_721421782, true, HEX3Aenv_553649174.kxi0);
+    var asdom_721421792 = toDom__pkgZkaraxZkarax_u347(newtree_721421782, true, HEX3Aenv_553649186.kxi0);
     F.line = 705;
-    replaceById__pkgZkaraxZkarax_u567(HEX3Aenv_553649174.kxi0.rootId, asdom_721421792);
+    replaceById__pkgZkaraxZkarax_u567(HEX3Aenv_553649186.kxi0.rootId, asdom_721421792);
     }
     else {
       F.line = 709;
-      var olddom_721421793 = document.getElementById(HEX3Aenv_553649174.kxi0.rootId);
+      var olddom_721421793 = document.getElementById(HEX3Aenv_553649186.kxi0.rootId);
       F.line = 710;
-      diff__pkgZkaraxZkarax_u1246(newtree_721421782, HEX3Aenv_553649174.kxi0.currentTree, null, olddom_721421793, HEX3Aenv_553649174.kxi0);
+      diff__pkgZkaraxZkarax_u1246(newtree_721421782, HEX3Aenv_553649186.kxi0.currentTree, null, olddom_721421793, HEX3Aenv_553649186.kxi0);
     }
     
     F.line = 714;
-    applyComponents__pkgZkaraxZkarax_u1364(HEX3Aenv_553649174.kxi0);
+    applyComponents__pkgZkaraxZkarax_u1364(HEX3Aenv_553649186.kxi0);
     F.line = 719;
-    applyPatch__pkgZkaraxZkarax_u1195(HEX3Aenv_553649174.kxi0);
+    applyPatch__pkgZkaraxZkarax_u1195(HEX3Aenv_553649186.kxi0);
     F.line = 720;
-    HEX3Aenv_553649174.kxi0.currentTree = newtree_721421782;
-    if (!((HEX3Aenv_553649174.kxi0.postRenderCallback == null))) {
+    HEX3Aenv_553649186.kxi0.currentTree = newtree_721421782;
+    if (!((HEX3Aenv_553649186.kxi0.postRenderCallback == null))) {
     F.line = 725;
-    HEX3Aenv_553649174.kxi0.postRenderCallback(rdata_721421747);
+    HEX3Aenv_553649186.kxi0.postRenderCallback(rdata_721421747);
     }
     
-    if (!((HEX3Aenv_553649174.kxi0.toFocus == null))) {
+    if (!((HEX3Aenv_553649186.kxi0.toFocus == null))) {
     F.line = 729;
-    HEX3Aenv_553649174.kxi0.toFocus.focus();
+    HEX3Aenv_553649186.kxi0.toFocus.focus();
     }
     
     F.line = 730;
-    HEX3Aenv_553649174.kxi0.rendering = false;
+    HEX3Aenv_553649186.kxi0.rendering = false;
   };
   framePtr = F.prev;
 
@@ -4927,15 +4926,15 @@ function redraw__pkgZkaraxZkarax_u1550(kxi_p0) {
   framePtr = F;
     F.line = 743;
     F.filename = "karax.nim";
-    var HEX3Aenv_553649524 = null;
+    var HEX3Aenv_553649536 = null;
     F.line = 743;
-    HEX3Aenv_553649524 = {m_type: NTI553649183, kxi0: null};
+    HEX3Aenv_553649536 = {m_type: NTI553649187, kxi0: null};
     F.line = 736;
-    HEX3Aenv_553649524.kxi0 = kxi_p0;
-    if ((HEX3Aenv_553649524.kxi0.renderId == 0)) {
+    HEX3Aenv_553649536.kxi0 = kxi_p0;
+    if ((HEX3Aenv_553649536.kxi0.renderId == 0)) {
     F.line = 744;
-    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u1552.bind(HEX3Aenv_553649524); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u1552; Temporary1.ClE_0 = HEX3Aenv_553649524;
-    HEX3Aenv_553649524.kxi0.renderId = window.requestAnimationFrame(Temporary1);
+    Temporary1 = HEX3Aanonymous__pkgZkaraxZkarax_u1552.bind(HEX3Aenv_553649536); Temporary1.ClP_0 = HEX3Aanonymous__pkgZkaraxZkarax_u1552; Temporary1.ClE_0 = HEX3Aenv_553649536;
+    HEX3Aenv_553649536.kxi0.renderId = window.requestAnimationFrame(Temporary1);
     }
     
   framePtr = F.prev;
@@ -5024,19 +5023,19 @@ function tree__pkgZkaraxZvdom_u942(kind_p0, kids_p1) {
       var k_754975678 = null;
       F.line = 18;
       F.filename = "iterators.nim";
-      var i_553649618 = 0;
+      var i_553649591 = 0;
       Label2: {
         F.line = 19;
           Label3: while (true) {
-          if (!(i_553649618 < (kids_p1).length)) break Label3;
+          if (!(i_553649591 < (kids_p1).length)) break Label3;
             F.line = 353;
             F.filename = "vdom.nim";
-            k_754975678 = kids_p1[chckIndx(i_553649618, 0, (kids_p1).length - 1)];
+            k_754975678 = kids_p1[chckIndx(i_553649591, 0, (kids_p1).length - 1)];
             F.line = 353;
             add__pkgZkaraxZvdom_u856(result_754975665, k_754975678);
             F.line = 13;
             F.filename = "iterators.nim";
-            i_553649618 += 1;
+            i_553649591 += 1;
           }
       };
     };
@@ -5075,20 +5074,20 @@ function setAttr__pkgZkaraxZvdom_u771(n_p0, key_p1, val_p2) {
         var i_754975511 = 0;
         F.line = 46;
         F.filename = "iterators_1.nim";
-        var colontmp__553649621 = 0;
+        var colontmp__553649594 = 0;
         F.line = 288;
         F.filename = "vdom.nim";
-        colontmp__553649621 = subInt((n_p0.attrs).length, 2);
+        colontmp__553649594 = subInt((n_p0.attrs).length, 2);
         F.line = 68;
         F.filename = "iterators_1.nim";
-        var res_553649622 = 0;
+        var res_553649595 = 0;
         Label2: {
           F.line = 69;
             Label3: while (true) {
-            if (!(res_553649622 <= colontmp__553649621)) break Label3;
+            if (!(res_553649595 <= colontmp__553649594)) break Label3;
               F.line = 288;
               F.filename = "vdom.nim";
-              i_754975511 = res_553649622;
+              i_754975511 = res_553649595;
               if ((n_p0.attrs[chckIndx(i_754975511, 0, (n_p0.attrs).length - 1)] == key_p1)) {
               F.line = 290;
               n_p0.attrs[chckIndx(addInt(i_754975511, 1), 0, (n_p0.attrs).length - 1)] = val_p2;
@@ -5098,7 +5097,7 @@ function setAttr__pkgZkaraxZvdom_u771(n_p0, key_p1, val_p2) {
               
               F.line = 74;
               F.filename = "iterators_1.nim";
-              res_553649622 = addInt(res_553649622, 2);
+              res_553649595 = addInt(res_553649595, 2);
             }
         };
       };
@@ -5149,15 +5148,15 @@ function addEventHandler__pkgZkaraxZkarax_u1963(n_p0, k_p1, action_p2, kxi_p3) {
   framePtr = F;
     F.line = 822;
     F.filename = "karax.nim";
-    var HEX3Aenv_553649628 = null;
+    var HEX3Aenv_553649601 = null;
     F.line = 822;
-    HEX3Aenv_553649628 = {m_type: NTI553649270, action0: null, kxi1: null};
+    HEX3Aenv_553649601 = {m_type: NTI553649254, action0: null, kxi1: null};
     F.line = 812;
-    HEX3Aenv_553649628.action0 = action_p2;
+    HEX3Aenv_553649601.action0 = action_p2;
     F.line = 813;
-    HEX3Aenv_553649628.kxi1 = kxi_p3;
+    HEX3Aenv_553649601.kxi1 = kxi_p3;
     F.line = 822;
-    Temporary1 = wrapper__pkgZkaraxZkarax_u1968.bind(HEX3Aenv_553649628); Temporary1.ClP_0 = wrapper__pkgZkaraxZkarax_u1968; Temporary1.ClE_0 = HEX3Aenv_553649628;
+    Temporary1 = wrapper__pkgZkaraxZkarax_u1968.bind(HEX3Aenv_553649601); Temporary1.ClP_0 = wrapper__pkgZkaraxZkarax_u1968; Temporary1.ClE_0 = HEX3Aenv_553649601;
     addEventListener__pkgZkaraxZvdom_u1061(n_p0, k_p1, Temporary1);
   framePtr = F.prev;
 
@@ -5213,19 +5212,19 @@ function ajax__pkgZkaraxZkajax_u153(meth_p0, url_p1, headers_p2, data_p3, cont_p
   framePtr = F;
     F.line = 78;
     F.filename = "kajax.nim";
-    var HEX3Aenv_553649713 = null;
+    var HEX3Aenv_553649686 = null;
     F.line = 78;
-    HEX3Aenv_553649713 = {m_type: NTI553649312, ajax0: null, cont1: null, doRedraw2: false, kxi3: null};
+    HEX3Aenv_553649686 = {m_type: NTI553649296, ajax0: null, cont1: null, doRedraw2: false, kxi3: null};
     F.line = 68;
-    HEX3Aenv_553649713.cont1 = cont_p4;
+    HEX3Aenv_553649686.cont1 = cont_p4;
     F.line = 69;
-    HEX3Aenv_553649713.doRedraw2 = doRedraw_p5;
+    HEX3Aenv_553649686.doRedraw2 = doRedraw_p5;
     F.line = 70;
-    HEX3Aenv_553649713.kxi3 = kxi_p6;
+    HEX3Aenv_553649686.kxi3 = kxi_p6;
     F.line = 78;
-    HEX3Aenv_553649713.ajax0 = new XMLHttpRequest();
+    HEX3Aenv_553649686.ajax0 = new XMLHttpRequest();
     F.line = 79;
-    HEX3Aenv_553649713.ajax0.open(meth_p0, url_p1, true);
+    HEX3Aenv_553649686.ajax0.open(meth_p0, url_p1, true);
     Label1: {
       F.line = 80;
       var a_1241514157 = null;
@@ -5233,35 +5232,35 @@ function ajax__pkgZkaraxZkajax_u153(meth_p0, url_p1, headers_p2, data_p3, cont_p
       var b_1241514158 = null;
       F.line = 18;
       F.filename = "iterators.nim";
-      var i_553649750 = 0;
+      var i_553649723 = 0;
       Label2: {
         F.line = 19;
           Label3: while (true) {
-          if (!(i_553649750 < (headers_p2).length)) break Label3;
+          if (!(i_553649723 < (headers_p2).length)) break Label3;
             F.line = 80;
             F.filename = "kajax.nim";
-            a_1241514157 = headers_p2[chckIndx(i_553649750, 0, (headers_p2).length - 1)]["Field0"];
+            a_1241514157 = headers_p2[chckIndx(i_553649723, 0, (headers_p2).length - 1)]["Field0"];
             F.line = 80;
-            b_1241514158 = headers_p2[chckIndx(i_553649750, 0, (headers_p2).length - 1)]["Field1"];
+            b_1241514158 = headers_p2[chckIndx(i_553649723, 0, (headers_p2).length - 1)]["Field1"];
             F.line = 81;
-            HEX3Aenv_553649713.ajax0.setRequestHeader(a_1241514157, b_1241514158);
+            HEX3Aenv_553649686.ajax0.setRequestHeader(a_1241514157, b_1241514158);
             F.line = 13;
             F.filename = "iterators.nim";
-            i_553649750 += 1;
+            i_553649723 += 1;
           }
       };
     };
     F.line = 82;
     F.filename = "kajax.nim";
-    Temporary4 = HEX3Aanonymous__pkgZkaraxZkajax_u175.bind(HEX3Aenv_553649713); Temporary4.ClP_0 = HEX3Aanonymous__pkgZkaraxZkajax_u175; Temporary4.ClE_0 = HEX3Aenv_553649713;
-    HEX3Aenv_553649713.ajax0.onreadystatechange = Temporary4;
+    Temporary4 = HEX3Aanonymous__pkgZkaraxZkajax_u175.bind(HEX3Aenv_553649686); Temporary4.ClP_0 = HEX3Aanonymous__pkgZkaraxZkajax_u175; Temporary4.ClE_0 = HEX3Aenv_553649686;
+    HEX3Aenv_553649686.ajax0.onreadystatechange = Temporary4;
     if (useBinary_p7) {
     F.line = 89;
-    HEX3Aenv_553649713.ajax0.send(blob_p8);
+    HEX3Aenv_553649686.ajax0.send(blob_p8);
     }
     else {
       F.line = 91;
-    HEX3Aenv_553649713.ajax0.send(data_p3);
+    HEX3Aenv_553649686.ajax0.send(data_p3);
     }
     
   framePtr = F.prev;
@@ -5846,11 +5845,11 @@ function hashFarm__pureZhashes_u667(s_p0) {
           w_1157628598 = nimCopy(w_1157628598, weakLen32withSeeds__pureZhashes_u644(s_p0, addInt(o_1157628584, 32), BigInt.asUintN(64, (z_1157628587 + w_1157628598["Field1"])), BigInt.asUintN(64, (y_1157628586 + load8__pureZhashes_u480(s_p0, addInt(o_1157628584, 16))))), NTI1157628252);
           F.line = 508;
           F.line = 508;
-          var HEX3Atmp_553649757 = z_1157628587;
+          var HEX3Atmp_553649730 = z_1157628587;
           F.line = 508;
           z_1157628587 = x_1157628585;
           F.line = 508;
-          x_1157628585 = HEX3Atmp_553649757;
+          x_1157628585 = HEX3Atmp_553649730;
           F.line = 509;
           o_1157628584 = addInt(o_1157628584, 64);
           if ((o_1157628584 == eos_1157628602)) {
@@ -5886,11 +5885,11 @@ function hashFarm__pureZhashes_u667(s_p0) {
     w_1157628598 = nimCopy(w_1157628598, weakLen32withSeeds__pureZhashes_u644(s_p0, addInt(o_1157628584, 32), BigInt.asUintN(64, (z_1157628587 + w_1157628598["Field1"])), BigInt.asUintN(64, (y_1157628586 + load8__pureZhashes_u480(s_p0, addInt(o_1157628584, 16))))), NTI1157628252);
     F.line = 523;
     F.line = 523;
-    var HEX3Atmp_553649758 = z_1157628587;
+    var HEX3Atmp_553649731 = z_1157628587;
     F.line = 523;
     z_1157628587 = x_1157628585;
     F.line = 523;
-    x_1157628585 = HEX3Atmp_553649758;
+    x_1157628585 = HEX3Atmp_553649731;
     result_1157628573 = len16__pureZhashes_u509(BigInt.asUintN(64, (BigInt.asUintN(64, (len16__pureZhashes_u509(v_1157628593["Field0"], w_1157628598["Field0"], mul_1157628624) + BigInt.asUintN(64, (shiftMix__pureZhashes_u490(y_1157628586) * 14097894508562428199n)))) + z_1157628587)), BigInt.asUintN(64, (len16__pureZhashes_u509(v_1157628593["Field1"], w_1157628598["Field1"], mul_1157628624) + x_1157628585)), mul_1157628624);
   };
   framePtr = F.prev;
@@ -6053,11 +6052,11 @@ function enlarge__pureZjson_u943(t_p0) {
     t_p0.last = (-1);
     F.line = 1375;
     F.line = 1375;
-    var HEX3Atmp_553649761 = nimCopy(null, t_p0.data, NTI1291845649);
+    var HEX3Atmp_553649734 = nimCopy(null, t_p0.data, NTI1291845649);
     F.line = 1375;
     t_p0.data = n_1291846581;
     F.line = 1375;
-    n_1291846581 = HEX3Atmp_553649761;
+    n_1291846581 = HEX3Atmp_553649734;
     Label1: {
       F.line = 1376;
         Label2: while (true) {
@@ -6311,25 +6310,25 @@ function convertObject__pureZjson_u5249(x_p0) {
         var i_1291850889 = 0;
         F.line = 126;
         F.filename = "iterators_1.nim";
-        var colontmp__553649753 = 0;
+        var colontmp__553649726 = 0;
         F.line = 1006;
         F.filename = "json.nim";
-        colontmp__553649753 = len__pureZjson_u5246(x_p0);
+        colontmp__553649726 = len__pureZjson_u5246(x_p0);
         F.line = 128;
         F.filename = "iterators_1.nim";
-        var i_553649754 = 0;
+        var i_553649727 = 0;
         Label2: {
           F.line = 129;
             Label3: while (true) {
-            if (!(i_553649754 < colontmp__553649753)) break Label3;
+            if (!(i_553649727 < colontmp__553649726)) break Label3;
               F.line = 1006;
               F.filename = "json.nim";
-              i_1291850889 = i_553649754;
+              i_1291850889 = i_553649727;
               F.line = 1007;
               add__pureZjson_u337(result_1291850883, convertObject__pureZjson_u5249(x_p0[i_1291850889]));
               F.line = 131;
               F.filename = "iterators_1.nim";
-              i_553649754 = addInt(i_553649754, 1);
+              i_553649727 = addInt(i_553649727, 1);
             }
         };
       };
@@ -6547,20 +6546,20 @@ function HEX3DHEX3D__pureZjson_u2109(x_p0, y_p1) {
       var i_1291847767 = 0;
       F.line = 81;
       F.filename = "iterators_1.nim";
-      var colontmp__553649776 = 0;
+      var colontmp__553649749 = 0;
       F.line = 333;
       F.filename = "comparisons.nim";
-      colontmp__553649776 = subInt((x_p0).length, 1);
+      colontmp__553649749 = subInt((x_p0).length, 1);
       F.line = 96;
       F.filename = "iterators_1.nim";
-      var res_553649777 = 0;
+      var res_553649750 = 0;
       Label2: {
         F.line = 97;
           Label3: while (true) {
-          if (!(res_553649777 <= colontmp__553649776)) break Label3;
+          if (!(res_553649750 <= colontmp__553649749)) break Label3;
             F.line = 333;
             F.filename = "comparisons.nim";
-            i_1291847767 = res_553649777;
+            i_1291847767 = res_553649750;
             if (!(HEX3DHEX3D__pureZjson_u2092(x_p0[chckIndx(i_1291847767, 0, (x_p0).length - 1)], y_p1[chckIndx(i_1291847767, 0, (y_p1).length - 1)]))) {
             F.line = 335;
             result_1291847745 = false;
@@ -6569,7 +6568,7 @@ function HEX3DHEX3D__pureZjson_u2109(x_p0, y_p1) {
             
             F.line = 102;
             F.filename = "iterators_1.nim";
-            res_553649777 = addInt(res_553649777, 1);
+            res_553649750 = addInt(res_553649750, 1);
           }
       };
     };
@@ -6720,30 +6719,30 @@ function HEX3DHEX3D__pureZjson_u2092(a_p0, b_p1) {
           var val_1291848171 = null;
           F.line = 1792;
           F.filename = "tables.nim";
-          var colontmp__553649769 = ({data: [], counter: 0, first: 0, last: 0});
+          var colontmp__553649742 = ({data: [], counter: 0, first: 0, last: 0});
           F.line = 473;
           F.filename = "json.nim";
           var Temporary14 = a_p0;
           if (ConstSet22[Temporary14.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'fields\' is not accessible for type \'JsonNodeObj\' using \'kind = "), reprDiscriminant(Temporary14.kind, NTI1291845635)); }
-          colontmp__553649769 = nimCopy(colontmp__553649769, Temporary14.fields, NTI1291845646);
+          colontmp__553649742 = nimCopy(colontmp__553649742, Temporary14.fields, NTI1291845646);
           F.line = 1819;
           F.filename = "tables.nim";
-          var L_553649771 = len__pureZjson_u2176(colontmp__553649769);
-          if ((0 < colontmp__553649769.counter)) {
+          var L_553649744 = len__pureZjson_u2176(colontmp__553649742);
+          if ((0 < colontmp__553649742.counter)) {
           F.line = 1388;
-          var h_553649772 = colontmp__553649769.first;
+          var h_553649745 = colontmp__553649742.first;
           Label15: {
             F.line = 1389;
               Label16: while (true) {
-              if (!(0 <= h_553649772)) break Label16;
+              if (!(0 <= h_553649745)) break Label16;
                 F.line = 1390;
-                var nxt_553649774 = colontmp__553649769.data[chckIndx(h_553649772, 0, (colontmp__553649769.data).length - 1)].Field1;
-                if (isFilled__pureZcollectionsZtables_u31(colontmp__553649769.data[chckIndx(h_553649772, 0, (colontmp__553649769.data).length - 1)].Field0)) {
+                var nxt_553649747 = colontmp__553649742.data[chckIndx(h_553649745, 0, (colontmp__553649742.data).length - 1)].Field1;
+                if (isFilled__pureZcollectionsZtables_u31(colontmp__553649742.data[chckIndx(h_553649745, 0, (colontmp__553649742.data).length - 1)].Field0)) {
                 F.line = 473;
                 F.filename = "json.nim";
-                key_1291848170 = colontmp__553649769.data[chckIndx(h_553649772, 0, (colontmp__553649769.data).length - 1)].Field2;
+                key_1291848170 = colontmp__553649742.data[chckIndx(h_553649745, 0, (colontmp__553649742.data).length - 1)].Field2;
                 F.line = 473;
-                val_1291848171 = colontmp__553649769.data[chckIndx(h_553649772, 0, (colontmp__553649769.data).length - 1)].Field3;
+                val_1291848171 = colontmp__553649742.data[chckIndx(h_553649745, 0, (colontmp__553649742.data).length - 1)].Field3;
                   var Temporary17 = b_p1;
                   if (ConstSet23[Temporary17.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'fields\' is not accessible for type \'JsonNodeObj\' using \'kind = "), reprDiscriminant(Temporary17.kind, NTI1291845635)); }
                 if (!(hasKey__pureZjson_u2576(Temporary17.fields, key_1291848170))) {
@@ -6760,7 +6759,7 @@ function HEX3DHEX3D__pureZjson_u2092(a_p0, b_p1) {
                 break BeforeRet;
                 }
                 
-                if (!((len__pureZjson_u2176(colontmp__553649769) == L_553649771))) {
+                if (!((len__pureZjson_u2176(colontmp__553649742) == L_553649744))) {
                 F.line = 1822;
                 F.filename = "tables.nim";
                 failedAssertImpl__stdZassertions_u84(makeNimstrLit("/usr/lib/nim/lib/pure/collections/tables.nim(1822, 11) `len(t) == L` the length of the table changed while iterating over it"));
@@ -6769,7 +6768,7 @@ function HEX3DHEX3D__pureZjson_u2092(a_p0, b_p1) {
                 }
                 
                 F.line = 1393;
-                h_553649772 = nxt_553649774;
+                h_553649745 = nxt_553649747;
               }
           };
           }
@@ -7351,15 +7350,15 @@ function collectionToString__pureZjson_u5386(x_p0, prefix_p1, separator_p2, suff
       var value_1291851048 = 0;
       F.line = 62;
       F.filename = "iterators.nim";
-      var i_553649789 = 0;
+      var i_553649762 = 0;
       Label2: {
         F.line = 63;
           Label3: while (true) {
-          if (!(i_553649789 <= 6)) break Label3;
-            if ((x_p0[i_553649789] != undefined)) {
+          if (!(i_553649762 <= 6)) break Label3;
+            if ((x_p0[i_553649762] != undefined)) {
             F.line = 103;
             F.filename = "dollars.nim";
-            value_1291851048 = i_553649789;
+            value_1291851048 = i_553649762;
             if (firstElement_1291851025) {
             F.line = 105;
             firstElement_1291851025 = false;
@@ -7375,7 +7374,7 @@ function collectionToString__pureZjson_u5386(x_p0, prefix_p1, separator_p2, suff
             
             F.line = 13;
             F.filename = "iterators.nim";
-            i_553649789 += 1;
+            i_553649762 += 1;
           }
       };
     };
@@ -7618,20 +7617,20 @@ function initFromJson__app_u167(dst_p0, dst_p0_Idx, jsonNode_p1, jsonPath_p2, js
       var i_553648323 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553649765 = 0;
+      var colontmp__553649738 = 0;
       F.line = 1166;
       F.filename = "json.nim";
-      colontmp__553649765 = len__pureZjson_u3020(jsonNode_p1);
+      colontmp__553649738 = len__pureZjson_u3020(jsonNode_p1);
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649766 = 0;
+      var i_553649739 = 0;
       Label3: {
         F.line = 129;
           Label4: while (true) {
-          if (!(i_553649766 < colontmp__553649765)) break Label4;
+          if (!(i_553649739 < colontmp__553649738)) break Label4;
             F.line = 1166;
             F.filename = "json.nim";
-            i_553648323 = i_553649766;
+            i_553648323 = i_553649739;
             F.line = 1167;
             addChar(jsonPath_p2[jsonPath_p2_Idx], 91);;
             F.line = 1168;
@@ -7645,7 +7644,7 @@ function initFromJson__app_u167(dst_p0, dst_p0_Idx, jsonNode_p1, jsonPath_p2, js
          else {jsonPath_p2[jsonPath_p2_Idx].length = chckRange(orignalJsonPathLen_553648318, 0, 2147483647); };
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649766 = addInt(i_553649766, 1);
+            i_553649739 = addInt(i_553649739, 1);
           }
       };
     };
@@ -7693,23 +7692,23 @@ function HEX3Aanonymous__app_u151(s_p0, r_p1) {
       var item_553648398 = ({url: [], name: [], note: [], tags: []});
       F.line = 249;
       F.filename = "iterators.nim";
-      var i_553649665 = 0;
+      var i_553649638 = 0;
       F.line = 250;
-      var L_553649666 = (items_553648375).length;
+      var L_553649639 = (items_553648375).length;
       Label3: {
         F.line = 251;
           Label4: while (true) {
-          if (!(i_553649665 < L_553649666)) break Label4;
+          if (!(i_553649638 < L_553649639)) break Label4;
             F.line = 49;
             F.filename = "app.nim";
-            item_553648398 = items_553648375[chckIndx(i_553649665, 0, (items_553648375).length - 1)];
+            item_553648398 = items_553648375[chckIndx(i_553649638, 0, (items_553648375).length - 1)];
             F.line = 49;
             var Temporary5 = nimCopy(null, item_553648398, NTI1392508931);
             bookmarks_553648146[0].push(Temporary5);;
             F.line = 13;
             F.filename = "iterators.nim";
-            i_553649665 += 1;
-            if (!(((items_553648375).length == L_553649666))) {
+            i_553649638 += 1;
+            if (!(((items_553648375).length == L_553649639))) {
             F.line = 254;
             failedAssertImpl__stdZassertions_u84(makeNimstrLit("/usr/lib/nim/lib/system/iterators.nim(254, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
@@ -7732,16 +7731,16 @@ function HEX3Aanonymous__app_u151(s_p0, r_p1) {
       var bm_553648407 = ({url: [], name: [], note: [], tags: []});
       F.line = 249;
       F.filename = "iterators.nim";
-      var i_553649669 = 0;
+      var i_553649642 = 0;
       F.line = 250;
-      var L_553649670 = (items_553648375).length;
+      var L_553649643 = (items_553648375).length;
       Label7: {
         F.line = 251;
           Label8: while (true) {
-          if (!(i_553649669 < L_553649670)) break Label8;
+          if (!(i_553649642 < L_553649643)) break Label8;
             F.line = 53;
             F.filename = "app.nim";
-            bm_553648407 = items_553648375[chckIndx(i_553649669, 0, (items_553648375).length - 1)];
+            bm_553648407 = items_553648375[chckIndx(i_553649642, 0, (items_553648375).length - 1)];
             if (eqStrings(bm_553648407.url, pendingUrl_553648161[0])) {
             F.line = 55;
             editingUrl_553648153[0] = nimCopy(null, pendingUrl_553648161[0], NTI33554449);
@@ -7759,8 +7758,8 @@ function HEX3Aanonymous__app_u151(s_p0, r_p1) {
             
             F.line = 13;
             F.filename = "iterators.nim";
-            i_553649669 += 1;
-            if (!(((items_553648375).length == L_553649670))) {
+            i_553649642 += 1;
+            if (!(((items_553648375).length == L_553649643))) {
             F.line = 254;
             failedAssertImpl__stdZassertions_u84(makeNimstrLit("/usr/lib/nim/lib/system/iterators.nim(254, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
@@ -7798,11 +7797,11 @@ function loadBookmarks__app_u141(q_p0, off_p1, lim_p2, append_p3) {
   framePtr = F;
     F.line = 43;
     F.filename = "app.nim";
-    var HEX3Aenv_553649673 = null;
+    var HEX3Aenv_553649646 = null;
     F.line = 43;
-    HEX3Aenv_553649673 = {m_type: NTI553649290, append0: false};
+    HEX3Aenv_553649646 = {m_type: NTI553649274, append0: false};
     F.line = 39;
-    HEX3Aenv_553649673.append0 = append_p3;
+    HEX3Aenv_553649646.append0 = append_p3;
     F.line = 40;
     var url_553648274 = ([47,97,112,105,47,98,111,111,107,109,97,114,107,115,63,111,102,102,115,101,116,61]).concat(HEX24__systemZdollars_u14(off_p1),[38,108,105,109,105,116,61],HEX24__systemZdollars_u14(lim_p2));
     if (!((q_p0 == ""))) {
@@ -7811,7 +7810,7 @@ function loadBookmarks__app_u141(q_p0, off_p1, lim_p2, append_p3) {
     }
     
     F.line = 43;
-    Temporary1 = HEX3Aanonymous__app_u151.bind(HEX3Aenv_553649673); Temporary1.ClP_0 = HEX3Aanonymous__app_u151; Temporary1.ClE_0 = HEX3Aenv_553649673;
+    Temporary1 = HEX3Aanonymous__app_u151.bind(HEX3Aenv_553649646); Temporary1.ClP_0 = HEX3Aanonymous__app_u151; Temporary1.ClE_0 = HEX3Aenv_553649646;
     ajaxGet__pkgZkaraxZkajax_u196(toJSStr(url_553648274), [], Temporary1, true, kxi__);
   framePtr = F.prev;
 
@@ -7857,50 +7856,6 @@ function cancelEdit__app_u685() {
     addName_553648151[0] = "";
     F.line = 165;
     addNote_553648152[0] = "";
-  framePtr = F.prev;
-
-  
-}
-
-function HEX3Aanonymous__app_u862(ev_p0, n_p1) {
-  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
-  framePtr = F;
-    F.line = 226;
-    F.filename = "app.nim";
-    cancelEdit__app_u685();
-    F.line = 227;
-    showAddForm_553648149[0] = !(showAddForm_553648149[0]);
-    if (!(showAddForm_553648149[0])) {
-    F.line = 229;
-    addUrl_553648150[0] = "";
-    F.line = 229;
-    addName_553648151[0] = "";
-    F.line = 229;
-    addNote_553648152[0] = "";
-    }
-    
-  framePtr = F.prev;
-
-  
-}
-
-function HEX3Aanonymous__app_u865(ev_p0, n_p1) {
-  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
-  framePtr = F;
-    F.line = 234;
-    F.filename = "app.nim";
-    addUrl_553648150[0] = value__pkgZkaraxZvdom_u474(n_p1);
-  framePtr = F.prev;
-
-  
-}
-
-function HEX3Aanonymous__app_u868(ev_p0, n_p1) {
-  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
-  framePtr = F;
-    F.line = 236;
-    F.filename = "app.nim";
-    addName_553648151[0] = value__pkgZkaraxZvdom_u474(n_p1);
   framePtr = F.prev;
 
   
@@ -7963,39 +7918,39 @@ function getTagList__app_u37(tags_p0) {
       var t_553648168 = [];
       F.line = 508;
       F.filename = "strutils.nim";
-      var colontmp__553649833 = [];
+      var colontmp__553649769 = [];
       F.line = 29;
       F.filename = "app.nim";
-      colontmp__553649833 = cstrToNimstr(tags_p0);
+      colontmp__553649769 = cstrToNimstr(tags_p0);
       F.line = 535;
       F.filename = "strutils.nim";
-      var sepLen_553649834 = 1;
+      var sepLen_553649770 = 1;
       F.line = 389;
-      var lastHEX60gensym41_553649835 = 0;
+      var lastHEX60gensym41_553649771 = 0;
       F.line = 390;
-      var splitsHEX60gensym41_553649836 = (-1);
+      var splitsHEX60gensym41_553649772 = (-1);
       Label2: {
         F.line = 537;
           Label3: while (true) {
-          if (!(lastHEX60gensym41_553649835 <= (colontmp__553649833).length)) break Label3;
+          if (!(lastHEX60gensym41_553649771 <= (colontmp__553649769).length)) break Label3;
             F.line = 393;
-            var firstHEX60gensym41_553649838 = lastHEX60gensym41_553649835;
+            var firstHEX60gensym41_553649774 = lastHEX60gensym41_553649771;
             Label4: {
               F.line = 394;
                 Label5: while (true) {
-                if (!((lastHEX60gensym41_553649835 < (colontmp__553649833).length) && !(substrEq__pureZstrutils_u255(colontmp__553649833, lastHEX60gensym41_553649835, [44])))) break Label5;
+                if (!((lastHEX60gensym41_553649771 < (colontmp__553649769).length) && !(substrEq__pureZstrutils_u255(colontmp__553649769, lastHEX60gensym41_553649771, [44])))) break Label5;
                   F.line = 395;
-                  lastHEX60gensym41_553649835 = addInt(lastHEX60gensym41_553649835, 1);
+                  lastHEX60gensym41_553649771 = addInt(lastHEX60gensym41_553649771, 1);
                 }
             };
-            if ((splitsHEX60gensym41_553649836 == 0)) {
+            if ((splitsHEX60gensym41_553649772 == 0)) {
             F.line = 396;
-            lastHEX60gensym41_553649835 = (colontmp__553649833).length;
+            lastHEX60gensym41_553649771 = (colontmp__553649769).length;
             }
             
             F.line = 29;
             F.filename = "app.nim";
-            t_553648168 = substr__system_u3710(colontmp__553649833, firstHEX60gensym41_553649838, subInt(lastHEX60gensym41_553649835, 1));
+            t_553648168 = substr__system_u3710(colontmp__553649769, firstHEX60gensym41_553649774, subInt(lastHEX60gensym41_553649771, 1));
             F.line = 30;
             var trimmed_553648169 = nsuStrip(t_553648168, true, true, ConstSet39);
             if (!(eqStrings(trimmed_553648169, []))) {
@@ -8004,16 +7959,16 @@ function getTagList__app_u37(tags_p0) {
             result_553648167.push(Temporary6);;
             }
             
-            if ((splitsHEX60gensym41_553649836 == 0)) {
+            if ((splitsHEX60gensym41_553649772 == 0)) {
             F.line = 398;
             F.filename = "strutils.nim";
             break Label2;
             }
             
             F.line = 399;
-            splitsHEX60gensym41_553649836 = subInt(splitsHEX60gensym41_553649836, 1);
+            splitsHEX60gensym41_553649772 = subInt(splitsHEX60gensym41_553649772, 1);
             F.line = 400;
-            lastHEX60gensym41_553649835 = addInt(lastHEX60gensym41_553649835, sepLen_553649834);
+            lastHEX60gensym41_553649771 = addInt(lastHEX60gensym41_553649771, sepLen_553649770);
           }
       };
     };
@@ -8024,88 +7979,104 @@ function getTagList__app_u37(tags_p0) {
 
 }
 
-function HEX3Aanonymous__app_u772(ev_p0, n_p1) {
-  var F = {procname: "renderTagChips.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
+function HEX3Aanonymous__app_u767(ev_p0, n_p1) {
+  var F = {procname: "removeCb.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
   framePtr = F;
-    F.line = 206;
+    F.line = 212;
     F.filename = "app.nim";
-    this.onRemove0(this.tagCopy1);
+    this.onRemove0(this.tag1);
   framePtr = F.prev;
 
   
 }
 
-function renderTagChips__app_u722(tags_p0, onRemove_p1) {
-            var Temporary4;
+function removeCb__app_u758(tag_p0, onRemove_p1) {
+    var Temporary1;
 
-  var result_553648855 = null;
+  var result_553648894 = null;
+
+  var F = {procname: "app.removeCb", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
+  framePtr = F;
+    F.line = 212;
+    F.filename = "app.nim";
+    var HEX3Aenv_553649782 = null;
+    F.line = 212;
+    HEX3Aenv_553649782 = {m_type: NTI553649342, onRemove0: null, tag1: []};
+    F.line = 211;
+    HEX3Aenv_553649782.tag1 = nimCopy(null, tag_p0, NTI33554449);
+    F.line = 211;
+    HEX3Aenv_553649782.onRemove0 = onRemove_p1;
+    F.line = 212;
+    Temporary1 = HEX3Aanonymous__app_u767.bind(HEX3Aenv_553649782); Temporary1.ClP_0 = HEX3Aanonymous__app_u767; Temporary1.ClE_0 = HEX3Aenv_553649782;
+    result_553648894 = Temporary1;
+  framePtr = F.prev;
+
+  return result_553648894;
+
+}
+
+function renderTagChips__app_u770(tags_p0, onRemove_p1) {
+  var result_553648903 = null;
 
   var F = {procname: "app.renderTagChips", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
   framePtr = F;
-    F.line = 202;
+    F.line = 215;
     F.filename = "app.nim";
-    var HEX3Aenv_553649795 = null;
-    F.line = 202;
-    HEX3Aenv_553649795 = {m_type: NTI553649353, onRemove0: null, tagCopy1: []};
-    F.line = 198;
-    HEX3Aenv_553649795.onRemove0 = onRemove_p1;
-    F.line = 199;
-    var tagList_553648856 = getTagList__app_u37(tags_p0);
-    F.line = 200;
-    F.line = 200;
-    var tmp_553648883 = tree__pkgZkaraxZvdom_u942(44, []);
-    F.line = 200;
-    tmp_553648883.class = "tag-chips";
+    var tagList_553648904 = getTagList__app_u37(tags_p0);
+    F.line = 216;
+    F.line = 216;
+    var tmp_553648931 = tree__pkgZkaraxZvdom_u942(44, []);
+    F.line = 216;
+    tmp_553648931.class = "tag-chips";
     Label1: {
-      F.line = 201;
-      var i_553648898 = 0;
+      F.line = 217;
+      var i_553648946 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553649829 = 0;
-      F.line = 201;
+      var colontmp__553649765 = 0;
+      F.line = 217;
       F.filename = "app.nim";
-      colontmp__553649829 = (tagList_553648856).length;
+      colontmp__553649765 = (tagList_553648904).length;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649830 = 0;
+      var i_553649766 = 0;
       Label2: {
         F.line = 129;
           Label3: while (true) {
-          if (!(i_553649830 < colontmp__553649829)) break Label3;
-            F.line = 201;
+          if (!(i_553649766 < colontmp__553649765)) break Label3;
+            F.line = 217;
             F.filename = "app.nim";
-            i_553648898 = i_553649830;
-            F.line = 202;
-            HEX3Aenv_553649795.tagCopy1 = nimCopy(null, tagList_553648856[chckIndx(i_553648898, 0, (tagList_553648856).length - 1)], NTI33554449);
-            F.line = 203;
-            var tmp_553648889 = tree__pkgZkaraxZvdom_u942(71, []);
-            F.line = 203;
-            tmp_553648889.class = "tag-chip";
-            F.line = 204;
-            add__pkgZkaraxZvdom_u856(tmp_553648889, text__pkgZkaraxZvdom_u1010(HEX3Aenv_553649795.tagCopy1));
-            F.line = 205;
-            var tmp_553648890 = tree__pkgZkaraxZvdom_u942(71, []);
-            F.line = 205;
-            tmp_553648890.class = "tag-remove";
-            F.line = 206;
-            Temporary4 = HEX3Aanonymous__app_u772.bind(HEX3Aenv_553649795); Temporary4.ClP_0 = HEX3Aanonymous__app_u772; Temporary4.ClE_0 = HEX3Aenv_553649795;
-            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648890, 0, Temporary4, kxi__);
-            F.line = 207;
-            add__pkgZkaraxZvdom_u856(tmp_553648890, text__pkgZkaraxZvdom_u1010([195,151]));
-            F.line = 207;
-            add__pkgZkaraxZvdom_u856(tmp_553648889, tmp_553648890);
-            F.line = 207;
-            add__pkgZkaraxZvdom_u856(tmp_553648883, tmp_553648889);
+            i_553648946 = i_553649766;
+            F.line = 218;
+            var tagCopy_553648947 = nimCopy(null, tagList_553648904[chckIndx(i_553648946, 0, (tagList_553648904).length - 1)], NTI33554449);
+            F.line = 219;
+            var tmp_553648937 = tree__pkgZkaraxZvdom_u942(71, []);
+            F.line = 219;
+            tmp_553648937.class = "tag-chip";
+            F.line = 220;
+            add__pkgZkaraxZvdom_u856(tmp_553648937, text__pkgZkaraxZvdom_u1010(tagCopy_553648947));
+            F.line = 221;
+            var tmp_553648938 = tree__pkgZkaraxZvdom_u942(71, []);
+            F.line = 221;
+            tmp_553648938.class = "tag-remove";
+            F.line = 222;
+            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648938, 0, removeCb__app_u758(tagCopy_553648947, onRemove_p1), kxi__);
+            F.line = 223;
+            add__pkgZkaraxZvdom_u856(tmp_553648938, text__pkgZkaraxZvdom_u1010([195,151]));
+            F.line = 223;
+            add__pkgZkaraxZvdom_u856(tmp_553648937, tmp_553648938);
+            F.line = 223;
+            add__pkgZkaraxZvdom_u856(tmp_553648931, tmp_553648937);
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649830 = addInt(i_553649830, 1);
+            i_553649766 = addInt(i_553649766, 1);
           }
       };
     };
-    result_553648855 = tmp_553648883;
+    result_553648903 = tmp_553648931;
   framePtr = F.prev;
 
-  return result_553648855;
+  return result_553648903;
 
 }
 
@@ -8139,16 +8110,16 @@ function find__app_u537(a_p0, item_p1) {
       var i_553648692 = [];
       F.line = 249;
       F.filename = "iterators.nim";
-      var i_553649848 = 0;
+      var i_553649821 = 0;
       F.line = 250;
-      var L_553649849 = (a_p0).length;
+      var L_553649822 = (a_p0).length;
       Label2: {
         F.line = 251;
           Label3: while (true) {
-          if (!(i_553649848 < L_553649849)) break Label3;
+          if (!(i_553649821 < L_553649822)) break Label3;
             F.line = 1760;
             F.filename = "system.nim";
-            i_553648692 = a_p0[chckIndx(i_553649848, 0, (a_p0).length - 1)];
+            i_553648692 = a_p0[chckIndx(i_553649821, 0, (a_p0).length - 1)];
             if (eqStrings(i_553648692, item_p1)) {
             F.line = 1761;
             break BeforeRet;
@@ -8158,8 +8129,8 @@ function find__app_u537(a_p0, item_p1) {
             result_553648670 = addInt(result_553648670, 1);
             F.line = 13;
             F.filename = "iterators.nim";
-            i_553649848 += 1;
-            if (!(((a_p0).length == L_553649849))) {
+            i_553649821 += 1;
+            if (!(((a_p0).length == L_553649822))) {
             F.line = 254;
             failedAssertImpl__stdZassertions_u84(makeNimstrLit("/usr/lib/nim/lib/system/iterators.nim(254, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
@@ -8191,25 +8162,25 @@ function nsuJoinSep(a_p0, sep_p1) {
       var i_872416828 = 0;
       F.line = 81;
       F.filename = "iterators_1.nim";
-      var colontmp__553649852 = 0;
+      var colontmp__553649825 = 0;
       F.line = 1872;
       F.filename = "strutils.nim";
-      colontmp__553649852 = (a_p0).length - 1;
+      colontmp__553649825 = (a_p0).length - 1;
       F.line = 96;
       F.filename = "iterators_1.nim";
-      var res_553649853 = 0;
+      var res_553649826 = 0;
       Label2: {
         F.line = 97;
           Label3: while (true) {
-          if (!(res_553649853 <= colontmp__553649852)) break Label3;
+          if (!(res_553649826 <= colontmp__553649825)) break Label3;
             F.line = 1872;
             F.filename = "strutils.nim";
-            i_872416828 = res_553649853;
+            i_872416828 = res_553649826;
             F.line = 1872;
             L_872416820 = addInt(L_872416820, (a_p0[chckIndx(i_872416828, 0, (a_p0).length - 1)]).length);
             F.line = 102;
             F.filename = "iterators_1.nim";
-            res_553649853 = addInt(res_553649853, 1);
+            res_553649826 = addInt(res_553649826, 1);
           }
       };
     };
@@ -8223,27 +8194,27 @@ function nsuJoinSep(a_p0, sep_p1) {
       var i_872416841 = 0;
       F.line = 81;
       F.filename = "iterators_1.nim";
-      var colontmp__553649856 = 0;
+      var colontmp__553649829 = 0;
       F.line = 1875;
       F.filename = "strutils.nim";
-      colontmp__553649856 = (a_p0).length - 1;
+      colontmp__553649829 = (a_p0).length - 1;
       F.line = 96;
       F.filename = "iterators_1.nim";
-      var res_553649857 = 1;
+      var res_553649830 = 1;
       Label5: {
         F.line = 97;
           Label6: while (true) {
-          if (!(res_553649857 <= colontmp__553649856)) break Label6;
+          if (!(res_553649830 <= colontmp__553649829)) break Label6;
             F.line = 1875;
             F.filename = "strutils.nim";
-            i_872416841 = res_553649857;
+            i_872416841 = res_553649830;
             F.line = 1876;
             result_872416813.push.apply(result_872416813, sep_p1);;
             F.line = 1877;
             result_872416813.push.apply(result_872416813, a_p0[chckIndx(i_872416841, 0, (a_p0).length - 1)]);;
             F.line = 102;
             F.filename = "iterators_1.nim";
-            res_553649857 = addInt(res_553649857, 1);
+            res_553649830 = addInt(res_553649830, 1);
           }
       };
     };
@@ -8275,17 +8246,6 @@ function removeTag__app_u686(tag_p0) {
   
 }
 
-function HEX3Aanonymous__app_u871(ev_p0, n_p1) {
-  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
-  framePtr = F;
-    F.line = 240;
-    F.filename = "app.nim";
-    newTagInput_553648157[0] = value__pkgZkaraxZvdom_u474(n_p1);
-  framePtr = F.prev;
-
-  
-}
-
 function wrapper__pkgZkaraxZkarax_u1977(ev_p0, n_p1) {
   var F = {procname: "addEventHandler.wrapper", prev: framePtr, filename: "/home/muxueqz/.nimble/pkgs2/karax-1.5.0-58dfc7a459d631d0416b3dd43609ce6bc4b96c92/karax/karax.nim", line: 0};
   framePtr = F;
@@ -8309,15 +8269,15 @@ function addEventHandler__pkgZkaraxZkarax_u1971(n_p0, k_p1, action_p2, kxi_p3) {
   framePtr = F;
     F.line = 834;
     F.filename = "karax.nim";
-    var HEX3Aenv_553649863 = null;
+    var HEX3Aenv_553649836 = null;
     F.line = 834;
-    HEX3Aenv_553649863 = {m_type: NTI553649387, action0: null, kxi1: null};
+    HEX3Aenv_553649836 = {m_type: NTI553649371, action0: null, kxi1: null};
     F.line = 824;
-    HEX3Aenv_553649863.action0 = action_p2;
+    HEX3Aenv_553649836.action0 = action_p2;
     F.line = 825;
-    HEX3Aenv_553649863.kxi1 = kxi_p3;
+    HEX3Aenv_553649836.kxi1 = kxi_p3;
     F.line = 834;
-    Temporary1 = wrapper__pkgZkaraxZkarax_u1977.bind(HEX3Aenv_553649863); Temporary1.ClP_0 = wrapper__pkgZkaraxZkarax_u1977; Temporary1.ClE_0 = HEX3Aenv_553649863;
+    Temporary1 = wrapper__pkgZkaraxZkarax_u1977.bind(HEX3Aenv_553649836); Temporary1.ClP_0 = wrapper__pkgZkaraxZkarax_u1977; Temporary1.ClE_0 = HEX3Aenv_553649836;
     addEventListener__pkgZkaraxZvdom_u1061(n_p0, k_p1, Temporary1);
   framePtr = F.prev;
 
@@ -8381,14 +8341,14 @@ function find__stdZenumutils_u55(a_p0, item_p1) {
       var i_1040187456 = [];
       F.line = 18;
       F.filename = "iterators.nim";
-      var i_553648887 = 0;
+      var i_553648935 = 0;
       Label2: {
         F.line = 19;
           Label3: while (true) {
-          if (!(i_553648887 < (a_p0).length)) break Label3;
+          if (!(i_553648935 < (a_p0).length)) break Label3;
             F.line = 1760;
             F.filename = "system.nim";
-            i_1040187456 = a_p0[chckIndx(i_553648887, 0, (a_p0).length - 1)];
+            i_1040187456 = a_p0[chckIndx(i_553648935, 0, (a_p0).length - 1)];
             if (eqStrings(i_1040187456, item_p1)) {
             F.line = 1761;
             break BeforeRet;
@@ -8398,7 +8358,7 @@ function find__stdZenumutils_u55(a_p0, item_p1) {
             result_1040187452 = addInt(result_1040187452, 1);
             F.line = 13;
             F.filename = "iterators.nim";
-            i_553648887 += 1;
+            i_553648935 += 1;
           }
       };
     };
@@ -8448,26 +8408,38 @@ function addTagFromList__app_u705(tag_p0) {
   
 }
 
-function HEX3Aanonymous__app_u880(ev_p0, n_p1) {
-  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
+function HEX3Aanonymous__app_u755(ev_p0, n_p1) {
+  var F = {procname: "tagSugCb.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
   framePtr = F;
-    F.line = 249;
+    F.line = 209;
     F.filename = "app.nim";
-    addTagFromList__app_u705(this.tagCopy0);
+    addTagFromList__app_u705(this.tag0);
   framePtr = F.prev;
 
   
 }
 
-function HEX3Aanonymous__app_u883(ev_p0, n_p1) {
-  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
+function tagSugCb__app_u749(tag_p0) {
+    var Temporary1;
+
+  var result_553648882 = null;
+
+  var F = {procname: "app.tagSugCb", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
   framePtr = F;
-    F.line = 252;
+    F.line = 209;
     F.filename = "app.nim";
-    addNote_553648152[0] = value__pkgZkaraxZvdom_u474(n_p1);
+    var HEX3Aenv_553649872 = null;
+    F.line = 209;
+    HEX3Aenv_553649872 = {m_type: NTI553649391, tag0: []};
+    F.line = 208;
+    HEX3Aenv_553649872.tag0 = nimCopy(null, tag_p0, NTI33554449);
+    F.line = 209;
+    Temporary1 = HEX3Aanonymous__app_u755.bind(HEX3Aenv_553649872); Temporary1.ClP_0 = HEX3Aanonymous__app_u755; Temporary1.ClE_0 = HEX3Aenv_553649872;
+    result_553648882 = Temporary1;
   framePtr = F.prev;
 
-  
+  return result_553648882;
+
 }
 
 function toHexImpl__pureZstrutils_u776(x_p0, len_p1, handleNegative_p2) {
@@ -8485,20 +8457,20 @@ function toHexImpl__pureZstrutils_u776(x_p0, len_p1, handleNegative_p2) {
       var j_872416020 = 0;
       F.line = 6;
       F.filename = "iterators_1.nim";
-      var colontmp__553649918 = 0;
+      var colontmp__553649927 = 0;
       F.line = 981;
       F.filename = "strutils.nim";
-      colontmp__553649918 = subInt(len_p1, 1);
+      colontmp__553649927 = subInt(len_p1, 1);
       F.line = 33;
       F.filename = "iterators_1.nim";
-      var res_553649919 = colontmp__553649918;
+      var res_553649928 = colontmp__553649927;
       Label2: {
         F.line = 34;
           Label3: while (true) {
-          if (!(0 <= res_553649919)) break Label3;
+          if (!(0 <= res_553649928)) break Label3;
             F.line = 981;
             F.filename = "strutils.nim";
-            j_872416020 = res_553649919;
+            j_872416020 = res_553649928;
             F.line = 982;
             result_872416012[chckIndx(j_872416020, 0, (result_872416012).length - 1)] = [48,49,50,51,52,53,54,55,56,57,65,66,67,68,69,70][chckIndx(chckRange(Number((n_872416014 & 15n)), (-2147483648), 2147483647), 0, ([48,49,50,51,52,53,54,55,56,57,65,66,67,68,69,70]).length - 1)];
             F.line = 983;
@@ -8510,7 +8482,7 @@ function toHexImpl__pureZstrutils_u776(x_p0, len_p1, handleNegative_p2) {
             
             F.line = 39;
             F.filename = "iterators_1.nim";
-            res_553649919 = subInt(res_553649919, 1);
+            res_553649928 = subInt(res_553649928, 1);
           }
       };
     };
@@ -8543,16 +8515,16 @@ function escapeJsonUnquoted__pureZjson_u4327(s_p0, result_p1, result_p1_Idx) {
       var c_1291849962 = 0;
       F.line = 267;
       F.filename = "iterators.nim";
-      var i_553649914 = 0;
+      var i_553649923 = 0;
       F.line = 268;
-      var L_553649915 = (s_p0).length;
+      var L_553649924 = (s_p0).length;
       Label2: {
         F.line = 269;
           Label3: while (true) {
-          if (!(i_553649914 < L_553649915)) break Label3;
+          if (!(i_553649923 < L_553649924)) break Label3;
             F.line = 677;
             F.filename = "json.nim";
-            c_1291849962 = s_p0[chckIndx(i_553649914, 0, (s_p0).length - 1)];
+            c_1291849962 = s_p0[chckIndx(i_553649923, 0, (s_p0).length - 1)];
             F.line = 678;
             switch (c_1291849962) {
             case 10:
@@ -8626,8 +8598,8 @@ function escapeJsonUnquoted__pureZjson_u4327(s_p0, result_p1, result_p1_Idx) {
             }
             F.line = 13;
             F.filename = "iterators.nim";
-            i_553649914 += 1;
-            if (!(((s_p0).length == L_553649915))) {
+            i_553649923 += 1;
+            if (!(((s_p0).length == L_553649924))) {
             F.line = 272;
             failedAssertImpl__stdZassertions_u84(makeNimstrLit("/usr/lib/nim/lib/system/iterators.nim(272, 11) `len(a) == L` the length of the string changed while iterating over it"));
             }
@@ -8720,24 +8692,24 @@ function toUgly__pureZjson_u4358(result_p0, result_p0_Idx, node_p1) {
         var child_1291849997 = null;
         F.line = 247;
         F.filename = "iterators.nim";
-        var colontmp__553649902 = [];
+        var colontmp__553649911 = [];
         F.line = 721;
         F.filename = "json.nim";
         var Temporary2 = node_p1;
         if (ConstSet42[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'elems\' is not accessible for type \'JsonNodeObj\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1291845635)); }
-        colontmp__553649902 = Temporary2.elems;
+        colontmp__553649911 = Temporary2.elems;
         F.line = 249;
         F.filename = "iterators.nim";
-        var i_553649904 = 0;
+        var i_553649913 = 0;
         F.line = 250;
-        var L_553649905 = (colontmp__553649902).length;
+        var L_553649914 = (colontmp__553649911).length;
         Label3: {
           F.line = 251;
             Label4: while (true) {
-            if (!(i_553649904 < L_553649905)) break Label4;
+            if (!(i_553649913 < L_553649914)) break Label4;
               F.line = 721;
               F.filename = "json.nim";
-              child_1291849997 = colontmp__553649902[chckIndx(i_553649904, 0, (colontmp__553649902).length - 1)];
+              child_1291849997 = colontmp__553649911[chckIndx(i_553649913, 0, (colontmp__553649911).length - 1)];
               if (comma_1291849993) {
               F.line = 722;
               result_p0[result_p0_Idx].push.apply(result_p0[result_p0_Idx], [44]);;
@@ -8751,8 +8723,8 @@ function toUgly__pureZjson_u4358(result_p0, result_p0_Idx, node_p1) {
               toUgly__pureZjson_u4358(result_p0, result_p0_Idx, child_1291849997);
               F.line = 13;
               F.filename = "iterators.nim";
-              i_553649904 += 1;
-              if (!(((colontmp__553649902).length == L_553649905))) {
+              i_553649913 += 1;
+              if (!(((colontmp__553649911).length == L_553649914))) {
               F.line = 254;
               failedAssertImpl__stdZassertions_u84(makeNimstrLit("/usr/lib/nim/lib/system/iterators.nim(254, 11) `len(a) == L` the length of the seq changed while iterating over it"));
               }
@@ -8774,30 +8746,30 @@ function toUgly__pureZjson_u4358(result_p0, result_p0_Idx, node_p1) {
         var value_1291850003 = null;
         F.line = 1792;
         F.filename = "tables.nim";
-        var colontmp__553649908 = ({data: [], counter: 0, first: 0, last: 0});
+        var colontmp__553649917 = ({data: [], counter: 0, first: 0, last: 0});
         F.line = 728;
         F.filename = "json.nim";
         var Temporary6 = node_p1;
         if (ConstSet43[Temporary6.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'fields\' is not accessible for type \'JsonNodeObj\' using \'kind = "), reprDiscriminant(Temporary6.kind, NTI1291845635)); }
-        colontmp__553649908 = nimCopy(colontmp__553649908, Temporary6.fields, NTI1291845646);
+        colontmp__553649917 = nimCopy(colontmp__553649917, Temporary6.fields, NTI1291845646);
         F.line = 1819;
         F.filename = "tables.nim";
-        var L_553649909 = len__pureZjson_u2176(colontmp__553649908);
-        if ((0 < colontmp__553649908.counter)) {
+        var L_553649918 = len__pureZjson_u2176(colontmp__553649917);
+        if ((0 < colontmp__553649917.counter)) {
         F.line = 1388;
-        var h_553649910 = colontmp__553649908.first;
+        var h_553649919 = colontmp__553649917.first;
         Label7: {
           F.line = 1389;
             Label8: while (true) {
-            if (!(0 <= h_553649910)) break Label8;
+            if (!(0 <= h_553649919)) break Label8;
               F.line = 1390;
-              var nxt_553649912 = colontmp__553649908.data[chckIndx(h_553649910, 0, (colontmp__553649908.data).length - 1)].Field1;
-              if (isFilled__pureZcollectionsZtables_u31(colontmp__553649908.data[chckIndx(h_553649910, 0, (colontmp__553649908.data).length - 1)].Field0)) {
+              var nxt_553649921 = colontmp__553649917.data[chckIndx(h_553649919, 0, (colontmp__553649917.data).length - 1)].Field1;
+              if (isFilled__pureZcollectionsZtables_u31(colontmp__553649917.data[chckIndx(h_553649919, 0, (colontmp__553649917.data).length - 1)].Field0)) {
               F.line = 728;
               F.filename = "json.nim";
-              key_1291850002 = colontmp__553649908.data[chckIndx(h_553649910, 0, (colontmp__553649908.data).length - 1)].Field2;
+              key_1291850002 = colontmp__553649917.data[chckIndx(h_553649919, 0, (colontmp__553649917.data).length - 1)].Field2;
               F.line = 728;
-              value_1291850003 = colontmp__553649908.data[chckIndx(h_553649910, 0, (colontmp__553649908.data).length - 1)].Field3;
+              value_1291850003 = colontmp__553649917.data[chckIndx(h_553649919, 0, (colontmp__553649917.data).length - 1)].Field3;
               if (comma_1291849993) {
               F.line = 729;
               result_p0[result_p0_Idx].push.apply(result_p0[result_p0_Idx], [44]);;
@@ -8813,7 +8785,7 @@ function toUgly__pureZjson_u4358(result_p0, result_p0_Idx, node_p1) {
               result_p0[result_p0_Idx].push.apply(result_p0[result_p0_Idx], [58]);;
               F.line = 733;
               toUgly__pureZjson_u4358(result_p0, result_p0_Idx, value_1291850003);
-              if (!((len__pureZjson_u2176(colontmp__553649908) == L_553649909))) {
+              if (!((len__pureZjson_u2176(colontmp__553649917) == L_553649918))) {
               F.line = 1822;
               F.filename = "tables.nim";
               failedAssertImpl__stdZassertions_u84(makeNimstrLit("/usr/lib/nim/lib/pure/collections/tables.nim(1822, 11) `len(t) == L` the length of the table changed while iterating over it"));
@@ -8822,7 +8794,7 @@ function toUgly__pureZjson_u4358(result_p0, result_p0_Idx, node_p1) {
               }
               
               F.line = 1393;
-              h_553649910 = nxt_553649912;
+              h_553649919 = nxt_553649921;
             }
         };
         }
@@ -8922,23 +8894,23 @@ function HEX25__pureZjson_u1850(keyVals_p0) {
       var val_1291847504 = null;
       F.line = 18;
       F.filename = "iterators.nim";
-      var i_553649923 = 0;
+      var i_553649932 = 0;
       Label2: {
         F.line = 19;
           Label3: while (true) {
-          if (!(i_553649923 < (keyVals_p0).length)) break Label3;
+          if (!(i_553649932 < (keyVals_p0).length)) break Label3;
             F.line = 362;
             F.filename = "json.nim";
-            key_1291847503 = keyVals_p0[chckIndx(i_553649923, 0, (keyVals_p0).length - 1)]["Field0"];
+            key_1291847503 = keyVals_p0[chckIndx(i_553649932, 0, (keyVals_p0).length - 1)]["Field0"];
             F.line = 362;
-            val_1291847504 = keyVals_p0[chckIndx(i_553649923, 0, (keyVals_p0).length - 1)]["Field1"];
+            val_1291847504 = keyVals_p0[chckIndx(i_553649932, 0, (keyVals_p0).length - 1)]["Field1"];
             F.line = 362;
             var Temporary4 = result_1291847486;
             if (ConstSet49[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'fields\' is not accessible for type \'JsonNodeObj\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1291845635)); }
             HEX5BHEX5DHEX3D__pureZjson_u402(Temporary4.fields, key_1291847503, val_1291847504);
             F.line = 13;
             F.filename = "iterators.nim";
-            i_553649923 += 1;
+            i_553649932 += 1;
           }
       };
     };
@@ -9002,20 +8974,20 @@ function initFromJson__app_u66(dst_p0, dst_p0_Idx, jsonNode_p1, jsonPath_p2, jso
       var i_553648222 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553649926 = 0;
+      var colontmp__553649935 = 0;
       F.line = 1166;
       F.filename = "json.nim";
-      colontmp__553649926 = len__pureZjson_u3020(jsonNode_p1);
+      colontmp__553649935 = len__pureZjson_u3020(jsonNode_p1);
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649927 = 0;
+      var i_553649936 = 0;
       Label3: {
         F.line = 129;
           Label4: while (true) {
-          if (!(i_553649927 < colontmp__553649926)) break Label4;
+          if (!(i_553649936 < colontmp__553649935)) break Label4;
             F.line = 1166;
             F.filename = "json.nim";
-            i_553648222 = i_553649927;
+            i_553648222 = i_553649936;
             F.line = 1167;
             addChar(jsonPath_p2[jsonPath_p2_Idx], 91);;
             F.line = 1168;
@@ -9029,7 +9001,7 @@ function initFromJson__app_u66(dst_p0, dst_p0_Idx, jsonNode_p1, jsonPath_p2, jso
          else {jsonPath_p2[jsonPath_p2_Idx].length = chckRange(orignalJsonPathLen_553648217, 0, 2147483647); };
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649927 = addInt(i_553649927, 1);
+            i_553649936 = addInt(i_553649936, 1);
           }
       };
     };
@@ -9125,22 +9097,22 @@ function HEX3Aanonymous__app_u633(s_p0, r_p1) {
       var t_553648738 = [];
       F.line = 247;
       F.filename = "iterators.nim";
-      var colontmp__553649897 = [];
+      var colontmp__553649906 = [];
       F.line = 121;
       F.filename = "app.nim";
-      colontmp__553649897 = getTagList__app_u37(editTags_553648156[0]);
+      colontmp__553649906 = getTagList__app_u37(editTags_553648156[0]);
       F.line = 249;
       F.filename = "iterators.nim";
-      var i_553649898 = 0;
+      var i_553649907 = 0;
       F.line = 250;
-      var L_553649899 = (colontmp__553649897).length;
+      var L_553649908 = (colontmp__553649906).length;
       Label2: {
         F.line = 251;
           Label3: while (true) {
-          if (!(i_553649898 < L_553649899)) break Label3;
+          if (!(i_553649907 < L_553649908)) break Label3;
             F.line = 121;
             F.filename = "app.nim";
-            t_553648738 = colontmp__553649897[chckIndx(i_553649898, 0, (colontmp__553649897).length - 1)];
+            t_553648738 = colontmp__553649906[chckIndx(i_553649907, 0, (colontmp__553649906).length - 1)];
             if (!(eqStrings(tags_553648734, []))) {
             F.line = 122;
             tags_553648734.push.apply(tags_553648734, ([44]).concat(t_553648738));;
@@ -9152,8 +9124,8 @@ function HEX3Aanonymous__app_u633(s_p0, r_p1) {
             
             F.line = 13;
             F.filename = "iterators.nim";
-            i_553649898 += 1;
-            if (!(((colontmp__553649897).length == L_553649899))) {
+            i_553649907 += 1;
+            if (!(((colontmp__553649906).length == L_553649908))) {
             F.line = 254;
             failedAssertImpl__stdZassertions_u84(makeNimstrLit("/usr/lib/nim/lib/system/iterators.nim(254, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
@@ -9218,10 +9190,10 @@ function toggleSelect__app_u535(url_p0) {
   
 }
 
-function HEX3Aanonymous__app_u796(ev_p0, n_p1) {
+function HEX3Aanonymous__app_u728(ev_p0, n_p1) {
   var F = {procname: "selectCb.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
   framePtr = F;
-    F.line = 211;
+    F.line = 200;
     F.filename = "app.nim";
     toggleSelect__app_u535(this.url0);
   framePtr = F.prev;
@@ -9229,26 +9201,26 @@ function HEX3Aanonymous__app_u796(ev_p0, n_p1) {
   
 }
 
-function selectCb__app_u790(url_p0) {
+function selectCb__app_u722(url_p0) {
     var Temporary1;
 
-  var result_553648923 = null;
+  var result_553648855 = null;
 
   var F = {procname: "app.selectCb", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
   framePtr = F;
-    F.line = 211;
+    F.line = 200;
     F.filename = "app.nim";
-    var HEX3Aenv_553649932 = null;
-    F.line = 211;
-    HEX3Aenv_553649932 = {m_type: NTI553649416, url0: []};
-    F.line = 210;
-    HEX3Aenv_553649932.url0 = nimCopy(null, url_p0, NTI33554449);
-    F.line = 211;
-    Temporary1 = HEX3Aanonymous__app_u796.bind(HEX3Aenv_553649932); Temporary1.ClP_0 = HEX3Aanonymous__app_u796; Temporary1.ClE_0 = HEX3Aenv_553649932;
-    result_553648923 = Temporary1;
+    var HEX3Aenv_553649941 = null;
+    F.line = 200;
+    HEX3Aenv_553649941 = {m_type: NTI553649420, url0: []};
+    F.line = 199;
+    HEX3Aenv_553649941.url0 = nimCopy(null, url_p0, NTI33554449);
+    F.line = 200;
+    Temporary1 = HEX3Aanonymous__app_u728.bind(HEX3Aenv_553649941); Temporary1.ClP_0 = HEX3Aanonymous__app_u728; Temporary1.ClE_0 = HEX3Aenv_553649941;
+    result_553648855 = Temporary1;
   framePtr = F.prev;
 
-  return result_553648923;
+  return result_553648855;
 
 }
 
@@ -9283,16 +9255,16 @@ function editBookmark__app_u716(url_p0) {
       var bm_553648849 = ({url: [], name: [], note: [], tags: []});
       F.line = 249;
       F.filename = "iterators.nim";
-      var i_553650002 = 0;
+      var i_553650011 = 0;
       F.line = 250;
-      var L_553650003 = (bookmarks_553648146[0]).length;
+      var L_553650012 = (bookmarks_553648146[0]).length;
       Label2: {
         F.line = 251;
           Label3: while (true) {
-          if (!(i_553650002 < L_553650003)) break Label3;
+          if (!(i_553650011 < L_553650012)) break Label3;
             F.line = 189;
             F.filename = "app.nim";
-            bm_553648849 = bookmarks_553648146[0][chckIndx(i_553650002, 0, (bookmarks_553648146[0]).length - 1)];
+            bm_553648849 = bookmarks_553648146[0][chckIndx(i_553650011, 0, (bookmarks_553648146[0]).length - 1)];
             if (eqStrings(bm_553648849.url, url_p0)) {
             F.line = 191;
             editingUrl_553648153[0] = nimCopy(null, url_p0, NTI33554449);
@@ -9310,8 +9282,8 @@ function editBookmark__app_u716(url_p0) {
             
             F.line = 13;
             F.filename = "iterators.nim";
-            i_553650002 += 1;
-            if (!(((bookmarks_553648146[0]).length == L_553650003))) {
+            i_553650011 += 1;
+            if (!(((bookmarks_553648146[0]).length == L_553650012))) {
             F.line = 254;
             failedAssertImpl__stdZassertions_u84(makeNimstrLit("/usr/lib/nim/lib/system/iterators.nim(254, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
@@ -9324,10 +9296,10 @@ function editBookmark__app_u716(url_p0) {
   
 }
 
-function HEX3Aanonymous__app_u805(ev_p0, n_p1) {
+function HEX3Aanonymous__app_u737(ev_p0, n_p1) {
   var F = {procname: "editCb.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
   framePtr = F;
-    F.line = 214;
+    F.line = 203;
     F.filename = "app.nim";
     editBookmark__app_u716(this.url0);
   framePtr = F.prev;
@@ -9335,26 +9307,26 @@ function HEX3Aanonymous__app_u805(ev_p0, n_p1) {
   
 }
 
-function editCb__app_u799(url_p0) {
+function editCb__app_u731(url_p0) {
     var Temporary1;
 
-  var result_553648932 = null;
+  var result_553648864 = null;
 
   var F = {procname: "app.editCb", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
   framePtr = F;
-    F.line = 214;
+    F.line = 203;
     F.filename = "app.nim";
-    var HEX3Aenv_553649968 = null;
-    F.line = 214;
-    HEX3Aenv_553649968 = {m_type: NTI553649436, url0: []};
-    F.line = 213;
-    HEX3Aenv_553649968.url0 = nimCopy(null, url_p0, NTI33554449);
-    F.line = 214;
-    Temporary1 = HEX3Aanonymous__app_u805.bind(HEX3Aenv_553649968); Temporary1.ClP_0 = HEX3Aanonymous__app_u805; Temporary1.ClE_0 = HEX3Aenv_553649968;
-    result_553648932 = Temporary1;
+    var HEX3Aenv_553649977 = null;
+    F.line = 203;
+    HEX3Aenv_553649977 = {m_type: NTI553649440, url0: []};
+    F.line = 202;
+    HEX3Aenv_553649977.url0 = nimCopy(null, url_p0, NTI33554449);
+    F.line = 203;
+    Temporary1 = HEX3Aanonymous__app_u737.bind(HEX3Aenv_553649977); Temporary1.ClP_0 = HEX3Aanonymous__app_u737; Temporary1.ClE_0 = HEX3Aenv_553649977;
+    result_553648864 = Temporary1;
   framePtr = F.prev;
 
-  return result_553648932;
+  return result_553648864;
 
 }
 
@@ -9395,10 +9367,10 @@ function HEX3Aanonymous__app_u423(s_p0, r_p1) {
   
 }
 
-function HEX3Aanonymous__app_u814(ev_p0, n_p1) {
+function HEX3Aanonymous__app_u746(ev_p0, n_p1) {
   var F = {procname: "deleteCb.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
   framePtr = F;
-    F.line = 217;
+    F.line = 206;
     F.filename = "app.nim";
     deleteBookmark__app_u391(this.url0);
   framePtr = F.prev;
@@ -9406,71 +9378,27 @@ function HEX3Aanonymous__app_u814(ev_p0, n_p1) {
   
 }
 
-function deleteCb__app_u808(url_p0) {
+function deleteCb__app_u740(url_p0) {
     var Temporary1;
 
-  var result_553648941 = null;
+  var result_553648873 = null;
 
   var F = {procname: "app.deleteCb", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
   framePtr = F;
-    F.line = 217;
+    F.line = 206;
     F.filename = "app.nim";
-    var HEX3Aenv_553650008 = null;
-    F.line = 217;
-    HEX3Aenv_553650008 = {m_type: NTI553649456, url0: []};
-    F.line = 216;
-    HEX3Aenv_553650008.url0 = nimCopy(null, url_p0, NTI33554449);
-    F.line = 217;
-    Temporary1 = HEX3Aanonymous__app_u814.bind(HEX3Aenv_553650008); Temporary1.ClP_0 = HEX3Aanonymous__app_u814; Temporary1.ClE_0 = HEX3Aenv_553650008;
-    result_553648941 = Temporary1;
+    var HEX3Aenv_553650017 = null;
+    F.line = 206;
+    HEX3Aenv_553650017 = {m_type: NTI553649460, url0: []};
+    F.line = 205;
+    HEX3Aenv_553650017.url0 = nimCopy(null, url_p0, NTI33554449);
+    F.line = 206;
+    Temporary1 = HEX3Aanonymous__app_u746.bind(HEX3Aenv_553650017); Temporary1.ClP_0 = HEX3Aanonymous__app_u746; Temporary1.ClE_0 = HEX3Aenv_553650017;
+    result_553648873 = Temporary1;
   framePtr = F.prev;
 
-  return result_553648941;
+  return result_553648873;
 
-}
-
-function HEX3Aanonymous__app_u904(ev_p0, n_p1) {
-  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
-  framePtr = F;
-    F.line = 284;
-    F.filename = "app.nim";
-    editName_553648154[0] = value__pkgZkaraxZvdom_u474(n_p1);
-  framePtr = F.prev;
-
-  
-}
-
-function HEX3Aanonymous__app_u907(ev_p0, n_p1) {
-  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
-  framePtr = F;
-    F.line = 288;
-    F.filename = "app.nim";
-    newTagInput_553648157[0] = value__pkgZkaraxZvdom_u474(n_p1);
-  framePtr = F.prev;
-
-  
-}
-
-function HEX3Aanonymous__app_u916(ev_p0, n_p1) {
-  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
-  framePtr = F;
-    F.line = 297;
-    F.filename = "app.nim";
-    addTagFromList__app_u705(this.tagCopy1);
-  framePtr = F.prev;
-
-  
-}
-
-function HEX3Aanonymous__app_u919(ev_p0, n_p1) {
-  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
-  framePtr = F;
-    F.line = 300;
-    F.filename = "app.nim";
-    editNote_553648155[0] = value__pkgZkaraxZvdom_u474(n_p1);
-  framePtr = F.prev;
-
-  
 }
 
 function updateBookmark__app_u652(ev_p0, n_p1) {
@@ -9510,22 +9438,22 @@ function HEX3Aanonymous__app_u682(s_p0, r_p1) {
       var t_553648787 = [];
       F.line = 247;
       F.filename = "iterators.nim";
-      var colontmp__553650042 = [];
+      var colontmp__553650051 = [];
       F.line = 144;
       F.filename = "app.nim";
-      colontmp__553650042 = getTagList__app_u37(editTags_553648156[0]);
+      colontmp__553650051 = getTagList__app_u37(editTags_553648156[0]);
       F.line = 249;
       F.filename = "iterators.nim";
-      var i_553650043 = 0;
+      var i_553650052 = 0;
       F.line = 250;
-      var L_553650044 = (colontmp__553650042).length;
+      var L_553650053 = (colontmp__553650051).length;
       Label2: {
         F.line = 251;
           Label3: while (true) {
-          if (!(i_553650043 < L_553650044)) break Label3;
+          if (!(i_553650052 < L_553650053)) break Label3;
             F.line = 144;
             F.filename = "app.nim";
-            t_553648787 = colontmp__553650042[chckIndx(i_553650043, 0, (colontmp__553650042).length - 1)];
+            t_553648787 = colontmp__553650051[chckIndx(i_553650052, 0, (colontmp__553650051).length - 1)];
             if (!(eqStrings(tags_553648783, []))) {
             F.line = 145;
             tags_553648783.push.apply(tags_553648783, ([44]).concat(t_553648787));;
@@ -9537,8 +9465,8 @@ function HEX3Aanonymous__app_u682(s_p0, r_p1) {
             
             F.line = 13;
             F.filename = "iterators.nim";
-            i_553650043 += 1;
-            if (!(((colontmp__553650042).length == L_553650044))) {
+            i_553650052 += 1;
+            if (!(((colontmp__553650051).length == L_553650053))) {
             F.line = 254;
             failedAssertImpl__stdZassertions_u84(makeNimstrLit("/usr/lib/nim/lib/system/iterators.nim(254, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
@@ -9552,17 +9480,6 @@ function HEX3Aanonymous__app_u682(s_p0, r_p1) {
     F.line = 152;
     Temporary4 = HEX3Aanonymous__app_u682.bind(null); Temporary4.ClP_0 = HEX3Aanonymous__app_u682; Temporary4.ClE_0 = null;
     ajaxPost__pkgZkaraxZkajax_u176("/api/bookmarks", [nimCopy(null, {Field0: "Content-Type", Field1: "application/json"}, NTI553648638)], toJSStr(data_553648805), Temporary4, true, kxi__);
-  framePtr = F.prev;
-
-  
-}
-
-function HEX3Aanonymous__app_u922(ev_p0, n_p1) {
-  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
-  framePtr = F;
-    F.line = 303;
-    F.filename = "app.nim";
-    cancelEdit__app_u685();
   framePtr = F.prev;
 
   
@@ -9594,19 +9511,19 @@ function HEX25__app_u498(elements_p0) {
       var elem_553648633 = [];
       F.line = 18;
       F.filename = "iterators.nim";
-      var i_553650047 = 0;
+      var i_553650056 = 0;
       Label2: {
         F.line = 19;
           Label3: while (true) {
-          if (!(i_553650047 < (elements_p0).length)) break Label3;
+          if (!(i_553650056 < (elements_p0).length)) break Label3;
             F.line = 369;
             F.filename = "json.nim";
-            elem_553648633 = elements_p0[chckIndx(i_553650047, 0, (elements_p0).length - 1)];
+            elem_553648633 = elements_p0[chckIndx(i_553650056, 0, (elements_p0).length - 1)];
             F.line = 369;
             add__pureZjson_u337(result_553648629, HEX25__pureZjson_u1821(elem_553648633));
             F.line = 13;
             F.filename = "iterators.nim";
-            i_553650047 += 1;
+            i_553650056 += 1;
           }
       };
     };
@@ -9660,79 +9577,183 @@ function HEX3Aanonymous__app_u528(s_p0, r_p1) {
   
 }
 
-function createDom__app_u817(data_p0) {
+function createDom__app_u835(data_p0) {
     var Temporary1;
     var Temporary2;
+
+function HEX3Aanonymous__app_u880(ev_p0, n_p1) {
+  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
+  framePtr = F;
+    F.line = 232;
+    F.filename = "app.nim";
+    cancelEdit__app_u685();
+    F.line = 233;
+    showAddForm_553648149[0] = !(showAddForm_553648149[0]);
+    if (!(showAddForm_553648149[0])) {
+    F.line = 235;
+    addUrl_553648150[0] = "";
+    F.line = 235;
+    addName_553648151[0] = "";
+    F.line = 235;
+    addNote_553648152[0] = "";
+    }
+    
+  framePtr = F.prev;
+
+  
+}
     var Temporary3;
     var Temporary4;
+
+function HEX3Aanonymous__app_u883(ev_p0, n_p1) {
+  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
+  framePtr = F;
+    F.line = 240;
+    F.filename = "app.nim";
+    addUrl_553648150[0] = value__pkgZkaraxZvdom_u474(n_p1);
+  framePtr = F.prev;
+
+  
+}
     var Temporary5;
+
+function HEX3Aanonymous__app_u886(ev_p0, n_p1) {
+  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
+  framePtr = F;
+    F.line = 242;
+    F.filename = "app.nim";
+    addName_553648151[0] = value__pkgZkaraxZvdom_u474(n_p1);
+  framePtr = F.prev;
+
+  
+}
     var Temporary6;
     var Temporary7;
+
+function HEX3Aanonymous__app_u889(ev_p0, n_p1) {
+  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
+  framePtr = F;
+    F.line = 246;
+    F.filename = "app.nim";
+    newTagInput_553648157[0] = value__pkgZkaraxZvdom_u474(n_p1);
+  framePtr = F.prev;
+
+  
+}
     var Temporary8;
-            var Temporary12;
+    var Temporary12;
+
+function HEX3Aanonymous__app_u898(ev_p0, n_p1) {
+  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
+  framePtr = F;
+    F.line = 258;
+    F.filename = "app.nim";
+    addNote_553648152[0] = value__pkgZkaraxZvdom_u474(n_p1);
+  framePtr = F.prev;
+
+  
+}
     var Temporary13;
-    var Temporary14;
-            var Temporary18;
+            var Temporary17;
+            var Temporary23;
+
+function HEX3Aanonymous__app_u919(ev_p0, n_p1) {
+  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
+  framePtr = F;
+    F.line = 290;
+    F.filename = "app.nim";
+    editName_553648154[0] = value__pkgZkaraxZvdom_u474(n_p1);
+  framePtr = F.prev;
+
+  
+}
             var Temporary24;
             var Temporary25;
-            var Temporary26;
-            var Temporary27;
-                    var Temporary31;
-            var Temporary32;
-            var Temporary33;
-            var Temporary34;
-    var Temporary35;
-    var Temporary36;
 
-  var result_553648947 = null;
+function HEX3Aanonymous__app_u922(ev_p0, n_p1) {
+  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
+  framePtr = F;
+    F.line = 294;
+    F.filename = "app.nim";
+    newTagInput_553648157[0] = value__pkgZkaraxZvdom_u474(n_p1);
+  framePtr = F.prev;
+
+  
+}
+            var Temporary26;
+            var Temporary30;
+
+function HEX3Aanonymous__app_u931(ev_p0, n_p1) {
+  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
+  framePtr = F;
+    F.line = 306;
+    F.filename = "app.nim";
+    editNote_553648155[0] = value__pkgZkaraxZvdom_u474(n_p1);
+  framePtr = F.prev;
+
+  
+}
+            var Temporary31;
+            var Temporary32;
+
+function HEX3Aanonymous__app_u934(ev_p0, n_p1) {
+  var F = {procname: "createDom.:anonymous", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
+  framePtr = F;
+    F.line = 309;
+    F.filename = "app.nim";
+    cancelEdit__app_u685();
+  framePtr = F.prev;
+
+  
+}
+    var Temporary33;
+    var Temporary34;
+
+  var result_553648965 = null;
 
   var F = {procname: "app.createDom", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
   framePtr = F;
-    F.line = 247;
+    F.line = 226;
     F.filename = "app.nim";
-    var HEX3Aenv_553649562 = null;
-    F.line = 247;
-    HEX3Aenv_553649562 = {m_type: NTI553649203, tagCopy0: [], tagCopy1: []};
-    F.line = 220;
-    F.line = 220;
-    var tmp_553648948 = tree__pkgZkaraxZvdom_u942(44, []);
-    F.line = 220;
-    tmp_553648948.class = "app";
-    F.line = 221;
-    var tmp_553648949 = tree__pkgZkaraxZvdom_u942(21, []);
-    F.line = 221;
-    tmp_553648949.class = "app-title";
-    F.line = 221;
-    add__pkgZkaraxZvdom_u856(tmp_553648949, text__pkgZkaraxZvdom_u1010([66,111,111,107,109,97,114,107,115]));
-    F.line = 221;
-    add__pkgZkaraxZvdom_u856(tmp_553648948, tmp_553648949);
-    F.line = 222;
-    var tmp_553648950 = tree__pkgZkaraxZvdom_u942(44, []);
-    F.line = 222;
-    tmp_553648950.class = "toolbar";
-    F.line = 223;
-    var tmp_553648951 = tree__pkgZkaraxZvdom_u942(194, []);
-    F.line = 223;
-    tmp_553648951.class = "search-input";
-    F.line = 223;
-    setAttr__pkgZkaraxZvdom_u771(tmp_553648951, "placeholder", "Search...");
-    F.line = 224;
-    valueHEX3D__pkgZkaraxZvdom_u477(tmp_553648951, searchQuery_553648147[0]);
-    F.line = 224;
-    setAttr__pkgZkaraxZvdom_u771(tmp_553648951, "value", searchQuery_553648147[0]);
-    F.line = 224;
-    Temporary1 = onSearchInput__app_u381.bind(null); Temporary1.ClP_0 = onSearchInput__app_u381; Temporary1.ClE_0 = null;
-    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648951, 25, Temporary1, kxi__);
-    F.line = 224;
-    add__pkgZkaraxZvdom_u856(tmp_553648950, tmp_553648951);
-    F.line = 225;
-    var tmp_553648952 = tree__pkgZkaraxZvdom_u942(195, []);
-    F.line = 225;
-    tmp_553648952.class = "add-btn";
-    F.line = 225;
-    Temporary2 = HEX3Aanonymous__app_u862.bind(null); Temporary2.ClP_0 = HEX3Aanonymous__app_u862; Temporary2.ClE_0 = null;
-    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648952, 0, Temporary2, kxi__);
+    F.line = 226;
+    var tmp_553648966 = tree__pkgZkaraxZvdom_u942(44, []);
+    F.line = 226;
+    tmp_553648966.class = "app";
+    F.line = 227;
+    var tmp_553648967 = tree__pkgZkaraxZvdom_u942(21, []);
+    F.line = 227;
+    tmp_553648967.class = "app-title";
+    F.line = 227;
+    add__pkgZkaraxZvdom_u856(tmp_553648967, text__pkgZkaraxZvdom_u1010([66,111,111,107,109,97,114,107,115]));
+    F.line = 227;
+    add__pkgZkaraxZvdom_u856(tmp_553648966, tmp_553648967);
+    F.line = 228;
+    var tmp_553648968 = tree__pkgZkaraxZvdom_u942(44, []);
+    F.line = 228;
+    tmp_553648968.class = "toolbar";
+    F.line = 229;
+    var tmp_553648969 = tree__pkgZkaraxZvdom_u942(194, []);
+    F.line = 229;
+    tmp_553648969.class = "search-input";
+    F.line = 229;
+    setAttr__pkgZkaraxZvdom_u771(tmp_553648969, "placeholder", "Search...");
     F.line = 230;
+    valueHEX3D__pkgZkaraxZvdom_u477(tmp_553648969, searchQuery_553648147[0]);
+    F.line = 230;
+    setAttr__pkgZkaraxZvdom_u771(tmp_553648969, "value", searchQuery_553648147[0]);
+    F.line = 230;
+    Temporary1 = onSearchInput__app_u381.bind(null); Temporary1.ClP_0 = onSearchInput__app_u381; Temporary1.ClE_0 = null;
+    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648969, 25, Temporary1, kxi__);
+    F.line = 230;
+    add__pkgZkaraxZvdom_u856(tmp_553648968, tmp_553648969);
+    F.line = 231;
+    var tmp_553648970 = tree__pkgZkaraxZvdom_u942(195, []);
+    F.line = 231;
+    tmp_553648970.class = "add-btn";
+    F.line = 231;
+    Temporary2 = HEX3Aanonymous__app_u880.bind(null); Temporary2.ClP_0 = HEX3Aanonymous__app_u880; Temporary2.ClE_0 = null;
+    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648970, 0, Temporary2, kxi__);
+    F.line = 236;
     if (showAddForm_553648149[0]) {
     Temporary3 = [67,97,110,99,101,108];
     }
@@ -9740,123 +9761,122 @@ function createDom__app_u817(data_p0) {
     Temporary3 = [65,100,100];
     }
     
-    add__pkgZkaraxZvdom_u856(tmp_553648952, text__pkgZkaraxZvdom_u1010(Temporary3));
-    F.line = 230;
-    add__pkgZkaraxZvdom_u856(tmp_553648950, tmp_553648952);
-    F.line = 230;
-    add__pkgZkaraxZvdom_u856(tmp_553648948, tmp_553648950);
+    add__pkgZkaraxZvdom_u856(tmp_553648970, text__pkgZkaraxZvdom_u1010(Temporary3));
+    F.line = 236;
+    add__pkgZkaraxZvdom_u856(tmp_553648968, tmp_553648970);
+    F.line = 236;
+    add__pkgZkaraxZvdom_u856(tmp_553648966, tmp_553648968);
     if (showAddForm_553648149[0]) {
-    F.line = 232;
-    var tmp_553648953 = tree__pkgZkaraxZvdom_u942(44, []);
-    F.line = 232;
-    tmp_553648953.class = "add-form";
-    F.line = 233;
-    var tmp_553648954 = tree__pkgZkaraxZvdom_u942(194, []);
-    F.line = 233;
-    tmp_553648954.class = "form-input";
-    F.line = 233;
-    setAttr__pkgZkaraxZvdom_u771(tmp_553648954, "placeholder", "URL");
-    F.line = 233;
-    valueHEX3D__pkgZkaraxZvdom_u477(tmp_553648954, addUrl_553648150[0]);
-    F.line = 233;
-    setAttr__pkgZkaraxZvdom_u771(tmp_553648954, "value", addUrl_553648150[0]);
-    F.line = 234;
-    Temporary4 = HEX3Aanonymous__app_u865.bind(null); Temporary4.ClP_0 = HEX3Aanonymous__app_u865; Temporary4.ClE_0 = null;
-    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648954, 25, Temporary4, kxi__);
-    F.line = 234;
-    add__pkgZkaraxZvdom_u856(tmp_553648953, tmp_553648954);
-    F.line = 235;
-    var tmp_553648955 = tree__pkgZkaraxZvdom_u942(194, []);
-    F.line = 235;
-    tmp_553648955.class = "form-input";
-    F.line = 235;
-    setAttr__pkgZkaraxZvdom_u771(tmp_553648955, "placeholder", "Name");
-    F.line = 235;
-    valueHEX3D__pkgZkaraxZvdom_u477(tmp_553648955, addName_553648151[0]);
-    F.line = 235;
-    setAttr__pkgZkaraxZvdom_u771(tmp_553648955, "value", addName_553648151[0]);
-    F.line = 236;
-    Temporary5 = HEX3Aanonymous__app_u868.bind(null); Temporary5.ClP_0 = HEX3Aanonymous__app_u868; Temporary5.ClE_0 = null;
-    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648955, 25, Temporary5, kxi__);
-    F.line = 236;
-    add__pkgZkaraxZvdom_u856(tmp_553648953, tmp_553648955);
-    F.line = 237;
-    Temporary6 = removeTag__app_u686.bind(null); Temporary6.ClP_0 = removeTag__app_u686; Temporary6.ClE_0 = null;
-    add__pkgZkaraxZvdom_u856(tmp_553648953, renderTagChips__app_u722(editTags_553648156[0], Temporary6));
     F.line = 238;
-    var tmp_553648956 = tree__pkgZkaraxZvdom_u942(44, []);
+    var tmp_553648971 = tree__pkgZkaraxZvdom_u942(44, []);
     F.line = 238;
-    tmp_553648956.class = "tag-add-row";
+    tmp_553648971.class = "add-form";
     F.line = 239;
-    var tmp_553648957 = tree__pkgZkaraxZvdom_u942(194, []);
+    var tmp_553648972 = tree__pkgZkaraxZvdom_u942(194, []);
     F.line = 239;
-    tmp_553648957.class = "tag-add-input";
+    tmp_553648972.class = "form-input";
     F.line = 239;
-    setAttr__pkgZkaraxZvdom_u771(tmp_553648957, "placeholder", "New tag...");
+    setAttr__pkgZkaraxZvdom_u771(tmp_553648972, "placeholder", "URL");
     F.line = 239;
-    valueHEX3D__pkgZkaraxZvdom_u477(tmp_553648957, newTagInput_553648157[0]);
+    valueHEX3D__pkgZkaraxZvdom_u477(tmp_553648972, addUrl_553648150[0]);
     F.line = 239;
-    setAttr__pkgZkaraxZvdom_u771(tmp_553648957, "value", newTagInput_553648157[0]);
+    setAttr__pkgZkaraxZvdom_u771(tmp_553648972, "value", addUrl_553648150[0]);
     F.line = 240;
-    Temporary7 = HEX3Aanonymous__app_u871.bind(null); Temporary7.ClP_0 = HEX3Aanonymous__app_u871; Temporary7.ClE_0 = null;
-    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648957, 25, Temporary7, kxi__);
+    Temporary4 = HEX3Aanonymous__app_u883.bind(null); Temporary4.ClP_0 = HEX3Aanonymous__app_u883; Temporary4.ClE_0 = null;
+    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648972, 25, Temporary4, kxi__);
     F.line = 240;
-    add__pkgZkaraxZvdom_u856(tmp_553648956, tmp_553648957);
+    add__pkgZkaraxZvdom_u856(tmp_553648971, tmp_553648972);
     F.line = 241;
-    var tmp_553648958 = tree__pkgZkaraxZvdom_u942(195, []);
+    var tmp_553648973 = tree__pkgZkaraxZvdom_u942(194, []);
     F.line = 241;
-    tmp_553648958.class = "tag-add-btn";
+    tmp_553648973.class = "form-input";
     F.line = 241;
-    Temporary8 = addTag__app_u698.bind(null); Temporary8.ClP_0 = addTag__app_u698; Temporary8.ClE_0 = null;
-    addEventHandler__pkgZkaraxZkarax_u1971(tmp_553648958, 0, Temporary8, kxi__);
+    setAttr__pkgZkaraxZvdom_u771(tmp_553648973, "placeholder", "Name");
     F.line = 241;
-    add__pkgZkaraxZvdom_u856(tmp_553648958, text__pkgZkaraxZvdom_u1010([65,100,100]));
+    valueHEX3D__pkgZkaraxZvdom_u477(tmp_553648973, addName_553648151[0]);
     F.line = 241;
-    add__pkgZkaraxZvdom_u856(tmp_553648956, tmp_553648958);
-    F.line = 241;
-    add__pkgZkaraxZvdom_u856(tmp_553648953, tmp_553648956);
+    setAttr__pkgZkaraxZvdom_u771(tmp_553648973, "value", addName_553648151[0]);
     F.line = 242;
-    var inp_553649002 = cstrToNimstr(newTagInput_553648157[0]);
-    if (!(eqStrings(inp_553649002, []))) {
+    Temporary5 = HEX3Aanonymous__app_u886.bind(null); Temporary5.ClP_0 = HEX3Aanonymous__app_u886; Temporary5.ClE_0 = null;
+    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648973, 25, Temporary5, kxi__);
+    F.line = 242;
+    add__pkgZkaraxZvdom_u856(tmp_553648971, tmp_553648973);
+    F.line = 243;
+    Temporary6 = removeTag__app_u686.bind(null); Temporary6.ClP_0 = removeTag__app_u686; Temporary6.ClE_0 = null;
+    add__pkgZkaraxZvdom_u856(tmp_553648971, renderTagChips__app_u770(editTags_553648156[0], Temporary6));
     F.line = 244;
-    var tmp_553648959 = tree__pkgZkaraxZvdom_u942(44, []);
+    var tmp_553648974 = tree__pkgZkaraxZvdom_u942(44, []);
     F.line = 244;
-    tmp_553648959.class = "tag-suggestions";
+    tmp_553648974.class = "tag-add-row";
+    F.line = 245;
+    var tmp_553648975 = tree__pkgZkaraxZvdom_u942(194, []);
+    F.line = 245;
+    tmp_553648975.class = "tag-add-input";
+    F.line = 245;
+    setAttr__pkgZkaraxZvdom_u771(tmp_553648975, "placeholder", "New tag...");
+    F.line = 245;
+    valueHEX3D__pkgZkaraxZvdom_u477(tmp_553648975, newTagInput_553648157[0]);
+    F.line = 245;
+    setAttr__pkgZkaraxZvdom_u771(tmp_553648975, "value", newTagInput_553648157[0]);
+    F.line = 246;
+    Temporary7 = HEX3Aanonymous__app_u889.bind(null); Temporary7.ClP_0 = HEX3Aanonymous__app_u889; Temporary7.ClE_0 = null;
+    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648975, 25, Temporary7, kxi__);
+    F.line = 246;
+    add__pkgZkaraxZvdom_u856(tmp_553648974, tmp_553648975);
+    F.line = 247;
+    var tmp_553648976 = tree__pkgZkaraxZvdom_u942(195, []);
+    F.line = 247;
+    tmp_553648976.class = "tag-add-btn";
+    F.line = 247;
+    Temporary8 = addTag__app_u698.bind(null); Temporary8.ClP_0 = addTag__app_u698; Temporary8.ClE_0 = null;
+    addEventHandler__pkgZkaraxZkarax_u1971(tmp_553648976, 0, Temporary8, kxi__);
+    F.line = 247;
+    add__pkgZkaraxZvdom_u856(tmp_553648976, text__pkgZkaraxZvdom_u1010([65,100,100]));
+    F.line = 247;
+    add__pkgZkaraxZvdom_u856(tmp_553648974, tmp_553648976);
+    F.line = 247;
+    add__pkgZkaraxZvdom_u856(tmp_553648971, tmp_553648974);
+    F.line = 248;
+    var inp_553649020 = cstrToNimstr(newTagInput_553648157[0]);
+    if (!(eqStrings(inp_553649020, []))) {
+    F.line = 250;
+    var tmp_553648977 = tree__pkgZkaraxZvdom_u942(44, []);
+    F.line = 250;
+    tmp_553648977.class = "tag-suggestions";
     Label9: {
-      F.line = 245;
-      var t_553649006 = [];
+      F.line = 251;
+      var t_553649024 = [];
       F.line = 249;
       F.filename = "iterators.nim";
-      var i_553649598 = 0;
+      var i_553649571 = 0;
       F.line = 250;
-      var L_553649599 = (allTags_553648164[0]).length;
+      var L_553649572 = (allTags_553648164[0]).length;
       Label10: {
         F.line = 251;
           Label11: while (true) {
-          if (!(i_553649598 < L_553649599)) break Label11;
-            F.line = 245;
+          if (!(i_553649571 < L_553649572)) break Label11;
+            F.line = 251;
             F.filename = "app.nim";
-            t_553649006 = allTags_553648164[0][chckIndx(i_553649598, 0, (allTags_553648164[0]).length - 1)];
-            if (contains__pureZstrutils_u1878(t_553649006, inp_553649002)) {
-            F.line = 247;
-            HEX3Aenv_553649562.tagCopy0 = nimCopy(null, t_553649006, NTI33554449);
-            F.line = 248;
-            var tmp_553648960 = tree__pkgZkaraxZvdom_u942(71, []);
-            F.line = 248;
-            tmp_553648960.class = "tag-suggestion";
-            F.line = 249;
-            Temporary12 = HEX3Aanonymous__app_u880.bind(HEX3Aenv_553649562); Temporary12.ClP_0 = HEX3Aanonymous__app_u880; Temporary12.ClE_0 = HEX3Aenv_553649562;
-            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648960, 0, Temporary12, kxi__);
-            F.line = 250;
-            add__pkgZkaraxZvdom_u856(tmp_553648960, text__pkgZkaraxZvdom_u1010(HEX3Aenv_553649562.tagCopy0));
-            F.line = 250;
-            add__pkgZkaraxZvdom_u856(tmp_553648959, tmp_553648960);
+            t_553649024 = allTags_553648164[0][chckIndx(i_553649571, 0, (allTags_553648164[0]).length - 1)];
+            if (contains__pureZstrutils_u1878(t_553649024, inp_553649020)) {
+            F.line = 253;
+            var tagCopy_553649025 = nimCopy(null, t_553649024, NTI33554449);
+            F.line = 254;
+            var tmp_553648978 = tree__pkgZkaraxZvdom_u942(71, []);
+            F.line = 254;
+            tmp_553648978.class = "tag-suggestion";
+            F.line = 255;
+            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648978, 0, tagSugCb__app_u749(tagCopy_553649025), kxi__);
+            F.line = 256;
+            add__pkgZkaraxZvdom_u856(tmp_553648978, text__pkgZkaraxZvdom_u1010(tagCopy_553649025));
+            F.line = 256;
+            add__pkgZkaraxZvdom_u856(tmp_553648977, tmp_553648978);
             }
             
             F.line = 13;
             F.filename = "iterators.nim";
-            i_553649598 += 1;
-            if (!(((allTags_553648164[0]).length == L_553649599))) {
+            i_553649571 += 1;
+            if (!(((allTags_553648164[0]).length == L_553649572))) {
             F.line = 254;
             failedAssertImpl__stdZassertions_u84(makeNimstrLit("/usr/lib/nim/lib/system/iterators.nim(254, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
@@ -9864,318 +9884,317 @@ function createDom__app_u817(data_p0) {
           }
       };
     };
-    F.line = 250;
+    F.line = 256;
     F.filename = "app.nim";
-    add__pkgZkaraxZvdom_u856(tmp_553648953, tmp_553648959);
+    add__pkgZkaraxZvdom_u856(tmp_553648971, tmp_553648977);
     }
     
-    F.line = 251;
-    var tmp_553648961 = tree__pkgZkaraxZvdom_u942(200, []);
-    F.line = 251;
-    tmp_553648961.class = "form-input";
-    F.line = 251;
-    setAttr__pkgZkaraxZvdom_u771(tmp_553648961, "placeholder", "Note");
-    F.line = 251;
-    valueHEX3D__pkgZkaraxZvdom_u477(tmp_553648961, addNote_553648152[0]);
-    F.line = 251;
-    setAttr__pkgZkaraxZvdom_u771(tmp_553648961, "value", addNote_553648152[0]);
-    F.line = 252;
-    Temporary13 = HEX3Aanonymous__app_u883.bind(null); Temporary13.ClP_0 = HEX3Aanonymous__app_u883; Temporary13.ClE_0 = null;
-    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648961, 25, Temporary13, kxi__);
-    F.line = 252;
-    add__pkgZkaraxZvdom_u856(tmp_553648953, tmp_553648961);
-    F.line = 253;
-    var tmp_553648962 = tree__pkgZkaraxZvdom_u942(195, []);
-    F.line = 253;
-    tmp_553648962.class = "save-btn";
-    F.line = 253;
-    Temporary14 = addBookmark__app_u603.bind(null); Temporary14.ClP_0 = addBookmark__app_u603; Temporary14.ClE_0 = null;
-    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648962, 0, Temporary14, kxi__);
-    F.line = 253;
-    add__pkgZkaraxZvdom_u856(tmp_553648962, text__pkgZkaraxZvdom_u1010([83,97,118,101]));
-    F.line = 253;
-    add__pkgZkaraxZvdom_u856(tmp_553648953, tmp_553648962);
-    F.line = 253;
-    add__pkgZkaraxZvdom_u856(tmp_553648948, tmp_553648953);
+    F.line = 257;
+    var tmp_553648979 = tree__pkgZkaraxZvdom_u942(200, []);
+    F.line = 257;
+    tmp_553648979.class = "form-input";
+    F.line = 257;
+    setAttr__pkgZkaraxZvdom_u771(tmp_553648979, "placeholder", "Note");
+    F.line = 257;
+    valueHEX3D__pkgZkaraxZvdom_u477(tmp_553648979, addNote_553648152[0]);
+    F.line = 257;
+    setAttr__pkgZkaraxZvdom_u771(tmp_553648979, "value", addNote_553648152[0]);
+    F.line = 258;
+    Temporary12 = HEX3Aanonymous__app_u898.bind(null); Temporary12.ClP_0 = HEX3Aanonymous__app_u898; Temporary12.ClE_0 = null;
+    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648979, 25, Temporary12, kxi__);
+    F.line = 258;
+    add__pkgZkaraxZvdom_u856(tmp_553648971, tmp_553648979);
+    F.line = 259;
+    var tmp_553648980 = tree__pkgZkaraxZvdom_u942(195, []);
+    F.line = 259;
+    tmp_553648980.class = "save-btn";
+    F.line = 259;
+    Temporary13 = addBookmark__app_u603.bind(null); Temporary13.ClP_0 = addBookmark__app_u603; Temporary13.ClE_0 = null;
+    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648980, 0, Temporary13, kxi__);
+    F.line = 259;
+    add__pkgZkaraxZvdom_u856(tmp_553648980, text__pkgZkaraxZvdom_u1010([83,97,118,101]));
+    F.line = 259;
+    add__pkgZkaraxZvdom_u856(tmp_553648971, tmp_553648980);
+    F.line = 259;
+    add__pkgZkaraxZvdom_u856(tmp_553648966, tmp_553648971);
     }
     
-    F.line = 254;
-    var tmp_553648963 = tree__pkgZkaraxZvdom_u942(44, []);
-    F.line = 254;
-    tmp_553648963.class = "bookmark-list";
-    Label15: {
-      F.line = 255;
-      var i_553649021 = 0;
+    F.line = 260;
+    var tmp_553648981 = tree__pkgZkaraxZvdom_u942(44, []);
+    F.line = 260;
+    tmp_553648981.class = "bookmark-list";
+    Label14: {
+      F.line = 261;
+      var i_553649036 = 0;
       F.line = 126;
       F.filename = "iterators_1.nim";
-      var colontmp__553649613 = 0;
-      F.line = 255;
+      var colontmp__553649586 = 0;
+      F.line = 261;
       F.filename = "app.nim";
-      colontmp__553649613 = (bookmarks_553648146[0]).length;
+      colontmp__553649586 = (bookmarks_553648146[0]).length;
       F.line = 128;
       F.filename = "iterators_1.nim";
-      var i_553649614 = 0;
-      Label16: {
+      var i_553649587 = 0;
+      Label15: {
         F.line = 129;
-          Label17: while (true) {
-          if (!(i_553649614 < colontmp__553649613)) break Label17;
-            F.line = 255;
+          Label16: while (true) {
+          if (!(i_553649587 < colontmp__553649586)) break Label16;
+            F.line = 261;
             F.filename = "app.nim";
-            i_553649021 = i_553649614;
-            F.line = 256;
-            var bmUrl_553649022 = nimCopy(null, bookmarks_553648146[0][chckIndx(i_553649021, 0, (bookmarks_553648146[0]).length - 1)].url, NTI33554449);
-            F.line = 257;
-            var bmName_553649023 = nimCopy(null, bookmarks_553648146[0][chckIndx(i_553649021, 0, (bookmarks_553648146[0]).length - 1)].name, NTI33554449);
-            F.line = 258;
-            var bmNote_553649024 = nimCopy(null, bookmarks_553648146[0][chckIndx(i_553649021, 0, (bookmarks_553648146[0]).length - 1)].note, NTI33554449);
-            F.line = 259;
-            var bmTags_553649025 = nimCopy(null, bookmarks_553648146[0][chckIndx(i_553649021, 0, (bookmarks_553648146[0]).length - 1)].tags, NTI33554449);
-            F.line = 260;
-            var isEditing_553649026 = eqStrings(bmUrl_553649022, editingUrl_553648153[0]);
-            F.line = 261;
-            var tmp_553648964 = tree__pkgZkaraxZvdom_u942(44, []);
-            F.line = 261;
-            if (isEditing_553649026) {
-            Temporary18 = [32,101,100,105,116,105,110,103];
+            i_553649036 = i_553649587;
+            F.line = 262;
+            var bmUrl_553649037 = nimCopy(null, bookmarks_553648146[0][chckIndx(i_553649036, 0, (bookmarks_553648146[0]).length - 1)].url, NTI33554449);
+            F.line = 263;
+            var bmName_553649038 = nimCopy(null, bookmarks_553648146[0][chckIndx(i_553649036, 0, (bookmarks_553648146[0]).length - 1)].name, NTI33554449);
+            F.line = 264;
+            var bmNote_553649039 = nimCopy(null, bookmarks_553648146[0][chckIndx(i_553649036, 0, (bookmarks_553648146[0]).length - 1)].note, NTI33554449);
+            F.line = 265;
+            var bmTags_553649040 = nimCopy(null, bookmarks_553648146[0][chckIndx(i_553649036, 0, (bookmarks_553648146[0]).length - 1)].tags, NTI33554449);
+            F.line = 266;
+            var isEditing_553649041 = eqStrings(bmUrl_553649037, editingUrl_553648153[0]);
+            F.line = 267;
+            var tmp_553648982 = tree__pkgZkaraxZvdom_u942(44, []);
+            F.line = 267;
+            if (isEditing_553649041) {
+            Temporary17 = [32,101,100,105,116,105,110,103];
             }
             else {
-            Temporary18 = [];
+            Temporary17 = [];
             }
             
-            tmp_553648964.class = toJSStr(([98,111,111,107,109,97,114,107,45,105,116,101,109]).concat(Temporary18));
-            F.line = 262;
-            var tmp_553648965 = tree__pkgZkaraxZvdom_u942(194, []);
-            F.line = 262;
-            setAttr__pkgZkaraxZvdom_u771(tmp_553648965, "type", "checkbox");
-            F.line = 263;
-            setAttr__pkgZkaraxZvdom_u771(tmp_553648965, "checked", toChecked__pkgZkaraxZkarax_u2061(contains__stdZenumutils_u50(selectedUrls_553648148[0], bmUrl_553649022)));
-            F.line = 264;
-            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648965, 0, selectCb__app_u790(bmUrl_553649022), kxi__);
-            F.line = 264;
-            add__pkgZkaraxZvdom_u856(tmp_553648964, tmp_553648965);
-            F.line = 265;
-            var tmp_553648966 = tree__pkgZkaraxZvdom_u942(44, []);
-            F.line = 265;
-            tmp_553648966.class = "bookmark-body";
-            F.line = 266;
-            var tmp_553648967 = tree__pkgZkaraxZvdom_u942(45, []);
-            F.line = 266;
-            setAttr__pkgZkaraxZvdom_u771(tmp_553648967, "href", toJSStr(bmUrl_553649022));
-            F.line = 266;
-            tmp_553648967.class = "bookmark-title";
-            F.line = 266;
-            add__pkgZkaraxZvdom_u856(tmp_553648967, text__pkgZkaraxZvdom_u1010(bmName_553649023));
-            F.line = 266;
-            add__pkgZkaraxZvdom_u856(tmp_553648966, tmp_553648967);
-            F.line = 267;
-            var tmp_553648968 = tree__pkgZkaraxZvdom_u942(44, []);
-            F.line = 267;
-            tmp_553648968.class = "bookmark-meta";
-            F.line = 267;
-            add__pkgZkaraxZvdom_u856(tmp_553648968, text__pkgZkaraxZvdom_u1013(toJSStr(bmUrl_553649022)));
-            F.line = 267;
-            add__pkgZkaraxZvdom_u856(tmp_553648966, tmp_553648968);
-            if (!(eqStrings(bmNote_553649024, []))) {
+            tmp_553648982.class = toJSStr(([98,111,111,107,109,97,114,107,45,105,116,101,109]).concat(Temporary17));
+            F.line = 268;
+            var tmp_553648983 = tree__pkgZkaraxZvdom_u942(194, []);
+            F.line = 268;
+            setAttr__pkgZkaraxZvdom_u771(tmp_553648983, "type", "checkbox");
             F.line = 269;
-            var tmp_553648969 = tree__pkgZkaraxZvdom_u942(44, []);
-            F.line = 269;
-            tmp_553648969.class = "bookmark-note";
-            F.line = 269;
-            add__pkgZkaraxZvdom_u856(tmp_553648969, text__pkgZkaraxZvdom_u1010(bmNote_553649024));
-            F.line = 269;
-            add__pkgZkaraxZvdom_u856(tmp_553648966, tmp_553648969);
+            setAttr__pkgZkaraxZvdom_u771(tmp_553648983, "checked", toChecked__pkgZkaraxZkarax_u2061(contains__stdZenumutils_u50(selectedUrls_553648148[0], bmUrl_553649037)));
+            F.line = 270;
+            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648983, 0, selectCb__app_u722(bmUrl_553649037), kxi__);
+            F.line = 270;
+            add__pkgZkaraxZvdom_u856(tmp_553648982, tmp_553648983);
+            F.line = 271;
+            var tmp_553648984 = tree__pkgZkaraxZvdom_u942(44, []);
+            F.line = 271;
+            tmp_553648984.class = "bookmark-body";
+            F.line = 272;
+            var tmp_553648985 = tree__pkgZkaraxZvdom_u942(45, []);
+            F.line = 272;
+            setAttr__pkgZkaraxZvdom_u771(tmp_553648985, "href", toJSStr(bmUrl_553649037));
+            F.line = 272;
+            tmp_553648985.class = "bookmark-title";
+            F.line = 272;
+            add__pkgZkaraxZvdom_u856(tmp_553648985, text__pkgZkaraxZvdom_u1010(bmName_553649038));
+            F.line = 272;
+            add__pkgZkaraxZvdom_u856(tmp_553648984, tmp_553648985);
+            F.line = 273;
+            var tmp_553648986 = tree__pkgZkaraxZvdom_u942(44, []);
+            F.line = 273;
+            tmp_553648986.class = "bookmark-meta";
+            F.line = 273;
+            add__pkgZkaraxZvdom_u856(tmp_553648986, text__pkgZkaraxZvdom_u1013(toJSStr(bmUrl_553649037)));
+            F.line = 273;
+            add__pkgZkaraxZvdom_u856(tmp_553648984, tmp_553648986);
+            if (!(eqStrings(bmNote_553649039, []))) {
+            F.line = 275;
+            var tmp_553648987 = tree__pkgZkaraxZvdom_u942(44, []);
+            F.line = 275;
+            tmp_553648987.class = "bookmark-note";
+            F.line = 275;
+            add__pkgZkaraxZvdom_u856(tmp_553648987, text__pkgZkaraxZvdom_u1010(bmNote_553649039));
+            F.line = 275;
+            add__pkgZkaraxZvdom_u856(tmp_553648984, tmp_553648987);
             }
             
-            F.line = 270;
-            var tmp_553648970 = tree__pkgZkaraxZvdom_u942(44, []);
-            F.line = 270;
-            tmp_553648970.class = "bookmark-tags";
-            Label19: {
-              F.line = 271;
-              var t_553649031 = [];
+            F.line = 276;
+            var tmp_553648988 = tree__pkgZkaraxZvdom_u942(44, []);
+            F.line = 276;
+            tmp_553648988.class = "bookmark-tags";
+            Label18: {
+              F.line = 277;
+              var t_553649046 = [];
               F.line = 535;
               F.filename = "strutils.nim";
-              var sepLen_553649603 = 1;
+              var sepLen_553649576 = 1;
               F.line = 389;
-              var lastHEX60gensym41_553649604 = 0;
+              var lastHEX60gensym41_553649577 = 0;
               F.line = 390;
-              var splitsHEX60gensym41_553649605 = (-1);
-              Label20: {
+              var splitsHEX60gensym41_553649578 = (-1);
+              Label19: {
                 F.line = 537;
-                  Label21: while (true) {
-                  if (!(lastHEX60gensym41_553649604 <= (bmTags_553649025).length)) break Label21;
+                  Label20: while (true) {
+                  if (!(lastHEX60gensym41_553649577 <= (bmTags_553649040).length)) break Label20;
                     F.line = 393;
-                    var firstHEX60gensym41_553649607 = lastHEX60gensym41_553649604;
-                    Label22: {
+                    var firstHEX60gensym41_553649580 = lastHEX60gensym41_553649577;
+                    Label21: {
                       F.line = 394;
-                        Label23: while (true) {
-                        if (!((lastHEX60gensym41_553649604 < (bmTags_553649025).length) && !(substrEq__pureZstrutils_u255(bmTags_553649025, lastHEX60gensym41_553649604, [44])))) break Label23;
+                        Label22: while (true) {
+                        if (!((lastHEX60gensym41_553649577 < (bmTags_553649040).length) && !(substrEq__pureZstrutils_u255(bmTags_553649040, lastHEX60gensym41_553649577, [44])))) break Label22;
                           F.line = 395;
-                          lastHEX60gensym41_553649604 = addInt(lastHEX60gensym41_553649604, 1);
+                          lastHEX60gensym41_553649577 = addInt(lastHEX60gensym41_553649577, 1);
                         }
                     };
-                    if ((splitsHEX60gensym41_553649605 == 0)) {
+                    if ((splitsHEX60gensym41_553649578 == 0)) {
                     F.line = 396;
-                    lastHEX60gensym41_553649604 = (bmTags_553649025).length;
+                    lastHEX60gensym41_553649577 = (bmTags_553649040).length;
                     }
                     
-                    F.line = 271;
+                    F.line = 277;
                     F.filename = "app.nim";
-                    t_553649031 = substr__system_u3710(bmTags_553649025, firstHEX60gensym41_553649607, subInt(lastHEX60gensym41_553649604, 1));
-                    if (!(eqStrings(nsuStrip(t_553649031, true, true, ConstSet52), []))) {
-                    F.line = 273;
-                    var tmp_553648971 = tree__pkgZkaraxZvdom_u942(71, []);
-                    F.line = 273;
-                    tmp_553648971.class = "tag";
-                    F.line = 273;
-                    add__pkgZkaraxZvdom_u856(tmp_553648971, text__pkgZkaraxZvdom_u1010(nsuStrip(t_553649031, true, true, ConstSet53)));
-                    F.line = 273;
-                    add__pkgZkaraxZvdom_u856(tmp_553648970, tmp_553648971);
+                    t_553649046 = substr__system_u3710(bmTags_553649040, firstHEX60gensym41_553649580, subInt(lastHEX60gensym41_553649577, 1));
+                    if (!(eqStrings(nsuStrip(t_553649046, true, true, ConstSet52), []))) {
+                    F.line = 279;
+                    var tmp_553648989 = tree__pkgZkaraxZvdom_u942(71, []);
+                    F.line = 279;
+                    tmp_553648989.class = "tag";
+                    F.line = 279;
+                    add__pkgZkaraxZvdom_u856(tmp_553648989, text__pkgZkaraxZvdom_u1010(nsuStrip(t_553649046, true, true, ConstSet53)));
+                    F.line = 279;
+                    add__pkgZkaraxZvdom_u856(tmp_553648988, tmp_553648989);
                     }
                     
-                    if ((splitsHEX60gensym41_553649605 == 0)) {
+                    if ((splitsHEX60gensym41_553649578 == 0)) {
                     F.line = 398;
                     F.filename = "strutils.nim";
-                    break Label20;
+                    break Label19;
                     }
                     
                     F.line = 399;
-                    splitsHEX60gensym41_553649605 = subInt(splitsHEX60gensym41_553649605, 1);
+                    splitsHEX60gensym41_553649578 = subInt(splitsHEX60gensym41_553649578, 1);
                     F.line = 400;
-                    lastHEX60gensym41_553649604 = addInt(lastHEX60gensym41_553649604, sepLen_553649603);
+                    lastHEX60gensym41_553649577 = addInt(lastHEX60gensym41_553649577, sepLen_553649576);
                   }
               };
             };
-            F.line = 273;
-            F.filename = "app.nim";
-            add__pkgZkaraxZvdom_u856(tmp_553648966, tmp_553648970);
-            F.line = 273;
-            add__pkgZkaraxZvdom_u856(tmp_553648964, tmp_553648966);
-            F.line = 274;
-            var tmp_553648972 = tree__pkgZkaraxZvdom_u942(44, []);
-            F.line = 274;
-            tmp_553648972.class = "bookmark-actions";
-            F.line = 275;
-            var tmp_553648973 = tree__pkgZkaraxZvdom_u942(195, []);
-            F.line = 275;
-            tmp_553648973.class = "edit-btn";
-            F.line = 276;
-            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648973, 0, editCb__app_u799(bmUrl_553649022), kxi__);
-            F.line = 277;
-            add__pkgZkaraxZvdom_u856(tmp_553648973, text__pkgZkaraxZvdom_u1010([69,100,105,116]));
-            F.line = 277;
-            add__pkgZkaraxZvdom_u856(tmp_553648972, tmp_553648973);
-            F.line = 278;
-            var tmp_553648974 = tree__pkgZkaraxZvdom_u942(195, []);
-            F.line = 278;
-            tmp_553648974.class = "delete-btn";
             F.line = 279;
-            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648974, 0, deleteCb__app_u808(bmUrl_553649022), kxi__);
+            F.filename = "app.nim";
+            add__pkgZkaraxZvdom_u856(tmp_553648984, tmp_553648988);
+            F.line = 279;
+            add__pkgZkaraxZvdom_u856(tmp_553648982, tmp_553648984);
             F.line = 280;
-            add__pkgZkaraxZvdom_u856(tmp_553648974, text__pkgZkaraxZvdom_u1010([68,101,108,101,116,101]));
+            var tmp_553648990 = tree__pkgZkaraxZvdom_u942(44, []);
             F.line = 280;
-            add__pkgZkaraxZvdom_u856(tmp_553648972, tmp_553648974);
-            F.line = 280;
-            add__pkgZkaraxZvdom_u856(tmp_553648964, tmp_553648972);
-            F.line = 280;
-            add__pkgZkaraxZvdom_u856(tmp_553648963, tmp_553648964);
-            if (isEditing_553649026) {
+            tmp_553648990.class = "bookmark-actions";
+            F.line = 281;
+            var tmp_553648991 = tree__pkgZkaraxZvdom_u942(195, []);
+            F.line = 281;
+            tmp_553648991.class = "edit-btn";
             F.line = 282;
-            var tmp_553648975 = tree__pkgZkaraxZvdom_u942(44, []);
-            F.line = 282;
-            tmp_553648975.class = "inline-edit";
+            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648991, 0, editCb__app_u731(bmUrl_553649037), kxi__);
             F.line = 283;
-            var tmp_553648976 = tree__pkgZkaraxZvdom_u942(194, []);
+            add__pkgZkaraxZvdom_u856(tmp_553648991, text__pkgZkaraxZvdom_u1010([69,100,105,116]));
             F.line = 283;
-            tmp_553648976.class = "form-input";
-            F.line = 283;
-            setAttr__pkgZkaraxZvdom_u771(tmp_553648976, "placeholder", "Name");
-            F.line = 283;
-            valueHEX3D__pkgZkaraxZvdom_u477(tmp_553648976, editName_553648154[0]);
-            F.line = 283;
-            setAttr__pkgZkaraxZvdom_u771(tmp_553648976, "value", editName_553648154[0]);
+            add__pkgZkaraxZvdom_u856(tmp_553648990, tmp_553648991);
             F.line = 284;
-            Temporary24 = HEX3Aanonymous__app_u904.bind(null); Temporary24.ClP_0 = HEX3Aanonymous__app_u904; Temporary24.ClE_0 = null;
-            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648976, 25, Temporary24, kxi__);
+            var tmp_553648992 = tree__pkgZkaraxZvdom_u942(195, []);
             F.line = 284;
-            add__pkgZkaraxZvdom_u856(tmp_553648975, tmp_553648976);
+            tmp_553648992.class = "delete-btn";
             F.line = 285;
-            Temporary25 = removeTag__app_u686.bind(null); Temporary25.ClP_0 = removeTag__app_u686; Temporary25.ClE_0 = null;
-            add__pkgZkaraxZvdom_u856(tmp_553648975, renderTagChips__app_u722(editTags_553648156[0], Temporary25));
+            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648992, 0, deleteCb__app_u740(bmUrl_553649037), kxi__);
             F.line = 286;
-            var tmp_553648977 = tree__pkgZkaraxZvdom_u942(44, []);
+            add__pkgZkaraxZvdom_u856(tmp_553648992, text__pkgZkaraxZvdom_u1010([68,101,108,101,116,101]));
             F.line = 286;
-            tmp_553648977.class = "tag-add-row";
-            F.line = 287;
-            var tmp_553648978 = tree__pkgZkaraxZvdom_u942(194, []);
-            F.line = 287;
-            tmp_553648978.class = "tag-add-input";
-            F.line = 287;
-            setAttr__pkgZkaraxZvdom_u771(tmp_553648978, "placeholder", "New tag...");
-            F.line = 287;
-            valueHEX3D__pkgZkaraxZvdom_u477(tmp_553648978, newTagInput_553648157[0]);
-            F.line = 287;
-            setAttr__pkgZkaraxZvdom_u771(tmp_553648978, "value", newTagInput_553648157[0]);
+            add__pkgZkaraxZvdom_u856(tmp_553648990, tmp_553648992);
+            F.line = 286;
+            add__pkgZkaraxZvdom_u856(tmp_553648982, tmp_553648990);
+            F.line = 286;
+            add__pkgZkaraxZvdom_u856(tmp_553648981, tmp_553648982);
+            if (isEditing_553649041) {
             F.line = 288;
-            Temporary26 = HEX3Aanonymous__app_u907.bind(null); Temporary26.ClP_0 = HEX3Aanonymous__app_u907; Temporary26.ClE_0 = null;
-            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648978, 25, Temporary26, kxi__);
+            var tmp_553648993 = tree__pkgZkaraxZvdom_u942(44, []);
             F.line = 288;
-            add__pkgZkaraxZvdom_u856(tmp_553648977, tmp_553648978);
+            tmp_553648993.class = "inline-edit";
             F.line = 289;
-            var tmp_553648979 = tree__pkgZkaraxZvdom_u942(195, []);
+            var tmp_553648994 = tree__pkgZkaraxZvdom_u942(194, []);
             F.line = 289;
-            tmp_553648979.class = "tag-add-btn";
+            tmp_553648994.class = "form-input";
             F.line = 289;
-            Temporary27 = addTag__app_u698.bind(null); Temporary27.ClP_0 = addTag__app_u698; Temporary27.ClE_0 = null;
-            addEventHandler__pkgZkaraxZkarax_u1971(tmp_553648979, 0, Temporary27, kxi__);
+            setAttr__pkgZkaraxZvdom_u771(tmp_553648994, "placeholder", "Name");
             F.line = 289;
-            add__pkgZkaraxZvdom_u856(tmp_553648979, text__pkgZkaraxZvdom_u1010([65,100,100]));
+            valueHEX3D__pkgZkaraxZvdom_u477(tmp_553648994, editName_553648154[0]);
             F.line = 289;
-            add__pkgZkaraxZvdom_u856(tmp_553648977, tmp_553648979);
-            F.line = 289;
-            add__pkgZkaraxZvdom_u856(tmp_553648975, tmp_553648977);
+            setAttr__pkgZkaraxZvdom_u771(tmp_553648994, "value", editName_553648154[0]);
             F.line = 290;
-            var inp2_553649038 = cstrToNimstr(newTagInput_553648157[0]);
-            if (!(eqStrings(inp2_553649038, []))) {
+            Temporary23 = HEX3Aanonymous__app_u919.bind(null); Temporary23.ClP_0 = HEX3Aanonymous__app_u919; Temporary23.ClE_0 = null;
+            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648994, 25, Temporary23, kxi__);
+            F.line = 290;
+            add__pkgZkaraxZvdom_u856(tmp_553648993, tmp_553648994);
+            F.line = 291;
+            Temporary24 = removeTag__app_u686.bind(null); Temporary24.ClP_0 = removeTag__app_u686; Temporary24.ClE_0 = null;
+            add__pkgZkaraxZvdom_u856(tmp_553648993, renderTagChips__app_u770(editTags_553648156[0], Temporary24));
             F.line = 292;
-            var tmp_553648980 = tree__pkgZkaraxZvdom_u942(44, []);
+            var tmp_553648995 = tree__pkgZkaraxZvdom_u942(44, []);
             F.line = 292;
-            tmp_553648980.class = "tag-suggestions";
-            Label28: {
-              F.line = 293;
-              var t_553649042 = [];
+            tmp_553648995.class = "tag-add-row";
+            F.line = 293;
+            var tmp_553648996 = tree__pkgZkaraxZvdom_u942(194, []);
+            F.line = 293;
+            tmp_553648996.class = "tag-add-input";
+            F.line = 293;
+            setAttr__pkgZkaraxZvdom_u771(tmp_553648996, "placeholder", "New tag...");
+            F.line = 293;
+            valueHEX3D__pkgZkaraxZvdom_u477(tmp_553648996, newTagInput_553648157[0]);
+            F.line = 293;
+            setAttr__pkgZkaraxZvdom_u771(tmp_553648996, "value", newTagInput_553648157[0]);
+            F.line = 294;
+            Temporary25 = HEX3Aanonymous__app_u922.bind(null); Temporary25.ClP_0 = HEX3Aanonymous__app_u922; Temporary25.ClE_0 = null;
+            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648996, 25, Temporary25, kxi__);
+            F.line = 294;
+            add__pkgZkaraxZvdom_u856(tmp_553648995, tmp_553648996);
+            F.line = 295;
+            var tmp_553648997 = tree__pkgZkaraxZvdom_u942(195, []);
+            F.line = 295;
+            tmp_553648997.class = "tag-add-btn";
+            F.line = 295;
+            Temporary26 = addTag__app_u698.bind(null); Temporary26.ClP_0 = addTag__app_u698; Temporary26.ClE_0 = null;
+            addEventHandler__pkgZkaraxZkarax_u1971(tmp_553648997, 0, Temporary26, kxi__);
+            F.line = 295;
+            add__pkgZkaraxZvdom_u856(tmp_553648997, text__pkgZkaraxZvdom_u1010([65,100,100]));
+            F.line = 295;
+            add__pkgZkaraxZvdom_u856(tmp_553648995, tmp_553648997);
+            F.line = 295;
+            add__pkgZkaraxZvdom_u856(tmp_553648993, tmp_553648995);
+            F.line = 296;
+            var inp2_553649053 = cstrToNimstr(newTagInput_553648157[0]);
+            if (!(eqStrings(inp2_553649053, []))) {
+            F.line = 298;
+            var tmp_553648998 = tree__pkgZkaraxZvdom_u942(44, []);
+            F.line = 298;
+            tmp_553648998.class = "tag-suggestions";
+            Label27: {
+              F.line = 299;
+              var t_553649057 = [];
               F.line = 249;
               F.filename = "iterators.nim";
-              var i_553649610 = 0;
+              var i_553649583 = 0;
               F.line = 250;
-              var L_553649611 = (allTags_553648164[0]).length;
-              Label29: {
+              var L_553649584 = (allTags_553648164[0]).length;
+              Label28: {
                 F.line = 251;
-                  Label30: while (true) {
-                  if (!(i_553649610 < L_553649611)) break Label30;
-                    F.line = 293;
+                  Label29: while (true) {
+                  if (!(i_553649583 < L_553649584)) break Label29;
+                    F.line = 299;
                     F.filename = "app.nim";
-                    t_553649042 = allTags_553648164[0][chckIndx(i_553649610, 0, (allTags_553648164[0]).length - 1)];
-                    if (contains__pureZstrutils_u1878(t_553649042, inp2_553649038)) {
-                    F.line = 295;
-                    HEX3Aenv_553649562.tagCopy1 = nimCopy(null, t_553649042, NTI33554449);
-                    F.line = 296;
-                    var tmp_553648981 = tree__pkgZkaraxZvdom_u942(71, []);
-                    F.line = 296;
-                    tmp_553648981.class = "tag-suggestion";
-                    F.line = 297;
-                    Temporary31 = HEX3Aanonymous__app_u916.bind(HEX3Aenv_553649562); Temporary31.ClP_0 = HEX3Aanonymous__app_u916; Temporary31.ClE_0 = HEX3Aenv_553649562;
-                    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648981, 0, Temporary31, kxi__);
-                    F.line = 298;
-                    add__pkgZkaraxZvdom_u856(tmp_553648981, text__pkgZkaraxZvdom_u1010(HEX3Aenv_553649562.tagCopy1));
-                    F.line = 298;
-                    add__pkgZkaraxZvdom_u856(tmp_553648980, tmp_553648981);
+                    t_553649057 = allTags_553648164[0][chckIndx(i_553649583, 0, (allTags_553648164[0]).length - 1)];
+                    if (contains__pureZstrutils_u1878(t_553649057, inp2_553649053)) {
+                    F.line = 301;
+                    var tagCopy_553649058 = nimCopy(null, t_553649057, NTI33554449);
+                    F.line = 302;
+                    var tmp_553648999 = tree__pkgZkaraxZvdom_u942(71, []);
+                    F.line = 302;
+                    tmp_553648999.class = "tag-suggestion";
+                    F.line = 303;
+                    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648999, 0, tagSugCb__app_u749(tagCopy_553649058), kxi__);
+                    F.line = 304;
+                    add__pkgZkaraxZvdom_u856(tmp_553648999, text__pkgZkaraxZvdom_u1010(tagCopy_553649058));
+                    F.line = 304;
+                    add__pkgZkaraxZvdom_u856(tmp_553648998, tmp_553648999);
                     }
                     
                     F.line = 13;
                     F.filename = "iterators.nim";
-                    i_553649610 += 1;
-                    if (!(((allTags_553648164[0]).length == L_553649611))) {
+                    i_553649583 += 1;
+                    if (!(((allTags_553648164[0]).length == L_553649584))) {
                     F.line = 254;
                     failedAssertImpl__stdZassertions_u84(makeNimstrLit("/usr/lib/nim/lib/system/iterators.nim(254, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                     }
@@ -10183,111 +10202,111 @@ function createDom__app_u817(data_p0) {
                   }
               };
             };
-            F.line = 298;
+            F.line = 304;
             F.filename = "app.nim";
-            add__pkgZkaraxZvdom_u856(tmp_553648975, tmp_553648980);
+            add__pkgZkaraxZvdom_u856(tmp_553648993, tmp_553648998);
             }
             
-            F.line = 299;
-            var tmp_553648982 = tree__pkgZkaraxZvdom_u942(200, []);
-            F.line = 299;
-            tmp_553648982.class = "form-input";
-            F.line = 299;
-            setAttr__pkgZkaraxZvdom_u771(tmp_553648982, "placeholder", "Note");
-            F.line = 299;
-            valueHEX3D__pkgZkaraxZvdom_u477(tmp_553648982, editNote_553648155[0]);
-            F.line = 299;
-            setAttr__pkgZkaraxZvdom_u771(tmp_553648982, "value", editNote_553648155[0]);
-            F.line = 300;
-            Temporary32 = HEX3Aanonymous__app_u919.bind(null); Temporary32.ClP_0 = HEX3Aanonymous__app_u919; Temporary32.ClE_0 = null;
-            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648982, 25, Temporary32, kxi__);
-            F.line = 300;
-            add__pkgZkaraxZvdom_u856(tmp_553648975, tmp_553648982);
-            F.line = 301;
-            var tmp_553648983 = tree__pkgZkaraxZvdom_u942(44, []);
-            F.line = 301;
-            tmp_553648983.class = "inline-edit-actions";
-            F.line = 302;
-            var tmp_553648984 = tree__pkgZkaraxZvdom_u942(195, []);
-            F.line = 302;
-            tmp_553648984.class = "save-btn";
-            F.line = 302;
-            Temporary33 = updateBookmark__app_u652.bind(null); Temporary33.ClP_0 = updateBookmark__app_u652; Temporary33.ClE_0 = null;
-            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648984, 0, Temporary33, kxi__);
-            F.line = 302;
-            add__pkgZkaraxZvdom_u856(tmp_553648984, text__pkgZkaraxZvdom_u1010([85,112,100,97,116,101]));
-            F.line = 302;
-            add__pkgZkaraxZvdom_u856(tmp_553648983, tmp_553648984);
-            F.line = 303;
-            var tmp_553648985 = tree__pkgZkaraxZvdom_u942(195, []);
-            F.line = 303;
-            tmp_553648985.class = "cancel-btn";
-            F.line = 303;
-            Temporary34 = HEX3Aanonymous__app_u922.bind(null); Temporary34.ClP_0 = HEX3Aanonymous__app_u922; Temporary34.ClE_0 = null;
-            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648985, 0, Temporary34, kxi__);
-            F.line = 304;
-            add__pkgZkaraxZvdom_u856(tmp_553648985, text__pkgZkaraxZvdom_u1010([67,97,110,99,101,108]));
-            F.line = 304;
-            add__pkgZkaraxZvdom_u856(tmp_553648983, tmp_553648985);
-            F.line = 304;
-            add__pkgZkaraxZvdom_u856(tmp_553648975, tmp_553648983);
-            F.line = 304;
-            add__pkgZkaraxZvdom_u856(tmp_553648963, tmp_553648975);
+            F.line = 305;
+            var tmp_553649000 = tree__pkgZkaraxZvdom_u942(200, []);
+            F.line = 305;
+            tmp_553649000.class = "form-input";
+            F.line = 305;
+            setAttr__pkgZkaraxZvdom_u771(tmp_553649000, "placeholder", "Note");
+            F.line = 305;
+            valueHEX3D__pkgZkaraxZvdom_u477(tmp_553649000, editNote_553648155[0]);
+            F.line = 305;
+            setAttr__pkgZkaraxZvdom_u771(tmp_553649000, "value", editNote_553648155[0]);
+            F.line = 306;
+            Temporary30 = HEX3Aanonymous__app_u931.bind(null); Temporary30.ClP_0 = HEX3Aanonymous__app_u931; Temporary30.ClE_0 = null;
+            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553649000, 25, Temporary30, kxi__);
+            F.line = 306;
+            add__pkgZkaraxZvdom_u856(tmp_553648993, tmp_553649000);
+            F.line = 307;
+            var tmp_553649001 = tree__pkgZkaraxZvdom_u942(44, []);
+            F.line = 307;
+            tmp_553649001.class = "inline-edit-actions";
+            F.line = 308;
+            var tmp_553649002 = tree__pkgZkaraxZvdom_u942(195, []);
+            F.line = 308;
+            tmp_553649002.class = "save-btn";
+            F.line = 308;
+            Temporary31 = updateBookmark__app_u652.bind(null); Temporary31.ClP_0 = updateBookmark__app_u652; Temporary31.ClE_0 = null;
+            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553649002, 0, Temporary31, kxi__);
+            F.line = 308;
+            add__pkgZkaraxZvdom_u856(tmp_553649002, text__pkgZkaraxZvdom_u1010([85,112,100,97,116,101]));
+            F.line = 308;
+            add__pkgZkaraxZvdom_u856(tmp_553649001, tmp_553649002);
+            F.line = 309;
+            var tmp_553649003 = tree__pkgZkaraxZvdom_u942(195, []);
+            F.line = 309;
+            tmp_553649003.class = "cancel-btn";
+            F.line = 309;
+            Temporary32 = HEX3Aanonymous__app_u934.bind(null); Temporary32.ClP_0 = HEX3Aanonymous__app_u934; Temporary32.ClE_0 = null;
+            addEventHandler__pkgZkaraxZkarax_u1963(tmp_553649003, 0, Temporary32, kxi__);
+            F.line = 310;
+            add__pkgZkaraxZvdom_u856(tmp_553649003, text__pkgZkaraxZvdom_u1010([67,97,110,99,101,108]));
+            F.line = 310;
+            add__pkgZkaraxZvdom_u856(tmp_553649001, tmp_553649003);
+            F.line = 310;
+            add__pkgZkaraxZvdom_u856(tmp_553648993, tmp_553649001);
+            F.line = 310;
+            add__pkgZkaraxZvdom_u856(tmp_553648981, tmp_553648993);
             }
             
             F.line = 131;
             F.filename = "iterators_1.nim";
-            i_553649614 = addInt(i_553649614, 1);
+            i_553649587 = addInt(i_553649587, 1);
           }
       };
     };
-    F.line = 304;
+    F.line = 310;
     F.filename = "app.nim";
-    add__pkgZkaraxZvdom_u856(tmp_553648948, tmp_553648963);
+    add__pkgZkaraxZvdom_u856(tmp_553648966, tmp_553648981);
     if ((addInt(offset_553648158[0], limitVal_553648159[0]) < total_553648160[0])) {
-    F.line = 306;
-    var tmp_553648986 = tree__pkgZkaraxZvdom_u942(44, []);
-    F.line = 306;
-    tmp_553648986.class = "load-more";
-    F.line = 307;
-    var tmp_553648987 = tree__pkgZkaraxZvdom_u942(195, []);
-    F.line = 307;
-    tmp_553648987.class = "load-more-btn";
-    F.line = 307;
-    Temporary35 = loadMore__app_u384.bind(null); Temporary35.ClP_0 = loadMore__app_u384; Temporary35.ClE_0 = null;
-    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648987, 0, Temporary35, kxi__);
-    F.line = 308;
-    add__pkgZkaraxZvdom_u856(tmp_553648987, text__pkgZkaraxZvdom_u1013((("Load More (" + toJSStr(HEX24__systemZdollars_u14(subInt(subInt(total_553648160[0], offset_553648158[0]), limitVal_553648159[0])))) + " remaining)")));
-    F.line = 308;
-    add__pkgZkaraxZvdom_u856(tmp_553648986, tmp_553648987);
-    F.line = 308;
-    add__pkgZkaraxZvdom_u856(tmp_553648948, tmp_553648986);
+    F.line = 312;
+    var tmp_553649004 = tree__pkgZkaraxZvdom_u942(44, []);
+    F.line = 312;
+    tmp_553649004.class = "load-more";
+    F.line = 313;
+    var tmp_553649005 = tree__pkgZkaraxZvdom_u942(195, []);
+    F.line = 313;
+    tmp_553649005.class = "load-more-btn";
+    F.line = 313;
+    Temporary33 = loadMore__app_u384.bind(null); Temporary33.ClP_0 = loadMore__app_u384; Temporary33.ClE_0 = null;
+    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553649005, 0, Temporary33, kxi__);
+    F.line = 314;
+    add__pkgZkaraxZvdom_u856(tmp_553649005, text__pkgZkaraxZvdom_u1013((("Load More (" + toJSStr(HEX24__systemZdollars_u14(subInt(subInt(total_553648160[0], offset_553648158[0]), limitVal_553648159[0])))) + " remaining)")));
+    F.line = 314;
+    add__pkgZkaraxZvdom_u856(tmp_553649004, tmp_553649005);
+    F.line = 314;
+    add__pkgZkaraxZvdom_u856(tmp_553648966, tmp_553649004);
     }
     
     if ((0 < (selectedUrls_553648148[0]).length)) {
-    F.line = 310;
-    var tmp_553648988 = tree__pkgZkaraxZvdom_u942(44, []);
-    F.line = 310;
-    tmp_553648988.class = "batch-actions";
-    F.line = 311;
-    var tmp_553648989 = tree__pkgZkaraxZvdom_u942(195, []);
-    F.line = 311;
-    tmp_553648989.class = "delete-selected-btn";
-    F.line = 311;
-    Temporary36 = deleteSelected__app_u489.bind(null); Temporary36.ClP_0 = deleteSelected__app_u489; Temporary36.ClE_0 = null;
-    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553648989, 0, Temporary36, kxi__);
-    F.line = 312;
-    add__pkgZkaraxZvdom_u856(tmp_553648989, text__pkgZkaraxZvdom_u1013((("Delete Selected (" + toJSStr(HEX24__systemZdollars_u14((selectedUrls_553648148[0]).length))) + ")")));
-    F.line = 312;
-    add__pkgZkaraxZvdom_u856(tmp_553648988, tmp_553648989);
-    F.line = 312;
-    add__pkgZkaraxZvdom_u856(tmp_553648948, tmp_553648988);
+    F.line = 316;
+    var tmp_553649006 = tree__pkgZkaraxZvdom_u942(44, []);
+    F.line = 316;
+    tmp_553649006.class = "batch-actions";
+    F.line = 317;
+    var tmp_553649007 = tree__pkgZkaraxZvdom_u942(195, []);
+    F.line = 317;
+    tmp_553649007.class = "delete-selected-btn";
+    F.line = 317;
+    Temporary34 = deleteSelected__app_u489.bind(null); Temporary34.ClP_0 = deleteSelected__app_u489; Temporary34.ClE_0 = null;
+    addEventHandler__pkgZkaraxZkarax_u1963(tmp_553649007, 0, Temporary34, kxi__);
+    F.line = 318;
+    add__pkgZkaraxZvdom_u856(tmp_553649007, text__pkgZkaraxZvdom_u1013((("Delete Selected (" + toJSStr(HEX24__systemZdollars_u14((selectedUrls_553648148[0]).length))) + ")")));
+    F.line = 318;
+    add__pkgZkaraxZvdom_u856(tmp_553649006, tmp_553649007);
+    F.line = 318;
+    add__pkgZkaraxZvdom_u856(tmp_553648966, tmp_553649006);
     }
     
-    result_553648947 = tmp_553648948;
+    result_553648965 = tmp_553648966;
   framePtr = F.prev;
 
-  return result_553648947;
+  return result_553648965;
 
 }
 var Temporary1;
@@ -10332,13 +10351,13 @@ F.line = 24;
 var pendingNote_553648163 = [[]];
 F.line = 25;
 var allTags_553648164 = [[]];
-F.line = 314;
+F.line = 320;
 initBookmarklet__app_u315();
-Temporary1 = createDom__app_u817.bind(null); Temporary1.ClP_0 = createDom__app_u817; Temporary1.ClE_0 = null;
+Temporary1 = createDom__app_u835.bind(null); Temporary1.ClP_0 = createDom__app_u835; Temporary1.ClE_0 = null;
 setRenderer__pkgZkaraxZkarax_u1589(Temporary1, "ROOT", null);
-F.line = 316;
+F.line = 322;
 loadBookmarks__app_u141("", 0, 20, false);
-F.line = 317;
+F.line = 323;
 loadTags__app_u46();
 framePtr = F.prev;
 var F = {procname: "module app", prev: framePtr, filename: "/dev/shm/work/skybook/src/frontend/app.nim", line: 0};
