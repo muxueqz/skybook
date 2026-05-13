@@ -12,6 +12,7 @@ var locationSearch {.importc: "window.location.search".}: cstring
 var
   bookmarks: seq[BookMark]
   searchQuery: cstring = ""
+  filterTags: cstring = ""
   selectedUrls: seq[string]
   showAddForm: bool
   addUrl, addName, addNote: cstring = ""
@@ -36,10 +37,12 @@ proc loadTags() =
       allTags = parseJson($r).to(seq[string])
   )
 
-proc loadBookmarks(q: cstring = "", off: int = 0, lim: int = 20, append: bool = false) =
+proc loadBookmarks(q: cstring = "", off: int = 0, lim: int = 20, append: bool = false, tags: cstring = "") =
   var url = "/api/bookmarks?offset=" & $off & "&limit=" & $lim
   if q != nil and q != "":
     url = url & "&q=" & $encodeURIComponent(q)
+  if tags != nil and tags != "":
+    url = url & "&tag=" & $encodeURIComponent(tags)
   ajaxGet(cstring(url), @[], proc (s: int; r: kstring) =
     if s == 200:
       let resp = parseJson($r)
@@ -69,6 +72,8 @@ proc loadBookmarks(q: cstring = "", off: int = 0, lim: int = 20, append: bool = 
 proc initBookmarklet() =
   let search = $locationSearch
   if search == "" or search[0] != '?': return
+  var hasQuery = false
+  var hasTag = false
   for pair in search[1..^1].split("&"):
     let eqPos = pair.find("=")
     if eqPos < 0: continue
@@ -78,30 +83,38 @@ proc initBookmarklet() =
     of "url": pendingUrl = val
     of "name": pendingName = val
     of "note": pendingNote = val
+    of "q":
+      searchQuery = cstring(val)
+      hasQuery = true
+    of "tag":
+      filterTags = cstring(val)
+      hasTag = true
+  if hasQuery or hasTag:
+    loadBookmarks(searchQuery, tags=filterTags)
 
 proc onSearchInput(ev: Event; n: VNode) =
   searchQuery = n.value
   offset = 0
   editingUrl = ""
   showAddForm = false
-  loadBookmarks(n.value)
+  loadBookmarks(n.value, tags=filterTags)
 
 proc loadMore(ev: Event; n: VNode) =
   offset += limitVal
-  loadBookmarks(searchQuery, offset, limitVal, append=true)
+  loadBookmarks(searchQuery, offset, limitVal, append=true, tags=filterTags)
 
 proc deleteBookmark(url: string) =
-  if not jsConfirm(cstring("确定删除？")): return
+  if not jsConfirm(cstring("Confirm deletion?")): return
   let data = $(%* {"url": url})
   ajaxPost(cstring("/api/bookmarks/delete"),
     @[("Content-Type".cstring, "application/json".cstring)],
     cstring(data),
     proc (s: int; r: kstring) =
-      if s == 200: loadBookmarks(searchQuery))
+      if s == 200: loadBookmarks(searchQuery, tags=filterTags))
 
 proc deleteSelected(ev: Event; n: VNode) =
   if selectedUrls.len == 0: return
-  if not jsConfirm(cstring("确定删除选中的 " & $selectedUrls.len & " 条书签？")): return
+  if not jsConfirm(cstring("Delete " & $selectedUrls.len & " selected bookmark(s)?")): return
   let data = $(%* {"urls": selectedUrls})
   ajaxPost(cstring("/api/bookmarks/delete/batch"),
     @[("Content-Type".cstring, "application/json".cstring)],
@@ -109,7 +122,7 @@ proc deleteSelected(ev: Event; n: VNode) =
     proc (s: int; r: kstring) =
       if s == 200:
         selectedUrls = @[]
-        loadBookmarks(searchQuery))
+        loadBookmarks(searchQuery, tags=filterTags))
 
 proc toggleSelect(url: string) =
   let idx = selectedUrls.find(url)
@@ -136,7 +149,7 @@ proc addBookmark(ev: Event; n: VNode) =
         editTags = ""
         addUrl = ""; addName = ""; addNote = ""
         offset = 0
-        loadBookmarks(searchQuery))
+        loadBookmarks(searchQuery, tags=filterTags))
   loadTags()
 
 proc updateBookmark(ev: Event; n: VNode) =
@@ -157,7 +170,7 @@ proc updateBookmark(ev: Event; n: VNode) =
         editingUrl = ""
         editName = ""; editNote = ""; editTags = ""
         offset = 0
-        loadBookmarks(searchQuery))
+        loadBookmarks(searchQuery, tags=filterTags))
 
 proc cancelEdit() =
   editingUrl = ""
@@ -195,6 +208,22 @@ proc editBookmark(url: string) =
       newTagInput = ""
       break
 
+proc toggleFilterTag(tag: string) =
+  var currentTags = getTagList($filterTags)
+  let idx = currentTags.find(tag)
+  if idx >= 0: currentTags.delete(idx)
+  else: currentTags.add(tag)
+  filterTags = cstring(currentTags.join(","))
+  offset = 0
+  editingUrl = ""
+  showAddForm = false
+  loadBookmarks(searchQuery, tags=filterTags)
+
+proc clearFilterTags(ev: Event; n: VNode) =
+  filterTags = ""
+  offset = 0
+  loadBookmarks(searchQuery, tags=filterTags)
+
 # Helper functions to fix closure capture (each creates independent scope)
 proc selectCb(url: string): proc(ev: Event; n: VNode) =
   result = proc(ev: Event; n: VNode) = toggleSelect(url)
@@ -204,6 +233,9 @@ proc editCb(url: string): proc(ev: Event; n: VNode) =
 
 proc deleteCb(url: string): proc(ev: Event; n: VNode) =
   result = proc(ev: Event; n: VNode) = deleteBookmark(url)
+
+proc filterTagCb(tag: string): proc(ev: Event; n: VNode) =
+  result = proc(ev: Event; n: VNode) = toggleFilterTag(tag)
 
 proc tagSugCb(tag: string): proc(ev: Event; n: VNode) =
   result = proc(ev: Event; n: VNode) = addTagFromList(tag)
@@ -257,6 +289,19 @@ proc createDom(data: RouterData): VNode =
         textarea(class = "form-input", placeholder = "Note", value = addNote,
           oninput = proc(ev: Event; n: VNode) = addNote = n.value)
         button(class = "save-btn", onclick = addBookmark): text "Save"
+    let activeFilterTagList = getTagList($filterTags)
+    if activeFilterTagList.len > 0:
+      tdiv(class = "filter-tags-bar"):
+        for t in activeFilterTagList:
+          let tagCopy = t
+          span(class = "filter-tag"):
+            text tagCopy
+            span(class = "filter-tag-remove",
+              onclick = filterTagCb(tagCopy)):
+              text "×"
+        span(class = "filter-tag-clear",
+          onclick = clearFilterTags):
+          text "Clear filter"
     tdiv(class = "bookmark-list"):
       for i in 0..<bookmarks.len:
         let bmUrl = bookmarks[i].url
@@ -276,7 +321,8 @@ proc createDom(data: RouterData): VNode =
             tdiv(class = "bookmark-tags"):
               for t in bmTags.split(","):
                 if t.strip() != "":
-                  span(class = "tag"): text t.strip()
+                  let tagStr = t.strip()
+                  span(class = "tag", onclick = filterTagCb(tagStr)): text tagStr
           tdiv(class = "bookmark-actions"):
             button(class = "edit-btn",
               onclick = editCb(bmUrl)):

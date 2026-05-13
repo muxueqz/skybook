@@ -31,21 +31,33 @@ load_database()
 proc get_bookmarks(bookmarks_table: Table, q= "", tag= "",
                    offset= 0, limit= 0): JsonNode =
   var all: seq[BookMark]
+  let filterTags = if tag != "": tag.split(",") else: @[]
+  let hasQ = q != ""
+  let hasTag = filterTags.len > 0
   for v in bookmarks_table.values():
-    var hit = false
-    if tag != "":
-      if tag in v.tags.split(","):
-        hit = true
-    elif q != "":
+    if hasTag:
+      let vTags = v.tags.split(",")
+      var tagHit = true
+      for ft in filterTags:
+        let ftTrimmed = ft.strip()
+        if ftTrimmed == "": continue
+        var found = false
+        for vt in vTags:
+          if vt.strip() == ftTrimmed:
+            found = true
+            break
+        if not found:
+          tagHit = false
+          break
+      if not tagHit:
+        continue
+    if hasQ:
       var lower_q = q.toLower
-      if lower_q in v.name.toLower or
-         lower_q in v.note.toLower or
-         lower_q in v.tags.toLower:
-        hit = true
-    else:
-      hit = true
-    if hit:
-      all.add(v)
+      if lower_q notin v.name.toLower and
+         lower_q notin v.note.toLower and
+         lower_q notin v.tags.toLower:
+        continue
+    all.add(v)
   let total = all.len
   var items: seq[BookMark]
   let endIdx = if limit > 0: min(offset + limit, total) else: total
