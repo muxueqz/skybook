@@ -7602,9 +7602,9 @@ function initFromJson__app_u167(dst_p0, dst_p0_Idx, jsonNode_p1, jsonPath_p2, js
     else {
     if (!((ConstSet25[jsonNode_p1.kind] != undefined))) {
     F.line = 1067;
-    var msgHEX60gensym6_553648312 = nsuFormatOpenArray([73,110,99,111,114,114,101,99,116,32,74,83,79,78,32,107,105,110,100,46,32,87,97,110,116,101,100,32,39,36,49,39,32,105,110,32,39,36,50,39,32,98,117,116,32,103,111,116,32,39,36,51,39,46], [HEX24__pureZjson_u5382(ConstSet31), nimCopy(null, jsonPath_p2[jsonPath_p2_Idx], NTI33554449), reprEnum(jsonNode_p1.kind, NTI1291845635)]);
+    var msgHEX60gensym7_553648312 = nsuFormatOpenArray([73,110,99,111,114,114,101,99,116,32,74,83,79,78,32,107,105,110,100,46,32,87,97,110,116,101,100,32,39,36,49,39,32,105,110,32,39,36,50,39,32,98,117,116,32,103,111,116,32,39,36,51,39,46], [HEX24__pureZjson_u5382(ConstSet31), nimCopy(null, jsonPath_p2[jsonPath_p2_Idx], NTI33554449), reprEnum(jsonNode_p1.kind, NTI1291845635)]);
     F.line = 1072;
-    raiseException({message: nimCopy(null, msgHEX60gensym6_553648312, NTI33554449), parent: null, m_type: NTI1342177288, name: null, trace: [], up: null}, "JsonKindError");
+    raiseException({message: nimCopy(null, msgHEX60gensym7_553648312, NTI33554449), parent: null, m_type: NTI1342177288, name: null, trace: [], up: null}, "JsonKindError");
     }
     }
     F.line = 1164;
@@ -7804,7 +7804,7 @@ function loadBookmarks__app_u141(q_p0, off_p1, lim_p2, append_p3) {
     HEX3Aenv_553649646.append0 = append_p3;
     F.line = 40;
     var url_553648274 = ([47,97,112,105,47,98,111,111,107,109,97,114,107,115,63,111,102,102,115,101,116,61]).concat(HEX24__systemZdollars_u14(off_p1),[38,108,105,109,105,116,61],HEX24__systemZdollars_u14(lim_p2));
-    if (!((q_p0 == ""))) {
+    if ((!((q_p0 == null)) && !((q_p0 == "")))) {
     F.line = 42;
     url_553648274 = nimCopy(null, (url_553648274).concat([38,113,61],cstrToNimstr(encodeURIComponent(q_p0))), NTI33554449);
     }
@@ -10316,27 +10316,27 @@ F.line = 13;
 F.filename = "app.nim";
 var bookmarks_553648146 = [[]];
 F.line = 14;
-var searchQuery_553648147 = [null];
+var searchQuery_553648147 = [""];
 F.line = 15;
 var selectedUrls_553648148 = [[]];
 F.line = 16;
 var showAddForm_553648149 = [false];
 F.line = 17;
-var addUrl_553648150 = [null];
+var addUrl_553648150 = [""];
 F.line = 17;
-var addName_553648151 = [null];
+var addName_553648151 = [""];
 F.line = 17;
-var addNote_553648152 = [null];
+var addNote_553648152 = [""];
 F.line = 18;
 var editingUrl_553648153 = [[]];
 F.line = 19;
-var editName_553648154 = [null];
+var editName_553648154 = [""];
 F.line = 19;
-var editNote_553648155 = [null];
+var editNote_553648155 = [""];
 F.line = 19;
-var editTags_553648156 = [null];
+var editTags_553648156 = [""];
 F.line = 20;
-var newTagInput_553648157 = [null];
+var newTagInput_553648157 = [""];
 F.line = 21;
 var offset_553648158 = [0];
 F.line = 22;

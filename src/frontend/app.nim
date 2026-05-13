@@ -11,13 +11,13 @@ var locationSearch {.importc: "window.location.search".}: cstring
 
 var
   bookmarks: seq[BookMark]
-  searchQuery: cstring
+  searchQuery: cstring = ""
   selectedUrls: seq[string]
   showAddForm: bool
-  addUrl, addName, addNote: cstring
+  addUrl, addName, addNote: cstring = ""
   editingUrl: string
-  editName, editNote, editTags: cstring
-  newTagInput: cstring
+  editName, editNote, editTags: cstring = ""
+  newTagInput: cstring = ""
   offset: int
   limitVal = 20
   total: int
@@ -38,7 +38,7 @@ proc loadTags() =
 
 proc loadBookmarks(q: cstring = "", off: int = 0, lim: int = 20, append: bool = false) =
   var url = "/api/bookmarks?offset=" & $off & "&limit=" & $lim
-  if q != "":
+  if q != nil and q != "":
     url = url & "&q=" & $encodeURIComponent(q)
   ajaxGet(cstring(url), @[], proc (s: int; r: kstring) =
     if s == 200:
