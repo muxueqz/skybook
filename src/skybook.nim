@@ -25,8 +25,10 @@ try:
     bookmarks_table[tbm.url] = tbm
 except:
   try:
+    echo "create 1"
     bookmarks_file = open(bookmarks_file_name, fmWrite)
   except:
+    echo "create 2"
     removeFile(bookmarks_file_name)
     bookmarks_file = open(bookmarks_file_name, fmWrite)
 
@@ -70,7 +72,7 @@ routes:
   get "/style.css":
     resp style_css, "text/css"
   get "/app.js":
-    resp script_js, "application/json"
+    resp script_js, "application/javascript"
   get "/api/bookmarks":
     var
       offset = 0

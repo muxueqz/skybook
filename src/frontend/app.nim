@@ -3,10 +3,11 @@ import karax / [kajax]
 import json, strutils
 import ../types
 
-proc windowLocationSearch(): cstring {.importc: "window.location.search".}
 proc decodeURIComponent(s: cstring): cstring {.importc: "decodeURIComponent".}
 proc encodeURIComponent(s: cstring): cstring {.importc: "encodeURIComponent".}
 proc jsConfirm(msg: cstring): bool {.importc: "confirm".}
+
+var locationSearch {.importc: "window.location.search".}: cstring
 
 var
   bookmarks: seq[BookMark]
@@ -59,7 +60,7 @@ proc loadBookmarks(q: cstring = "", off: int = 0, lim: int = 20, append: bool = 
   )
 
 proc initBookmarklet() =
-  let search = $windowLocationSearch()
+  let search = $locationSearch
   if search == "" or search[0] != '?': return
   for pair in search[1..^1].split("&"):
     let eqPos = pair.find("=")
@@ -261,5 +262,5 @@ proc createDom(data: RouterData): VNode =
           text "Delete Selected (" & cstring($selectedUrls.len) & ")"
 
 initBookmarklet()
-loadBookmarks()
 setRenderer createDom
+loadBookmarks()
