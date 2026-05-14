@@ -1,5 +1,5 @@
-import tables, strutils, json, types, os, algorithm
-import asynchttpserver, asyncdispatch, uri
+import tables, strutils, json, types, os, algorithm, locks
+import asynchttpserver, asyncdispatch, uri, parseopt
 
 const
   style_css = staticRead("./frontend/style.css")
@@ -9,6 +9,9 @@ const
 var
   bookmarks_file_name = "bookmarks.db"
   bookmarks_table = initTable[string, BookMark]()
+
+var dbLock: Lock
+const maxBodySize = 1_048_576
 
 proc load_database() =
   if fileExists(bookmarks_file_name):
@@ -24,9 +27,9 @@ proc dump_table() {.gcsafe.} =
   var s = ""
   for v in bookmarks_table.values():
     s.add($(%* v) & "\n")
-  writeFile(bookmarks_file_name, s)
-
-load_database()
+  let tmpFile = bookmarks_file_name & ".tmp"
+  writeFile(tmpFile, s)
+  moveFile(tmpFile, bookmarks_file_name)
 
 proc get_bookmarks(bookmarks_table: Table, q= "", tag= "",
                    offset= 0, limit= 0): JsonNode =
@@ -86,18 +89,20 @@ proc handleRequest(req: Request) {.async, gcsafe.} =
     of "/app.js":
       await req.respond(Http200, script_js, newHttpHeaders([("Content-Type", "application/javascript")]))
     of "/api/tags":
+      acquire(dbLock)
       var tagSet: seq[string]
       for v in bookmarks_table.values():
         for t in v.tags.split(","):
           let tag = t.strip(chars={' '})
           if tag != "" and tag notin tagSet:
             tagSet.add(tag)
+      release(dbLock)
       sort(tagSet, system.cmp[string])
       await req.respond(Http200, $(%* tagSet), newHttpHeaders([("Content-Type", "application/json")]))
     of "/api/bookmarks":
       var
         offset = 0
-        limit = 10000
+        limit = 50
         q = getQueryParam(params, "q")
         tag = getQueryParam(params, "tag")
       try:
@@ -106,45 +111,95 @@ proc handleRequest(req: Request) {.async, gcsafe.} =
         if offsetStr != "": offset = parseInt(offsetStr)
         if limitStr != "": limit = parseInt(limitStr)
       except: discard
+      acquire(dbLock)
       var r = get_bookmarks(bookmarks_table, q=q, tag=tag,
                             offset=offset, limit=limit)
+      release(dbLock)
       await req.respond(Http200, $r, newHttpHeaders([("Content-Type", "application/json")]))
     else:
       await req.respond(Http404, "Not Found")
   of HttpPost:
+    if req.body.len > maxBodySize:
+      await req.respond(Http413, """{"status":"error","msg":"Request too large"}""", newHttpHeaders([("Content-Type", "application/json")]))
+      return
     case req.url.path
     of "/api/bookmarks":
-      var body = parseJson(req.body)
-      var tbm = body.to(BookMark)
-      bookmarks_table[tbm.url] = tbm
-      dump_table()
-      await req.respond(Http200, """{"status":"ok"}""", newHttpHeaders([("Content-Type", "application/json")]))
-    of "/api/bookmarks/delete":
-      var body = parseJson(req.body)
-      var url = body["url"].str
-      if url in bookmarks_table:
-        bookmarks_table.del(url)
+      try:
+        var body = parseJson(req.body)
+        var tbm = body.to(BookMark)
+        acquire(dbLock)
+        bookmarks_table[tbm.url] = tbm
         dump_table()
-      await req.respond(Http200, """{"status":"ok"}""", newHttpHeaders([("Content-Type", "application/json")]))
-    of "/api/bookmarks/delete/batch":
-      var body = parseJson(req.body)
-      var urls: seq[string]
-      for item in body["urls"]:
-        urls.add(item.str)
-      for url in urls:
+        release(dbLock)
+        await req.respond(Http200, """{"status":"ok"}""", newHttpHeaders([("Content-Type", "application/json")]))
+      except:
+        await req.respond(Http400, """{"status":"error","msg":"Invalid request"}""", newHttpHeaders([("Content-Type", "application/json")]))
+    of "/api/bookmarks/delete":
+      try:
+        var body = parseJson(req.body)
+        var url = body["url"].str
+        acquire(dbLock)
         if url in bookmarks_table:
           bookmarks_table.del(url)
-      dump_table()
-      var r = %* {"status": "ok", "count": urls.len}
-      await req.respond(Http200, $r, newHttpHeaders([("Content-Type", "application/json")]))
+          dump_table()
+        release(dbLock)
+        await req.respond(Http200, """{"status":"ok"}""", newHttpHeaders([("Content-Type", "application/json")]))
+      except:
+        await req.respond(Http400, """{"status":"error","msg":"Invalid request"}""", newHttpHeaders([("Content-Type", "application/json")]))
+    of "/api/bookmarks/delete/batch":
+      try:
+        var body = parseJson(req.body)
+        var urls: seq[string]
+        for item in body["urls"]:
+          urls.add(item.str)
+        acquire(dbLock)
+        for url in urls:
+          if url in bookmarks_table:
+            bookmarks_table.del(url)
+        dump_table()
+        release(dbLock)
+        var r = %* {"status": "ok", "count": urls.len}
+        await req.respond(Http200, $r, newHttpHeaders([("Content-Type", "application/json")]))
+      except:
+        await req.respond(Http400, """{"status":"error","msg":"Invalid request"}""", newHttpHeaders([("Content-Type", "application/json")]))
     else:
       await req.respond(Http404, "Not Found")
   else:
     await req.respond(Http405, "Method Not Allowed")
 
 when isMainModule:
-  echo "Listening on http://127.0.0.1:5000"
+  var port = 5000
+  var address = "127.0.0.1"
+  var dbFile = "bookmarks.db"
+
+  var optKey = ""
+  for kind, key, val in getopt():
+    case kind
+    of cmdLongOption, cmdShortOption:
+      if val != "":
+        case key
+        of "port", "p": port = parseInt(val)
+        of "address", "a": address = val
+        of "db", "d": dbFile = val
+        else: discard
+      else:
+        optKey = key
+    of cmdArgument:
+      if optKey != "":
+        case optKey
+        of "port", "p": port = parseInt(key)
+        of "address", "a": address = key
+        of "db", "d": dbFile = key
+        else: discard
+        optKey = ""
+    else: discard
+
+  bookmarks_file_name = dbFile
+  initLock(dbLock)
+  load_database()
+
+  echo "Listening on http://" & address & ":" & $port
   let server = newAsyncHttpServer()
   let handler = proc (req: Request) {.async, gcsafe.} =
     await handleRequest(req)
-  waitFor server.serve(Port(5000), handler, "127.0.0.1")
+  waitFor server.serve(Port(port), handler, address)

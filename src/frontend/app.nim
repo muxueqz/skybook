@@ -6,6 +6,8 @@ import ../types
 proc decodeURIComponent(s: cstring): cstring {.importc: "decodeURIComponent".}
 proc encodeURIComponent(s: cstring): cstring {.importc: "encodeURIComponent".}
 proc jsConfirm(msg: cstring): bool {.importc: "confirm".}
+proc setTimeout(cb: proc(); ms: int): int {.importc: "setTimeout".}
+proc clearTimeout(id: int) {.importc: "clearTimeout".}
 
 var locationSearch {.importc: "window.location.search".}: cstring
 
@@ -24,6 +26,7 @@ var
   total: int
   pendingUrl, pendingName, pendingNote: string
   allTags: seq[string]
+  searchTimer: int
 
 proc getTagList(tags: string): seq[string] =
   if tags == "": return
@@ -94,10 +97,15 @@ proc initBookmarklet() =
 
 proc onSearchInput(ev: Event; n: VNode) =
   searchQuery = n.value
-  offset = 0
-  editingUrl = ""
-  showAddForm = false
-  loadBookmarks(n.value, tags=filterTags)
+  if searchTimer != 0:
+    clearTimeout(searchTimer)
+  searchTimer = setTimeout(proc() =
+    searchTimer = 0
+    offset = 0
+    editingUrl = ""
+    showAddForm = false
+    loadBookmarks(searchQuery, tags=filterTags)
+  , 300)
 
 proc loadMore(ev: Event; n: VNode) =
   offset += limitVal
