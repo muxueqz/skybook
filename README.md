@@ -54,9 +54,11 @@ skybook
 - Or use the bookmarklet (see below) to auto-fill from any webpage
 
 ### Installing the Bookmarklet
-Open Skybook in your browser, then drag this link to your bookmarks bar:
+Open Skybook in your browser, create a new bookmark with the URL below (the link is not clickable — GitHub blocks `javascript:` URLs):
 
-<a href="javascript:(function(){var title=encodeURIComponent(document.title);var url=encodeURIComponent(location.href);var note='';var description=document.getElementsByName('description')[0];if(description){note=encodeURIComponent(description.content);}window.open('http://localhost:5000/a?name='+title+'&note='+note+'&url='+url);}).call(this);">📎 Add to Skybook</a>
+```
+javascript:(function(){var title=encodeURIComponent(document.title);var url=encodeURIComponent(location.href);var note='';var description=document.getElementsByName('description')[0];if(description){note=encodeURIComponent(description.content);}window.open('http://localhost:5000/a?name='+title+'&note='+note+'&url='+url);}).call(this);
+```
 
 Click it on any page to add that page to Skybook.
 
