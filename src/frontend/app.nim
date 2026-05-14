@@ -194,8 +194,10 @@ proc addTag() =
   let t = $newTagInput
   if t.strip() == "": return
   var tags = getTagList(editTags)
-  tags.add(t.strip())
-  editTags = tags.join(",")
+  let tag = t.strip()
+  if tag notin tags:
+    tags.add(tag)
+    editTags = tags.join(",")
   newTagInput = ""
 
 proc addTagFromList(tag: string) =
@@ -283,7 +285,8 @@ proc createDom(data: RouterData): VNode =
         renderTagChips(editTags, removeTag)
         tdiv(class = "tag-add-row"):
           input(class = "tag-add-input", placeholder = "New tag...", value = newTagInput,
-            oninput = proc(ev: Event; n: VNode) = newTagInput = n.value)
+            oninput = proc(ev: Event; n: VNode) = newTagInput = n.value,
+            onkeyupenter = addTag)
           button(class = "tag-add-btn", onclick = addTag): text "Add"
         let inp = $newTagInput
         if inp != "":
@@ -345,7 +348,8 @@ proc createDom(data: RouterData): VNode =
             renderTagChips(editTags, removeTag)
             tdiv(class = "tag-add-row"):
               input(class = "tag-add-input", placeholder = "New tag...", value = newTagInput,
-                oninput = proc(ev: Event; n: VNode) = newTagInput = n.value)
+                oninput = proc(ev: Event; n: VNode) = newTagInput = n.value,
+                onkeyupenter = addTag)
               button(class = "tag-add-btn", onclick = addTag): text "Add"
             let inp2 = $newTagInput
             if inp2 != "":
