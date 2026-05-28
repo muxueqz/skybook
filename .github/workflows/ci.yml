@@ -22,7 +22,7 @@ jobs:
       - name: Setup Nim
         uses: jiro4989/setup-nim-action@v2
         with:
-          nim-version: "2.0.8"
+          nim-version: "2.2.10"
 
       - name: Cache nimble
         uses: actions/cache@v4
