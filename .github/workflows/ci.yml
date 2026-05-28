@@ -32,6 +32,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nimble-
 
+      - name: Install dependencies
+        run: nimble install -y --depsOnly
+
       - name: Build frontend
         run: |
           mkdir -p frontend
