@@ -32,7 +32,15 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nimble-
 
-      - name: Install dependencies and build
+      - name: Build frontend
+        run: |
+          mkdir -p frontend
+          nim js src/frontend/app.nim
+          cp src/frontend/app.js frontend/
+          cp src/frontend/style.css frontend/
+          cp src/frontend/app.html frontend/
+
+      - name: Build backend
         run: |
           nimble install -y
           cp "$HOME/.nimble/bin/skybook" skybook
