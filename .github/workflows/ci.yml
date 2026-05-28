@@ -37,16 +37,13 @@ jobs:
 
       - name: Build frontend
         run: |
-          mkdir -p frontend
-          nim js src/frontend/app.nim
-          cp src/frontend/app.js frontend/
-          cp src/frontend/style.css frontend/
-          cp src/frontend/app.html frontend/
+          nim js --hint[Path]:off -o:src/frontend/app.js src/frontend/app.nim
 
       - name: Build backend
         run: |
-          nimble install -y
-          cp "$HOME/.nimble/bin/skybook" skybook
+          # nimble install -y
+          nim c --threadAnalysis:off -o:skybook src/skybook.nim
+          # cp "$HOME/.nimble/bin/skybook" skybook
 
       - name: Upload binary
         uses: actions/upload-artifact@v4
